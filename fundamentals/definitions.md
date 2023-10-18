@@ -1,4 +1,4 @@
-# 🛠 Definitions
+# 🧐 Definitions
 
 ## [Attribute](https://github.com/leadbay/product/blob/main/Vocabulary.md#attribute) <a href="#user-content-attribute" id="user-content-attribute"></a>
 
@@ -20,12 +20,12 @@ A group of [#user-content-user](definitions.md#user-content-user "mention")s, cl
 
 ### [Score](https://github.com/leadbay/product/blob/main/Vocabulary.md#score) <a href="#user-content-score" id="user-content-score"></a>
 
-A numeric value representative of the priority given to a particular [#user-content-lead](definitions.md#user-content-lead "mention"). Users control the score calculation by setting parameters of an algebraic equation involving attributes and events as variables.
+A numeric value representative of the priority given to a particular [#user-content-lead](definitions.md#user-content-lead "mention"). [#user-content-user](definitions.md#user-content-user "mention")s control the score calculation by setting parameters of an algebraic equation involving [#user-content-attribute](definitions.md#user-content-attribute "mention")s or [#user-content-event](definitions.md#user-content-event "mention")s. as variables.
 
 ### [User](https://github.com/leadbay/product/blob/main/Vocabulary.md#user) <a href="#user-content-user" id="user-content-user"></a>
 
-A person using Leadbay product, typically belonging to an organisation, client of Leadbay.
+A person using Leadbay product, typically belonging to an [#user-content-organization](definitions.md#user-content-organization "mention"), client of Leadbay.
 
 ### [Wishlist](https://github.com/leadbay/product/blob/main/Vocabulary.md#wishlist) <a href="#user-content-wishlist" id="user-content-wishlist"></a>
 
-A group of [#user-content-lead](definitions.md#user-content-lead "mention")s potentially defined dynamically by setting selection criteria involving attributes or events.
+A group of [#user-content-lead](definitions.md#user-content-lead "mention")s potentially defined dynamically by setting selection criteria involving [#user-content-attribute](definitions.md#user-content-attribute "mention")s or [#user-content-event](definitions.md#user-content-event "mention")s.

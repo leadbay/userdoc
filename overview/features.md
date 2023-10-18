@@ -2,11 +2,11 @@
 
 ## Configure a Wishlist
 
-Our AI will look into your past wins and generate search criteria for you to find more leads likely to buy your product or service. It’s a starting point that you can refine.
+Our AI will look into your past wins and generate search criteria for you to find more [#user-content-lead](../fundamentals/definitions.md#user-content-lead "mention")s likely to buy your product or service. It’s a starting point that you can refine.
 
 ![Wishlist configuration interface](../.gitbook/assets/wishlist.jpg)
 
-The leads that match become your Wishlist. Leadbay monitors them closely to generate insight and help you convert them.&#x20;
+The [#user-content-lead](../fundamentals/definitions.md#user-content-lead "mention")s that match become your [#user-content-wishlist](../fundamentals/definitions.md#user-content-wishlist "mention"). Leadbay monitors them closely to generate insight and help you convert them.&#x20;
 
 {% content-ref url="../product-guides/understanding-wishlists.md" %}
 [understanding-wishlists.md](../product-guides/understanding-wishlists.md)

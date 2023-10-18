@@ -14,4 +14,4 @@
 
 ## Fundamentals
 
-* [🛠 Definitions](fundamentals/definitions.md)
+* [🧐 Definitions](fundamentals/definitions.md)
