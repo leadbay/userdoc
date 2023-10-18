@@ -4,7 +4,7 @@
 
 ## Overview
 
-* [✨ Our Features](overview/our-features.md)
+* [🧬 Features](overview/features.md)
 
 ## Product Guides
 

@@ -14,8 +14,8 @@ Discover key criteria that indicate a lead is likely to buy your products and se
 
 ## Quick links
 
-{% content-ref url="overview/our-features.md" %}
-[our-features.md](overview/our-features.md)
+{% content-ref url="overview/features.md" %}
+[features.md](overview/features.md)
 {% endcontent-ref %}
 
 {% content-ref url="product-guides/quick-start.md" %}
