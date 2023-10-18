@@ -16,7 +16,7 @@ The leads that match become your Wishlist. Leadbay monitors them closely to gene
 
 Contrary to AI blackboxes, Leadbay lets you fully control the scoring. Boost the importance of certain criteria and immediately see how it affects the ranking of your leads.
 
-![Scoring configuration interface](broken-reference)
+![Scoring configuration interface](../.gitbook/assets/scoring.jpg)
 
 Leadbay calculates lots of metrics in the background and will closely monitor how your scoring affects your performance. Together, the AI and you will quickly find the best way to proceed.
 
