@@ -1,13 +1,46 @@
 # 🚀 Quick Start
 
-## Step 1 - Start journalling
+{% hint style="info" %}
+Leadbay is currently invite-only. Make sure that you've been invited or otherwise join our waiting list on #[https://leadbay.ai/](https://leadbay.ai/)
+{% endhint %}
 
-Donec sed odio dui. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.
+## Step 1 - Tell us who you are
 
-![](https://images.unsplash.com/photo-1522881451255-f59ad836fdfb?crop=entropy\&cs=tinysrgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw0fHx3cml0ZXxlbnwwfHx8fDE2NjA1ODc5Nzk\&ixlib=rb-1.2.1\&q=80)
+We'll first ask you for your name, e-mail and let you define a password. You'll then have to click on a link in an e-mail you'll get from us to verify it is really you. The usual stuff.
 
-## Step 2 - Create Post
+## Step 2 - Tell us about your past wins
 
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+In order to personalize the experience for you, our AI needs a glimpse into your past to get a feeling of what relevant leads for you might look like.
 
-![](https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?crop=entropy\&cs=tinysrgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw2fHxwb3N0fGVufDB8fHx8MTY2MDU4ODAzMg\&ixlib=rb-1.2.1\&q=80)
+### Upload CSV
+
+For this we need a CSV file with some past CRM data. It does not have to be perfect, or even complete. It can be a subset of what you have. The more the better, obviousely, but we'll work with what you give us.
+
+![CSV Upload](<../.gitbook/assets/Untitled 4.jpg>)
+
+Here are guidelines for generating a CSV from your CRM:
+
+* Export CSV from Salesforce #[https://help.salesforce.com/s/articleView?id=sf.exporting\_data.htm\&type=5](https://help.salesforce.com/s/articleView?id=sf.exporting\_data.htm\&type=5)
+* Export CSV from Hubspot #[https://knowledge.hubspot.com/crm-setup/export-contacts-companies-deals-or-tickets](https://knowledge.hubspot.com/crm-setup/export-contacts-companies-deals-or-tickets)
+
+### Map fileds
+
+Every CRM calls things by different names, so we may need some help from you to understand what is what. Our AI will make an educated gess and we'll ask you to verify or correct the mapping.
+
+<figure><img src="../.gitbook/assets/Untitled 5.jpg" alt=""><figcaption><p>Mapping fields</p></figcaption></figure>
+
+The most imporant is the Status field, indicating that a Lead was won or lost for you. This is what will give our AI the general idea about what kind of leads tend to stick with you.
+
+We'll also ask you to confirm how you call your statuses (trust us, you wouldn't beleive what names people give to their statuses).
+
+<figure><img src="../.gitbook/assets/Untitled 6.jpg" alt=""><figcaption><p>Status mapping</p></figcaption></figure>
+
+## Step 3 - Configure the criteria together
+
+Our AI will match your data to ours (we are supposed to know much more about every one of your leads) and look into what they may have in common. We'll suggest you some criteria and let you modify them as you see fit.
+
+Don't obsess over picking the perfect criteria. You can change it later. The idea here is just to get you familiar with the system and guide you through your first interaction.
+
+<figure><img src="../.gitbook/assets/Untitled 7.jpg" alt=""><figcaption><p>Criteria Selection</p></figcaption></figure>
+
+Et voila! You'll see your first selection of leads corresponding to the criteria.&#x20;
