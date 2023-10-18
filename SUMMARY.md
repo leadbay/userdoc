@@ -4,21 +4,16 @@
 
 ## Overview
 
-* [💡 What we do](overview/what-we-do.md)
 * [✨ Our Features](overview/our-features.md)
 
 ## Product Guides
 
-* [📪 Making a post](product-guides/making-a-post.md)
-* [📎 Understanding Projects](product-guides/understanding-projects.md)
+* [🚀 Quick Start](product-guides/quick-start.md)
+* [💝 Understanding Wishlists](product-guides/understanding-wishlists.md)
+* [🏅 Understanding Scoring](product-guides/understanding-scoring.md)
 
 ## Fundamentals
 
-* [🛠 Getting set up](fundamentals/getting-set-up/README.md)
-  * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
-
-## Use Cases
-
-* [🎨 For Designers](use-cases/for-designers.md)
-* [🖥 For Developers](use-cases/for-developers.md)
+* [🛠 Definitions](fundamentals/definitions/README.md)
+  * [📝 Setting permissions](fundamentals/definitions/setting-permissions.md)
+  * [🧑 Inviting Members](fundamentals/definitions/inviting-members.md)

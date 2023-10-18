@@ -1,4 +1,4 @@
-# 📎 Understanding Projects
+# 💝 Understanding Wishlists
 
 ## How Projects work
 
