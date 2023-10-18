@@ -14,6 +14,4 @@
 
 ## Fundamentals
 
-* [🛠 Definitions](fundamentals/definitions/README.md)
-  * [📝 Setting permissions](fundamentals/definitions/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/definitions/inviting-members.md)
+* [🛠 Definitions](fundamentals/definitions.md)
