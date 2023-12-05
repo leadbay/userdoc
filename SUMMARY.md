@@ -15,3 +15,7 @@
 ## Fundamentals
 
 * [🧐 Definitions](fundamentals/definitions.md)
+
+## News
+
+* [🎬 Changelog](news/changelog.md)
