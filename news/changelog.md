@@ -1,6 +1,11 @@
 # 🎬 Changelog
 
+## 2023-12-18
 
+* Further simplified onboarding (one step less)
+* Leadbay now knows 8.736.710 leads
+* Status prediction with 0.88-0.91 accuracy
+* Lead websites in lead profile
 
 ## 2023-12-04
 
