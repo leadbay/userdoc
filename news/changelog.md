@@ -1,5 +1,12 @@
 # 🎬 Changelog
 
+## 2024-01-15
+
+* **AI Descriptions**: Leadbay now offers to-the-point short descriptions of every lead focusing on products and services the company offers and on the specificity of its market and customers - key factors for high-level understanding of a business.
+* **Improved relevance**: Lead wishlists are no longer simple criteria selections. They now leverage Leadbay Compass - a language-based model that calculates lead-relevance and similarity. It's now easier to find the right lead among a large database of leads.
+
+
+
 ## 2023-12-18
 
 * Further simplified onboarding (one step less)
