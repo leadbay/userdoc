@@ -1,5 +1,11 @@
 # 🎬 Changelog
 
+## 2024-02-12
+
+* **A CRM connection with Zapier (beta):** You can now sync your CRM with Leadbay using Zapier. New leads that you add get scored automatically, and new wins immediately impact Leadbay's idea of who is likely to buy your products and services.
+* **Smoother scoring**: We've changed the way scoring works, to make the score more easy to understand and relate to. Configure your scoring parameters, and the leads that best match them with get scores closer to 100.
+* **Better keywords**: We've changed the way keywords work, by mooving away from classic keywords and using Knowledge Graph concepts instead. We are using DBPedia - a powerfull Knowledge Graph sourced from Wikipedia. In addition to being more relatable for the user, these concepts also give Leadbay agorithms ability to leverage more fine-grained concept-to-concept connections for even smarter results.
+
 ## 2024-01-29
 
 * **Status Prediction in Lead Profile:** Leadbay now shows the predicted status for the leads that are not already won or lost.
