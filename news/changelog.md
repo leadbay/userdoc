@@ -1,5 +1,11 @@
 # 🎬 Changelog
 
+## 2024-03-04
+
+* Additional fields (website, location, etc.) in data import for an even better matching between your data and the Leadbay database. Better matching => more relevant results.
+* 2 million additional leads were profiled with rich representations and can be discovered by our users.
+* Simplified UI for defining wishlist and scoring criteria.
+
 ## 2024-02-12
 
 * **A CRM connection with Zapier (beta):** You can now sync your CRM with Leadbay using Zapier. New leads that you add get scored automatically, and new wins immediately impact Leadbay's idea of who is likely to buy your products and services.
