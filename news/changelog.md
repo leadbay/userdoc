@@ -1,5 +1,14 @@
 # 🎬 Changelog
 
+## 2024-03-18
+
+* Export leads throught connectors. So far the export was only possible throught CSV files, and now you can directly export leads to your CRM through connectors (Zapier)
+* You can now install Leadbay as a desktop app! Have it always handy to look up leads and insights.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* Better scoring experience. If you change scoring criteira in a radical way (such that not many of your wishlist leads fit the new criteria) Leadbay will now fetch fresh leads matching these criteria for a smoother experience.
+
 ## 2024-03-04
 
 * Additional fields (website, location, etc.) in data import for an even better matching between your data and the Leadbay database. Better matching => more relevant results.
