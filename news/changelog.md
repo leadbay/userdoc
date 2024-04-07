@@ -1,5 +1,9 @@
 # 🎬 Changelog
 
+## 2024-04-07
+
+* Leadbay experience is getting more and more personalized. You can now like and dislike leads and Leadbay will take them into account in findhing new leads that it helps you discover.
+
 ## 2024-03-18
 
 * Export leads throught connectors. So far the export was only possible throught CSV files, and now you can directly export leads to your CRM through connectors (Zapier)
