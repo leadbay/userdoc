@@ -24,8 +24,3 @@ Leadbay will understand that you are looking for [#user-content-lead](../fundame
 
 It's pretty convenient for modeling commonly used real-life criteria.
 
-### A Union of Intersection of Unions
-
-Things get really cool when you define Union of Intersection of Unions. We know, it's geek stuff! But soon you'll want to select all the Leads in `Paris` or `Lyon` sized `50-100` and all the leads in `London` sized `200-500`.&#x20;
-
-This is currently not supported. We are working on an interface that makes it easy. Stay tuned.

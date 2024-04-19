@@ -1,5 +1,9 @@
 # 🎬 Changelog
 
+## 2024-04-22
+
+* A major new feature: [Lenses](../product-guides/lenses.md). Lenses support multi-member teams or teams commercializing several products to several market segments. They allow you to keep your Leadbay experience separate in those different contexts. Use different parameters in each.
+
 ## 2024-04-07
 
 * Leadbay experience is getting more and more personalized. You can now like and dislike leads and Leadbay will take them into account in findhing new leads that it helps you discover.
@@ -9,7 +13,7 @@
 * Export leads throught connectors. So far the export was only possible throught CSV files, and now you can directly export leads to your CRM through connectors (Zapier)
 * You can now install Leadbay as a desktop app! Have it always handy to look up leads and insights.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * Better scoring experience. If you change scoring criteira in a radical way (such that not many of your wishlist leads fit the new criteria) Leadbay will now fetch fresh leads matching these criteria for a smoother experience.
 
