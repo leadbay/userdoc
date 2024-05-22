@@ -1,5 +1,15 @@
 # 🎬 Changelog
 
+## 2024-05-21
+
+A new major feature: **Refreshing Discovery**. Leadbay becomes a continuous flow of incoming relevant leads, that adaptes to tendencies, interactions with you as well as to your successes in particular parts of your market.&#x20;
+
+New leads are marked with a green dot. Export the ones you want to prosepct, and they will be kept in your Monitor view. Leadbay will continuousely look for leads likely to be a good fit for you and bring new ones to your Discover view.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+After repeatedly showing you a lead for some time, if you don't like or export it, Leadbay will consider it no longer interesting and will remove it from your Discover view (you can still find removed leads in the Trash for 30 days) and free up space for brining fresh new leads.
+
 ## 2024-04-22
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-05-16 at 08.33.14.png" alt=""><figcaption></figcaption></figure>
@@ -17,7 +27,7 @@
 * Export leads through connectors. So far the export was only possible throught CSV files, and now you can directly export leads to your CRM through connectors (Zapier)
 * You can now install Leadbay as a desktop app! Have it always handy to look up leads and insights.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Better scoring experience. If you change scoring criteria in a radical way (such that not many of your wishlist leads fit the new criteria) Leadbay will now fetch fresh leads matching these criteria for a smoother experience.
 
