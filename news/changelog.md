@@ -1,5 +1,11 @@
 # 🎬 Changelog
 
+## 2024-06-03
+
+* UX improvements to lenses: A simpler interface with lens-related controls more practically positioned around the same place.
+* Improvements to refreshing discovery: More leads and improvement replacement mechanism for stale leads.
+* Crawler improvements: doubled the number of new lead websites that gets discovered every week.
+
 ## 2024-05-21
 
 A new major feature: **Refreshing Discovery**. Leadbay becomes a continuous flow of incoming relevant leads, that adaptes to tendencies, interactions with you as well as to your successes in particular parts of your market.&#x20;
