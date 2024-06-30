@@ -16,6 +16,7 @@
   * [📥 Import CRM data with Zapier](product-guides/connect-your-crm/import-crm-data-with-zapier.md)
   * [📤 Export to CRM with Zapier](product-guides/connect-your-crm/export-to-crm-with-zapier.md)
   * [📄 Import a .csv file](product-guides/connect-your-crm/import-a-.csv-file.md)
+  * [🎨 Custom fields](product-guides/connect-your-crm/custom-fields.md)
 
 ## Fundamentals
 
