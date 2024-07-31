@@ -1,5 +1,11 @@
 # 🎬 Changelog
 
+## 2024-07-29
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Timeline view</p></figcaption></figure>
+
+A new major feature is out: the **Timeline**. Leadbay now learns from everything you do (clicks, likes, dislikes, exports) and generates smart recommendations for you to expend your quest for leads and look beyond the footworn path. The more you interact, the better it gets.
+
 ## 2024-06-03
 
 * UX improvements to lenses: A simpler interface with lens-related controls more practically positioned around the same place.
