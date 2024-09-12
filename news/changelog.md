@@ -1,5 +1,16 @@
 # 🎬 Changelog
 
+## 2024-08-28
+
+* Over the summer we've been making many improvements to our core data sources and models. And there are also few new end-user features (much more to come in the coming weeks).
+* Leadbay sometimes suggests you the leads that you just coverted and did not yet report in your CRM. You can now signal them quickly so Leadbay can take them into account and find you some new leads to prospect.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* Easy to copy SIREN numbers (in case you want to know more about the company from the national register)
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 ## 2024-07-29
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Timeline view</p></figcaption></figure>
@@ -18,7 +29,7 @@ A new major feature: **Refreshing Discovery**. Leadbay becomes a continuous flow
 
 New leads are marked with a green dot. Export the ones you want to prosepct, and they will be kept in your Monitor view. Leadbay will continuousely look for leads likely to be a good fit for you and bring new ones to your Discover view.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 After repeatedly showing you a lead for some time, if you don't like or export it, Leadbay will consider it no longer interesting and will remove it from your Discover view (you can still find removed leads in the Trash for 30 days) and free up space for brining fresh new leads.
 
@@ -39,7 +50,7 @@ After repeatedly showing you a lead for some time, if you don't like or export i
 * Export leads through connectors. So far the export was only possible throught CSV files, and now you can directly export leads to your CRM through connectors (Zapier)
 * You can now install Leadbay as a desktop app! Have it always handy to look up leads and insights.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Better scoring experience. If you change scoring criteria in a radical way (such that not many of your wishlist leads fit the new criteria) Leadbay will now fetch fresh leads matching these criteria for a smoother experience.
 
