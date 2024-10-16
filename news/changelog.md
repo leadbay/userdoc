@@ -1,5 +1,29 @@
 # 🎬 Changelog
 
+## 2024-10-14
+
+1. The user needs to export leads from different tabs.\
+   \-> We created a new tab called Saved Leads. The tab works as a cart. The user can save leads from any pages in order to export them more easily, in CSV or on a Map. It can also allow the user to look at leads later. When a lead is unsaved it's not lost, the user can always find it in Monitor.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2024-10-16 à 11.27.41.png" alt=""><figcaption></figcaption></figure>
+
+
+
+2. One of the most used feature is the like/dislike. So the user needs to be able to do it very quickly, without having to click on every lead. The buttons work as quick actions now.\
+   \-> We put like/dislike buttons on the line of the lead directly, along with the Save icon button.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2024-10-14 à 17.23.17.png" alt=""><figcaption></figcaption></figure>
+
+
+
+3. The user doesn't need to keep his disliked leads on the Discover page. \
+   \-> The disliked leads directly go to Trash (there's a time period where the user can change his mind).\
+   \-> It allows the user to have a clear view of the new leads, or the leads that are likely to be prospected.
+
+
+
+
+
 ## 2024-09-15
 
 * We noticed that many of our users are often on the go, visiting clients. They asked us to develop a map they can use to easily navigate to the leads they want to prospect. And here it is! Just select a number of leads, as if you were to export them, and hit "Map". You can also share a link to this map or open it on your phone for easiers navigation.&#x20;
