@@ -1,5 +1,19 @@
 # 🎬 Changelog
 
+## 2024-10-17
+
+1. The user can see if he has checked the website or not on the Lead Profile. It can be useful when he has too many saved leads but doesn't remember if he has checked the website.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2024-10-17 à 14.26.08.png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+2. In the filter, the names in Sector, Location and Keywords are placed in alphabetical order. It can be really useful when the user put dozens and dozens of cities and wants to delete one.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2024-10-17 à 14.22.53.png" alt="" width="355"><figcaption></figcaption></figure>
+
+
+
 ## 2024-10-14
 
 1. The user needs to export leads from different tabs.\
