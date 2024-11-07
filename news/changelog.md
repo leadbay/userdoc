@@ -16,8 +16,10 @@
 
 ## 2024-10-14
 
+<figure><img src="../.gitbook/assets/Screenshot 2024-11-07 at 22.14.31.png" alt=""><figcaption></figcaption></figure>
+
 1. The user needs to export leads from different tabs.\
-   \-> We created a new tab called Saved Leads. The tab works as a cart. The user can save leads from any pages in order to export them more easily, in CSV or on a Map. It can also allow the user to look at leads later. When a lead is unsaved it's not lost, the user can always find it in Monitor.
+   \-> We created a new tab called **Saved Leads**. The tab works as a cart. The user can save leads from any pages in order to export them more easily, in CSV or on a Map. It can also allow the user to look at leads later. When a lead is unsaved it's not lost, the user can always find it in Monitor.
 
 <figure><img src="../.gitbook/assets/Capture d’écran 2024-10-16 à 11.27.41.png" alt=""><figcaption></figcaption></figure>
 
