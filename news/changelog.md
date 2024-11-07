@@ -40,6 +40,8 @@
 
 ## 2024-09-15
 
+<figure><img src="../.gitbook/assets/Screenshot 2024-11-07 at 22.11.50.png" alt=""><figcaption></figcaption></figure>
+
 * We noticed that many of our users are often on the go, visiting clients. They asked us to develop a map they can use to easily navigate to the leads they want to prospect. And here it is! Just select a number of leads, as if you were to export them, and hit "Map". You can also share a link to this map or open it on your phone for easiers navigation.&#x20;
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
@@ -57,9 +59,11 @@
 
 ## 2024-07-29
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Timeline view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-11-07 at 22.09.57 (1).png" alt=""><figcaption></figcaption></figure>
 
 A new major feature is out: the **Timeline**. Leadbay now learns from everything you do (clicks, likes, dislikes, exports) and generates smart recommendations for you to expend your quest for leads and look beyond the footworn path. The more you interact, the better it gets.
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Timeline view</p></figcaption></figure>
 
 ## 2024-06-03
 
@@ -69,7 +73,11 @@ A new major feature is out: the **Timeline**. Leadbay now learns from everything
 
 ## 2024-05-21
 
+<figure><img src="../.gitbook/assets/Screenshot 2024-11-07 at 22.10.05.png" alt=""><figcaption></figcaption></figure>
+
 A new major feature: **Refreshing Discovery**. Leadbay becomes a continuous flow of incoming relevant leads, that adaptes to tendencies, interactions with you as well as to your successes in particular parts of your market.&#x20;
+
+
 
 New leads are marked with a green dot. Export the ones you want to prosepct, and they will be kept in your Monitor view. Leadbay will continuousely look for leads likely to be a good fit for you and bring new ones to your Discover view.
 
