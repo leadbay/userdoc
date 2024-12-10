@@ -1,5 +1,49 @@
 # 🎬 Changelog
 
+## 2024-12-10
+
+1. **Lead profile**\
+   -> The user has now access to the social medias of the company and to all the contacts infos (mail, phone number etc.) we can find.
+
+<figure><img src="../.gitbook/assets/Capture_decran_2024-12-10_a_16.19.18.png" alt="" width="375"><figcaption></figcaption></figure>
+
+2. **Filter**\
+   -> The user can search the leads of a canton, and distinguish the canton from the city.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2024-12-10 à 18.12.11.png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+3. **Timeline** \
+   → Leadbay congratulates the user for the last won leads. \
+   → New leads on Timeline are closer to the sectors and location of a specific user.
+
+
+
+4. **Connectors**\
+   → Allow the users to connect and update automatically their customer data to Leadbay, thanks to SFTP connectors.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2024-12-10 à 18.05.27.png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+5. **Saved leads**\
+   → The user can now see the last lead he/she saved on top the list, so that the export is easier for exemple.&#x20;
+
+
+
+6. **Login/Create account journey**\
+   ->  The user journey for login/create account is more fluid and intuitive. It’s also the occasion to progressively introduce a new UI to the users.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2024-12-10 à 18.20.02.png" alt="" width="563"><figcaption></figcaption></figure>
+
+7. **List of leads**\
+   → If the user wants to know what the company does, he/she can now read a short description of it without clicking on the lead profile. It also gives more space and more importance to each lead.
+
+
+
+
+
 ## 2024-10-17
 
 1. The user can see if he has checked the website or not on the Lead Profile. It can be useful when he has too many saved leads but doesn't remember if he has checked the website.
@@ -19,22 +63,22 @@
 <figure><img src="../.gitbook/assets/Screenshot 2024-11-07 at 22.14.31.png" alt=""><figcaption></figcaption></figure>
 
 1. The user needs to export leads from different tabs.\
-   \-> We created a new tab called **Saved Leads**. The tab works as a cart. The user can save leads from any pages in order to export them more easily, in CSV or on a Map. It can also allow the user to look at leads later. When a lead is unsaved it's not lost, the user can always find it in Monitor.
+   -> We created a new tab called **Saved Leads**. The tab works as a cart. The user can save leads from any pages in order to export them more easily, in CSV or on a Map. It can also allow the user to look at leads later. When a lead is unsaved it's not lost, the user can always find it in Monitor.
 
 <figure><img src="../.gitbook/assets/Capture d’écran 2024-10-16 à 11.27.41.png" alt=""><figcaption></figcaption></figure>
 
 
 
 2. One of the most used feature is the like/dislike. So the user needs to be able to do it very quickly, without having to click on every lead. The buttons work as quick actions now.\
-   \-> We put like/dislike buttons on the line of the lead directly, along with the Save icon button.
+   -> We put like/dislike buttons on the line of the lead directly, along with the Save icon button.
 
 <figure><img src="../.gitbook/assets/Capture d’écran 2024-10-14 à 17.23.17.png" alt=""><figcaption></figcaption></figure>
 
 
 
 3. The user doesn't need to keep his disliked leads on the Discover page. \
-   \-> The disliked leads directly go to Trash (there's a time period where the user can change his mind).\
-   \-> It allows the user to have a clear view of the new leads, or the leads that are likely to be prospected.
+   -> The disliked leads directly go to Trash (there's a time period where the user can change his mind).\
+   -> It allows the user to have a clear view of the new leads, or the leads that are likely to be prospected.
 
 
 
