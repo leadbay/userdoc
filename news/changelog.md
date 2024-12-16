@@ -3,42 +3,48 @@
 ## 2024-12-10
 
 1. **Lead profile**\
-   -> The user has now access to the social medias of the company and to all the contacts infos (mail, phone number etc.) we can find.
+   -> Now, the user has access to the company's social media accounts.\
+   -> They also have access to all available contact information (email, phone number, etc.).
 
 <figure><img src="../.gitbook/assets/Capture_decran_2024-12-10_a_16.19.18.png" alt="" width="375"><figcaption></figcaption></figure>
 
 2. **Filter**\
-   -> The user can search the leads of a canton, and distinguish the canton from the city.
+   -> The user can search for leads in a canton.\
+   -> They can also distinguish between the canton and the city.
 
 <figure><img src="../.gitbook/assets/Capture d’écran 2024-12-10 à 18.12.11.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
 3. **Timeline** \
-   → Leadbay congratulates the user for the last won leads. \
-   → New leads on Timeline are closer to the sectors and location of a specific user.
+   → Leadbay congratulates the user on the most recently won leads.\
+   → The Timeline now suggests new leads tailored to each user, adapting to their selected filters.
 
 
 
-4. **Connectors**\
-   → Allow the users to connect and update automatically their customer data to Leadbay, thanks to SFTP connectors.
+4. **SFTP connectors**\
+   → Initially, we could connect the user's data with Leadbay only through a Zap file (Zapier). \
+   -> Later, we managed to connect data from a Salesforce CRM.\
+   -> Today, we offer an SFTP (Security File Transfer Protocol) connector that securely transfers data between Leadbay and sales reps' ERP systems, automating and streamlining the exchange of information. \
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2024-12-10 à 18.05.27.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
 5. **Saved leads**\
-   → The user can now see the last lead he/she saved on top the list, so that the export is easier for exemple.&#x20;
+   → The display of saved leads has been improved. \
+   -> The user can now see the latest leads at the top of the list in each category of saved leads.
 
 
 
 6. **Login/Create account journey**\
-   ->  The user journey for login/create account is more fluid and intuitive. It’s also the occasion to progressively introduce a new UI to the users.
+   -> The user journey for login/create account is now smoother and more intuitive. \
+   -> This is also an opportunity to gradually introduce users to a new UI.
 
 <figure><img src="../.gitbook/assets/Capture d’écran 2024-12-10 à 18.20.02.png" alt="" width="563"><figcaption></figcaption></figure>
 
 7. **List of leads**\
-   → If the user wants to know what the company does, he/she can now read a short description of it without clicking on the lead profile. It also gives more space and more importance to each lead.
+   → Previously, the user had to click on each lead to read a description of the company. \
+   -> Now, the user can read a brief description of each lead directly in the leads list.
 
 
 
