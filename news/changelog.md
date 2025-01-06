@@ -1,5 +1,17 @@
 # 🎬 Changelog
 
+## 2025-01-06
+
+1. **Discover/Monitor - new leads loading**\
+   → When users have new leads in Discover or Monitor, they can now see the previous leads while waiting for the new ones to load. They can also track the loading progress on the bottom of the page.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-01-06 à 15.39.21.png" alt=""><figcaption></figcaption></figure>
+
+2. **Scoring**\
+   → Both the algorithm and speed of Scoring have been improved.&#x20;
+
+##
+
 ## 2024-12-10
 
 1. **Lead profile**\
