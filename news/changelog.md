@@ -37,8 +37,9 @@
 4. **SFTP connectors**\
    → Initially, we could connect the user's data with Leadbay only through a Zap file (Zapier). \
    -> Later, we managed to connect data from a Salesforce CRM.\
-   -> Today, we offer an SFTP (Security File Transfer Protocol) connector that securely transfers data between Leadbay and sales reps' ERP systems, automating and streamlining the exchange of information. \
+   -> Today, we offer a SFTP (Security File Transfer Protocol) connector that securely transfers data between Leadbay and sales reps' ERP systems, automating and streamlining the exchange of information.&#x20;
 
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-01-09 à 10.36.32.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
