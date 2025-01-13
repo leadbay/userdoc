@@ -1,5 +1,14 @@
 # 🎬 Changelog
 
+## 2025-01-13
+
+1. **Create a new lens**\
+   → When the user creates a new lens, the lens becomes active automatically in order to change the filter and use the new lens.
+2. **Undo toaster**\
+   → Now the user can undo an action if they made a mistake. For exemple in Saved page, if the user unsaves leads, they can go back in time.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2024-12-19 à 17.33.43.png" alt="" width="160"><figcaption></figcaption></figure>
+
 ## 2025-01-06
 
 1. **Discover/Monitor - new leads loading**\
