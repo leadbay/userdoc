@@ -1,5 +1,13 @@
 # 🎬 Changelog
 
+## 2025-01-20
+
+**App updates automatically** \
+→ Before, users had to click on a dialog to update the app. \
+→ Now, users no longer need to manually update the app.
+
+
+
 ## 2025-01-13
 
 1. **Create a new lens**\
