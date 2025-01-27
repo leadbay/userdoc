@@ -1,5 +1,15 @@
 # 🎬 Changelog
 
+## 2025-01-27
+
+**Clear cache**\
+→ In case of emergency, users can clear their cache. It means it removes temporary files stored by apps or browsers to improve performance or resolve issues. \
+→ It does not delete any of their data at any time.&#x20;
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-01-27 à 14.49.35.png" alt="" width="148"><figcaption></figcaption></figure>
+
+
+
 ## 2025-01-20
 
 **App updates automatically** \
