@@ -1,5 +1,28 @@
 # 🎬 Changelog
 
+## 2025-02-10
+
+1.  **Dashboard Manager** \
+    → Managers can now track their sales team's performance, allowing them to provide better coaching and distribute tasks more effectively. Each team member can also monitor their own performance, without access to others' data. \
+    → Users can view their activity on Leadbay, including profiles they’ve seen, leads they’ve liked, saved, or exported, along with a detailed list of the corresponding leads.\
+
+
+    <figure><img src="../.gitbook/assets/Capture d’écran 2025-02-10 à 13.42.11.png" alt="" width="375"><figcaption></figcaption></figure>
+2.  **Lead dynamics**
+
+    → Lead profiles now feature a chart that visualizes all activities and interactions related to the lead, providing insights into its progression over time.
+
+    <figure><img src="../.gitbook/assets/Capture d’écran 2025-02-10 à 13.38.00.png" alt="" width="375"><figcaption></figcaption></figure>
+3.  **Export lead from lead profile**
+
+    <figure><img src="../.gitbook/assets/Capture d’écran 2025-02-10 à 13.32.56.png" alt="" width="375"><figcaption></figcaption></figure>
+4.  **French translation**
+
+    → Before, the users had to manually change the language on their browser. \
+    → The app now automatically adapts its language based on the user's browser default language.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-02-10 à 13.31.29.png" alt="" width="375"><figcaption></figcaption></figure>
+
 ## 2025-01-27
 
 **Clear cache**\
