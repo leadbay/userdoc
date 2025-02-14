@@ -31,3 +31,4 @@
 
 * [Wishlist vs Scoring Criteria](q-and-a/wishlist-vs-scoring-criteria.md)
 * [Leads dissapear from wishlist after I export them](q-and-a/leads-dissapear-from-wishlist-after-i-export-them.md)
+* [Manager Dashboard: Chart and List numbers don't match](q-and-a/manager-dashboard-chart-and-list-numbers-dont-match.md)

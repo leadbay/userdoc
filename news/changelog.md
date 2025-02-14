@@ -2,7 +2,7 @@
 
 ## 2025-02-10
 
-1.  **Dashboard Manager** \
+1.  **Manager** **Dashboard**\
     → Managers can now track their sales team's performance, allowing them to provide better coaching and distribute tasks more effectively. Each team member can also monitor their own performance, without access to others' data. \
     → Users can view their activity on Leadbay, including profiles they’ve seen, leads they’ve liked, saved, or exported, along with a detailed list of the corresponding leads.\
 
