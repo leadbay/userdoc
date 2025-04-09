@@ -2,7 +2,7 @@
 description: How does enrichment work ?
 ---
 
-# 📱 Enrichment
+# 📞 Enrichment
 
 ### 1. Where do the phone numbers and emails come from?
 

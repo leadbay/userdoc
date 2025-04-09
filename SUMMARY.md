@@ -18,7 +18,7 @@
   * [📄 Import a .csv file](product-guides/connect-your-crm/import-a-.csv-file.md)
   * [🎨 Custom fields](product-guides/connect-your-crm/custom-fields.md)
 * [📱 Install Mobile App](product-guides/install-mobile-app.md)
-* [📱 Enrichment](product-guides/enrichment.md)
+* [📞 Enrichment](product-guides/enrichment.md)
 
 ## Fundamentals
 
