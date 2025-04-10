@@ -10,7 +10,7 @@ Zapier acts as a bridge that connects thousands of apps and services, automating
 
 To integrate Leadbay with Zapier, follow these steps:
 
-1. **Access Invitation Link**: Leadbay's Zapier connection is currently invite-only. Access the integration using this link: [Leadbay Zapier Invitation](https://zapier.com/developer/public-invite/186700/14e581785fc33ed99c85faf9b70ec5d7/).
+1. **Access Invitation Link**: Leadbay's Zapier connection is currently invite-only. Access the integration using this link: [Leadbay Zapier Invitation](https://zapier.com/developer/public-invite/186700/31de3445b74ad2736aa150f9f07f4bd3/).
 2. **Accept the Invite**: Click on the **Accept Invite and Build a Zap** button to proceed.
 
 After you have enabled Leadbay-Zapier connection, you can create your Zaps - [one to import CRM data to Leadbay](import-crm-data-with-zapier.md), and [another to export Leadbay data to your CRM](export-to-crm-with-zapier.md).
