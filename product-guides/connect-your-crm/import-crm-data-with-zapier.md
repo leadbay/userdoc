@@ -18,10 +18,10 @@ To configure CRM data import using Zapier, if you have not already done so, you 
 
 * Choose what to do in Leadbay
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Configure the mapping of fields between your CRM columns and variables Leadbay understands. The more fields you map the better Leadbay will be able to match your CRM data to companies that Leadbay's models know about. Click continue.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Mapping of fields</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Mapping of fields</p></figcaption></figure>
 
 * In the end click on "Publish" to have your Zap up and running.

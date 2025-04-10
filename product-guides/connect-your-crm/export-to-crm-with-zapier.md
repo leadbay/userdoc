@@ -5,12 +5,12 @@ To configure data export to your CRM using Zapier, if you have not already done 
 * Go to [Zapier homepage](https://zapier.com/app/zaps). Click on "Create" >> "New Zap"
 * Click on "1. Trigger" and search for Leadbay
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Choose the event to react to (easy, there is only one)
   * In case you have not done it before you may be prompted to Sign in to Leadbay here, like explained in the [instructions for the Import Zap](import-crm-data-with-zapier.md).
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Then click on "2. Action" to define the target connection to your CRM. Pick your CRM from available connectors.
 

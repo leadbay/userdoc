@@ -1,6 +1,8 @@
-# 🚀 Quick Start
+# 🚀 Onboarding
 
 {% hint style="info" %}
+You need to go through Onboarding only the first time the organization joins Leadbay. If you are invited to an existing organization, just relax and enjoy Leadbay [features](../overview/features.md) directly. \
+\
 Leadbay is currently invite-only. Make sure that you've been invited or otherwise join our waiting list on [https://leadbay.ai/](https://leadbay.ai/)
 {% endhint %}
 
@@ -20,7 +22,7 @@ For this we need a CSV file with some past CRM data. It does not have to be perf
 
 Here are guidelines for generating a CSV from your CRM:
 
-* Export CSV from Salesforce [https://help.salesforce.com/s/articleView?id=sf.exporting\_data.htm\&type=5](https://help.salesforce.com/s/articleView?id=sf.exporting\_data.htm\&type=5)
+* Export CSV from Salesforce [https://help.salesforce.com/s/articleView?id=sf.exporting\_data.htm\&type=5](https://help.salesforce.com/s/articleView?id=sf.exporting_data.htm\&type=5)
 * Export CSV from Hubspot [https://knowledge.hubspot.com/crm-setup/export-contacts-companies-deals-or-tickets](https://knowledge.hubspot.com/crm-setup/export-contacts-companies-deals-or-tickets)
 
 ### Map fileds

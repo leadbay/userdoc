@@ -57,16 +57,7 @@ Two options:
 1. **Manual entry**: Enter name and surname via **Add contact**, then click **Enrich,**
 2. **LinkedIn**: Paste the LinkedIn URL in **Add contact**, then click **Enrich**.
 
-### 4. How bring existing contacts mails and phone numbers to Leadbay?
-
-1. Open **Settings** (three-bar menu, top left) → **Data** → **Data Sources,**
-2. Click **Add a new data source**
-3. Upload your file in **CSV format**
-4. **Map the fields** correctly to Leadbay (e.g., First Name, Email, etc.)
-5. ⚠️ **Warning**: If you manage contact status inside Leadbay, leave the "status" field empty in your file.
-6. Click **Send** – your file will be enriched automatically.
-
-### 5. How much does it cost? How does it charged?
+### 4. How much does it cost? How does it charged?
 
 * **Email**: 1 crédit (€0.06 per match)
 * **Phone number**: 10 crédits (€0.6 per match)
@@ -76,7 +67,7 @@ Two options:
 * Spend €30 → up to 500 matched emails/phones
 * Spend €3,000 → up to 50,000 matched emails/phones
 
-### 6. Subscription & Enrichment Credits
+### 5. Subscription & Enrichment Credits
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-04-09 at 18.57.04.png" alt=""><figcaption></figcaption></figure>
 
@@ -100,7 +91,7 @@ You can manage your Leadbay billing and enrichment credits directly from the **S
 * You can increase or decrease your monthly credit pack using the **+ / –** buttons.
 * You can also **toggle enrichment On/Off** at any time using the switch.
 
-### 7. Privacy
+### 6. Privacy
 
 Your enriched data is **only visible to your organization**.\
 It will **never** be shared with or reused by other Leadbay customers.\
