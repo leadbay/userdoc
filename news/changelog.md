@@ -49,13 +49,13 @@ Stay up to date! You’ll now receive notifications whenever your contacts are e
 
 **Contact Enrichment**
 
-Users can now purchase contact enrichments to go beoyond company information they discover on Leadbay and acquire e-mails and phone numbers of people they may want to reach out to. The functionality is delivered in partnership with FullEnrich. Learn all about it [here](../product-guides/contact-enrichment.md).
+Users can now purchase contact enrichments to go beoyond company information they discover on Leadbay and acquire e-mails and phone numbers of people they may want to reach out to. The functionality is delivered in partnership with FullEnrich. Learn all about it [here](https://docs.leadbay.app/doc/documentation-leadbay/guide-produit/enrichissement-de-contacts).
 
 ## 2025-03-10
 
 **Mobile App**
 
-The leadbay mobile app is available to all our users. See how to install it [here](../product-guides/install-mobile-app.md).
+The leadbay mobile app is available to all our users. See how to install it [here](https://docs.leadbay.app/doc/documentation-leadbay/guide-produit/installer-lapplication-mobile).
 
 ## 2025-02-10
 
