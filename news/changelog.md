@@ -1,10 +1,59 @@
 # 🎬 Changelog
 
+## 2025-07
+
+1. **Saved leads become Liked leads**
+
+Renamed _Saved leads_ to _**Liked leads**_ for clarity and consistency. The feature remains the same: mark leads you want to keep track of for future prospecting.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-19 à 15.49.54.png" alt="" width="58"><figcaption></figcaption></figure>
+
+2. **New lead profile**
+
+Released a redesigned lead profile with:
+
+* **AI summary**: automatic lead overview for quick context.
+* **Prospection actions**: suggested next steps to engage (Still chasing, Meeting planned, Not interested, Pause prospection, Could not reach).
+* **Tabs**:&#x20;
+  * **Company**: displays detailed information about the company: name, industry, size, location, website, and social media.
+  * **Contacts**: lists all known contacts within the company, including their roles and LinkedIn profiles when available. Emails and phone numbers can be enriched by Fullenrich.&#x20;
+  * **Notes**: A dedicated space to capture and organize your notes related to the lead or company. You can write them manually directly in the app, take a photo (e.g. of a business card or meeting notes), or upload a file. Notes are saved chronologically and visible to your team.&#x20;
+  * **History:** tracks all past interactions and activities linked to the lead (status updates). Provides a timeline view of engagement.
+  * **Subsidiaries:** shows related entities and child companies. Helps you identify group structures and expand prospecting within the same corporate group.
+* **Web fetch**: automatic enrichment with fresh online data.&#x20;
+  * **Company profile**: a clear overview of the company’s firmographic data (activities, products and services, number of employees, target market).
+  * **Key people & organization:** details on decision-makers and the organizational structure.
+  * **Technologies & Innovation:** insights into the tools, software, and innovations the company uses.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-19 à 16.11.43.png" alt="" width="375"><figcaption></figcaption></figure>
+
+3. **Activate**&#x20;
+
+The **Activate** tab completes the workflow started in **Discover** (finding new leads) and **Monitor** (scoring & prioritizing your pipeline). It gives sales teams a dedicated space to **turn qualified leads into actionable prospecting steps**.
+
+* Displays the list of liked leads that are **ready to be activated today**, ranked by relevance.
+* Provides a quick view of each lead’s profile (company info, activity, location, contacts).
+* Lets users **update the lead’s status** (e.g. still chasing, meeting planned, not interested, paused).
+* Includes **prospecting actions** directly accessible, so sales reps can engage without leaving the workflow.
+* Integrates with the lead profile (Company, Contacts, Notes, History) for full context before outreach.
+
+In short: **Activate centralizes the “next best actions”** for your pipeline, helping reps focus on leads that matter most, every day.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-19 à 16.17.35.png" alt=""><figcaption></figcaption></figure>
+
+4. **New Notifications Feature**
+
+Stay up to date! You’ll now receive notifications whenever your contacts are enriched, so you never miss important updates about your leads.
+
 ## 2025-04-10
+
+**Contact Enrichment**
 
 Users can now purchase contact enrichments to go beoyond company information they discover on Leadbay and acquire e-mails and phone numbers of people they may want to reach out to. The functionality is delivered in partnership with FullEnrich. Learn all about it [here](../product-guides/enrichment.md).
 
 ## 2025-03-10
+
+**Mobile App**
 
 The leadbay mobile app is available to all our users. See how to install it [here](../product-guides/install-mobile-app.md).
 
