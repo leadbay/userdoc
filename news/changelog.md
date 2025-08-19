@@ -117,7 +117,7 @@ The leadbay mobile app is available to all our users. See how to install it [her
 2. **Scoring**\
    → Both the algorithm and speed of Scoring have been improved.&#x20;
 
-##
+
 
 ## 2024-12-10
 
@@ -168,8 +168,6 @@ The leadbay mobile app is available to all our users. See how to install it [her
 
 
 
-
-
 ## 2024-10-17
 
 1. The user can see if he has checked the website or not on the Lead Profile. It can be useful when he has too many saved leads but doesn't remember if he has checked the website.
@@ -205,8 +203,6 @@ The leadbay mobile app is available to all our users. See how to install it [her
 3. The user doesn't need to keep his disliked leads on the Discover page. \
    -> The disliked leads directly go to Trash (there's a time period where the user can change his mind).\
    -> It allows the user to have a clear view of the new leads, or the leads that are likely to be prospected.
-
-
 
 
 
