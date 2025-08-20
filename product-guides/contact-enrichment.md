@@ -2,7 +2,7 @@
 description: How does enrichment work ?
 ---
 
-# 📞 Enrichment
+# 📞 Contact Enrichment
 
 ### 1. Where do the phone numbers and emails come from?
 
@@ -19,7 +19,13 @@ Tested across various industries and company types.
 ### 2. How to enrich a contact - suggested by Leadbay ?
 
 1. Go to the suggested enrichment list,
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.56.03.png" alt="" width="366"><figcaption></figcaption></figure>
+
 2. Click **Enrich** on any contact,
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.57.03.png" alt="" width="375"><figcaption></figcaption></figure>
+
 3. Wait a few seconds (max 2 minutes),
 4. You’re only charged if the data is found.
 
@@ -50,7 +56,7 @@ Once enriched, they move up to **“Enriched / added contacts”** with their:
 
 ### 3. How to enrich a contact - Leadbay didn't know yet?
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-04-09 at 19.01.16.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-04-09 at 19.01.16.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Two options:
 
@@ -64,14 +70,14 @@ Two options:
 
 **Examples:**
 
-* Spend €30 → up to 500 matched emails/phones
-* Spend €3,000 → up to 50,000 matched emails/phones
+* Spend €30 → up to 500 matched emails **or** 50 phones
+* Spend €3,000 → up to 50,000 matched emails **or** 5,000 phones
 
 ### 5. Subscription & Enrichment Credits
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-04-09 at 18.57.04.png" alt=""><figcaption></figcaption></figure>
-
 You can manage your Leadbay billing and enrichment credits directly from the **Subscription** tab.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.58.17.png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Billing
 
@@ -81,12 +87,12 @@ You can manage your Leadbay billing and enrichment credits directly from the **S
 #### Enrichment Credits
 
 * You have a monthly pack of enrichment credits.
-  * Example: **70 credits/month**
+  * By default : **1,000 credits/month**
 * The progress bar shows how many credits you've used (e.g., **45/70**).
 
 👉 **You’re only charged credits when enrichment is successful.**
 
-👉 **You're chared only for credit used, in that case 45 credits**
+👉 **You're charged only for credit used, in that case 45 credits \* 0,06€ = 2,70€.**&#x20;
 
 * You can increase or decrease your monthly credit pack using the **+ / –** buttons.
 * You can also **toggle enrichment On/Off** at any time using the switch.
