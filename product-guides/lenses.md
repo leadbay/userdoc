@@ -6,7 +6,9 @@ Lenses allow you to define filters (such as company sectors and sizes of interes
 
 Pick a lens from the dropdown menu. Whatever changes you make to your filters will remain attached to that lens. Pick another lens and everything changes - the parameters of that new lens get loaded instantly.&#x20;
 
-<img src="../.gitbook/assets/image (3).png" alt="" data-size="line"> Go to "Lens settings" to create new lenses, rename or delete existing ones.
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.53.45.png" alt="" width="375"><figcaption></figcaption></figure>
+
+Go to "Lens settings" to create new lenses, rename or delete existing ones.
 
 ### Lens Filters
 
