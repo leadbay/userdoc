@@ -3,12 +3,14 @@
 {% hint style="info" %}
 You need to go through Onboarding only the first time the organization joins Leadbay. If you are invited to an existing organization, just relax and enjoy Leadbay [features](../overview/features.md) directly. \
 \
-Leadbay is currently invite-only. Make sure that you've been invited or otherwise join our waiting list on [https://leadbay.ai/](https://leadbay.ai/)
+Request your access on [https://leadbay.ai/](https://leadbay.ai/).
 {% endhint %}
 
 ## Step 1 - Tell us who you are
 
 We'll first ask you for your name, e-mail and let you define a password. You'll then have to click on a link in an e-mail you'll get from us to verify it is really you. The usual stuff.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.44.33.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Step 2 - Tell us about your past wins
 
@@ -16,9 +18,9 @@ In order to personalize the experience for you, our AI needs a glimpse into your
 
 ### Upload CSV
 
-For this we need a CSV file with some past CRM data. It does not have to be perfect, or even complete. It can be a subset of what you have. The more the better, obviousely, but we'll work with what you give us.
+For this we need a CSV file with some past CRM data. It does not have to be perfect, or even complete. It can be a subset of what you have. The more the better, obviously, but we'll work with what you give us.
 
-![CSV Upload](<../.gitbook/assets/Untitled 4.jpg>)
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.50.22.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Here are guidelines for generating a CSV from your CRM:
 
@@ -29,14 +31,12 @@ Here are guidelines for generating a CSV from your CRM:
 
 Every CRM calls things by different names, so we may need some help from you to understand what is what. Our AI will make an educated gess and we'll ask you to verify or correct the mapping.
 
-<figure><img src="../.gitbook/assets/Untitled 5.jpg" alt=""><figcaption><p>Mapping fields</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.51.00.png" alt="" width="375"><figcaption></figcaption></figure>
 
 The most imporant is the Status field, indicating that a Lead was won or lost for you. This is what will give our AI the general idea about what kind of leads tend to stick with you.
 
 We'll also ask you to confirm how you call your statuses (trust us, you wouldn't beleive what names people give to their statuses).
 
-<figure><img src="../.gitbook/assets/Untitled 6.jpg" alt=""><figcaption><p>Status mapping</p></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.51.36.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Et voila! You'll see your first selection of leads corresponding to the criteria.&#x20;
