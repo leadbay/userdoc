@@ -1,5 +1,15 @@
 # 🎬 Changelog
 
+## 2025-09-11
+
+**New file import flow**
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-09-17 à 11.10.46.png" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-09-17 à 11.11.50.png" alt="" width="375"><figcaption></figcaption></figure>
+
+When importing files, Leadbay now automatically detects fields and their values — no more need for manual mapping.
+
 ## 2025-07-15
 
 1. **Saved leads become Liked leads**
