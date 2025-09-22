@@ -1,5 +1,48 @@
 # 🎬 Changelog
 
+## 2025-09-22
+
+1. **Leadbay goes self-serve**
+
+Starting today, Leadbay is open to everyone prospecting SMBs, and is available to **try** **for free**.\
+No demo, no complex integration: anyone can try it directly from the website.
+
+The flow is simple:
+
+* **Import your prospecting file** with your leads (wanted / won / lost).
+* We start by describing your **ICP (Ideal Customer Profile)**.
+* We suggest **priority lead clusters**.
+* We provide a **list of high-potential leads**.
+
+Even with little input data, our predictions will surprise you.&#x20;
+
+<figure><img src="../.gitbook/assets/Add your file - wow article-VEED (1).gif" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+2. **AI Chat integrated into the sales workflow**
+
+From now on, AI is **fully integrated into your prospecting routine**.\
+You can:
+
+* **Prepare meetings** by instantly generating talking points for your calls.
+* **Request a clear summary** with context and predictions to better prioritize your actions.
+
+An intelligent copilot, right where you need it.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-09-18 at 09.17.46.png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+3. **Integrated Qualification AI Assistant**
+
+You can now **configure your AI assistant to automatically generate qualification questions** tailored to your ICP.
+
+👉 Up to **5 strategic questions** can be defined to sharpen lead detection.\
+👉 Answers appear **directly in each lead profile**, giving you a complete and actionable view.
+
+Less guesswork, more precision.
+
 ## 2025-09-11
 
 **New file import flow**
