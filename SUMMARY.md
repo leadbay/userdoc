@@ -32,3 +32,7 @@
 * [Leads dissapear from Discover after I export them](q-and-a/leads-dissapear-from-wishlist-after-i-export-them.md)
 * [Manager Dashboard: Chart and List numbers don't match](q-and-a/manager-dashboard-chart-and-list-numbers-dont-match.md)
 * [How are scores calculated](q-and-a/how-are-scores-calculated.md)
+
+***
+
+* [Contact us](contact-us.md)
