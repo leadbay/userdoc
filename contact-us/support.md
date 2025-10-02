@@ -1,4 +1,4 @@
-# Contact us
+# ☎️ Support
 
 Have a question, spotted a bug, or just want to share some love?\
 
