@@ -1,5 +1,25 @@
 # 🎬 Changelog
 
+## 2025-10-09
+
+1. **New lead profile design**
+
+* Integration of **qualification question answers** (with indicators 🟢🔘🔴),
+* New **pictograms** for improved readability,
+* Enhanced display of **Web Information** (collapsible menu).
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-10-10 à 12.14.16.png" alt="" width="375"><figcaption></figcaption></figure>
+
+
+
+2. **Improvements to the Activate Page**
+
+* Highlighting of **Prospecting Actions** (with different colors),
+* Reintroduction of the “**Predicted Won**” label — displayed when the gap between this lead and “won” leads is very small OR when the gap with “lost” leads is very large,
+* The model can now predict the **next steps and the recommended angles of approach** for each lead.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-10-10 à 12.15.26.png" alt="" width="563"><figcaption></figcaption></figure>
+
 ## 2025-09-22
 
 1. **Leadbay goes self-serve**
