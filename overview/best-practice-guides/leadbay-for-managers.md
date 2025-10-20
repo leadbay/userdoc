@@ -46,11 +46,11 @@ Open it systematically at the start of each meeting to:
 * Spot weak signals (reps falling behind, inactive accounts, bottlenecks)
 * Celebrate visible progress
 
-🧩 _Leadbay Tip:_\
+💡 _Leadbay Tip:_\
 Use the **“Prospecting Actions”** indicator to highlight initiatives.\
 The goal isn’t to micromanage — it’s to **celebrate consistency and good habits.**
 
-🎯 **Goal:** Make Leadbay part of the team ritual — just like your CRM or forecast review.
+**Goal:** Make Leadbay part of the team ritual — just like your CRM or forecast review.
 
 
 
@@ -90,12 +90,3 @@ As a manager, you can monitor this balance directly in your dashboard — and th
 {% content-ref url="../../news/changelog.md" %}
 [changelog.md](../../news/changelog.md)
 {% endcontent-ref %}
-
-
-
-### 🎁 **Manager Bonus**
-
-To reward managers who embrace the Leadbay method:\
-**The Manager License is offered free of charge** to any team leader who commits to implementing these three golden rules in their management routine.
-
-👉 Leadbay supports the managers who support their teams.
