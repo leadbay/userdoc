@@ -6,7 +6,7 @@
 
 * [🧬 Features](overview/features.md)
 * [📗 Best practice guides](overview/best-practice-guides/README.md)
-  * [🏴‍☠️ Leadbay for sales](overview/best-practice-guides/leadbay-for-sales.md)
+  * [🏴‍☠️ Leadbay for sales reps](overview/best-practice-guides/leadbay-for-sales-reps.md)
   * [🥷 Leadbay for managers](overview/best-practice-guides/leadbay-for-managers.md)
   * [🦹 Leadbay for C-Level teams](overview/best-practice-guides/leadbay-for-c-level-teams.md)
   * [🎯 Leadbay for marketing teams](overview/best-practice-guides/leadbay-for-marketing-teams.md)
