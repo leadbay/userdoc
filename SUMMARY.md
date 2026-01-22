@@ -2,6 +2,10 @@
 
 * [👋 Welcome to Leadbay](README.md)
 
+## News
+
+* [🎬 Changelog](news/changelog.md)
+
 ## Overview
 
 * [🧬 Features](overview/features.md)
@@ -27,10 +31,6 @@
 ## Fundamentals
 
 * [🧐 Definitions](fundamentals/definitions.md)
-
-## News
-
-* [🎬 Changelog](news/changelog.md)
 
 ## Q\&A
 
