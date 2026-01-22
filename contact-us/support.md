@@ -1,7 +1,6 @@
 # ☎️ Support
 
-Have a question, spotted a bug, or just want to share some love?\
-
+Have a question, spotted a bug, or just want to share some love?<br>
 
 We’d be happy to hear from you:
 

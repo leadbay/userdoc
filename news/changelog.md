@@ -1,5 +1,22 @@
 # 🎬 Changelog
 
+## 2026-01-22
+
+**New usage-based pricing**\
+Leadbay is now billed solely based on your activity. No commitment required — billing automatically adjusts to your usage: **no leads visited in a month = next month billed €0**.
+
+## 2026-01-16
+
+1. **New onboarding flow**\
+   Added an 8-step in-app onboarding, guiding users through the different features and tabs for immediate hands-on use of Leadbay.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2026-01-22 à 13.04.33.png" alt="" width="375"><figcaption></figcaption></figure>
+
+2. **Activation tab improvements**\
+   Classification of leads to activate: **Activatable, On hold, Completed**.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2026-01-22 à 13.03.30.png" alt="" width="563"><figcaption></figcaption></figure>
+
 ## 2025-10-09
 
 1. **New lead profile design**
@@ -134,8 +151,7 @@ The leadbay mobile app is available to all our users. See how to install it [her
 
 1.  **Manager** **Dashboard**\
     → Managers can now track their sales team's performance, allowing them to provide better coaching and distribute tasks more effectively. Each team member can also monitor their own performance, without access to others' data. \
-    → Users can view their activity on Leadbay, including profiles they’ve seen, leads they’ve liked, saved, or exported, along with a detailed list of the corresponding leads.\
-
+    → Users can view their activity on Leadbay, including profiles they’ve seen, leads they’ve liked, saved, or exported, along with a detailed list of the corresponding leads.<br>
 
     <figure><img src="../.gitbook/assets/Capture d’écran 2025-02-10 à 13.42.11.png" alt="" width="375"><figcaption></figcaption></figure>
 2.  **Lead dynamics**
