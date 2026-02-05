@@ -1,8 +1,25 @@
 # 🎬 Changelog
 
+## 2026-02-05
+
+**New export option: enriched contacts.**
+
+The export includes enriched contacts with key information: company, last name, first name, phone number, email address, job title, and LinkedIn profile.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2026-02-05 à 15.46.24.png" alt="" width="375"><figcaption></figcaption></figure>
+
+## 2026-02-02
+
+**New bulk contact enrichment feature.**
+
+Ability to select leads from the Discover, Manage, or Activate tabs, then launch a bulk enrichment by specifically choosing the job titles to target.
+
+<figure><img src="../.gitbook/assets/Capture d’écran 2026-02-05 à 15.45.55.png" alt="" width="375"><figcaption></figcaption></figure>
+
 ## 2026-01-22
 
-**New usage-based pricing**\
+**New pricing policy : No use. No bill.**&#x20;
+
 Leadbay is now billed solely based on your activity. No commitment required — billing automatically adjusts to your usage: **no leads visited in a month = next month billed €0**.
 
 ## 2026-01-16
