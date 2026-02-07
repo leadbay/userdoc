@@ -1,42 +1,48 @@
-# 🚀 Onboarding
+# Onboarding
 
 {% hint style="info" %}
-You need to go through Onboarding only the first time the organization joins Leadbay. If you are invited to an existing organization, just relax and enjoy Leadbay [features](../overview/features.md) directly. \
-\
-Request your access on [https://leadbay.ai/](https://leadbay.ai/).
+You need to go through Onboarding only the first time the organization joins Leadbay. If you are invited to an existing organization, you can start using Leadbay immediately.
+
+Sign up at [https://leadbay.ai/](https://leadbay.ai/) — no demo required, start for free.
 {% endhint %}
 
-## Step 1 - Tell us who you are
+When you first sign up, Leadbay walks you through an **8-step guided onboarding** that introduces the key features hands-on.
 
-We'll first ask you for your name, e-mail and let you define a password. You'll then have to click on a link in an e-mail you'll get from us to verify it is really you. The usual stuff.
+## Step 1 — Create your account
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.44.33.png" alt="" width="375"><figcaption></figcaption></figure>
+We'll ask for your name, email, and a password. You'll then verify your email by clicking a link we send you.
 
-## Step 2 - Tell us about your past wins
+<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.44.33.png" alt="" width="375"><figcaption></figcaption></figure>
 
-In order to personalize the experience for you, our AI needs a glimpse into your past to get a feeling of what relevant leads for you might look like.
+## Step 2 — Tell us about your past wins
 
-### Upload CSV
+To personalize recommendations, our AI needs a glimpse into your past leads.
 
-For this we need a CSV file with some past CRM data. It does not have to be perfect, or even complete. It can be a subset of what you have. The more the better, obviously, but we'll work with what you give us.
+### Upload a CSV
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.50.22.png" alt="" width="375"><figcaption></figcaption></figure>
+Provide a CSV file with past CRM data. It doesn't have to be perfect or complete — the more the better, but we'll work with what you give us.
 
-Here are guidelines for generating a CSV from your CRM:
+<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.50.22.png" alt="" width="375"><figcaption></figcaption></figure>
 
-* Export CSV from Salesforce [https://help.salesforce.com/s/articleView?id=sf.exporting\_data.htm\&type=5](https://help.salesforce.com/s/articleView?id=sf.exporting_data.htm\&type=5)
-* Export CSV from Hubspot [https://knowledge.hubspot.com/crm-setup/export-contacts-companies-deals-or-tickets](https://knowledge.hubspot.com/crm-setup/export-contacts-companies-deals-or-tickets)
+How to export from your CRM:
 
-### Map fileds
+* [Export from Salesforce](https://help.salesforce.com/s/articleView?id=sf.exporting_data.htm\&type=5)
+* [Export from HubSpot](https://knowledge.hubspot.com/crm-setup/export-contacts-companies-deals-or-tickets)
 
-Every CRM calls things by different names, so we may need some help from you to understand what is what. Our AI will make an educated gess and we'll ask you to verify or correct the mapping.
+### Map fields
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.51.00.png" alt="" width="375"><figcaption></figcaption></figure>
+Every CRM calls things by different names. Leadbay auto-detects your columns — verify or correct the mapping.
 
-The most imporant is the Status field, indicating that a Lead was won or lost for you. This is what will give our AI the general idea about what kind of leads tend to stick with you.
+<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.51.00.png" alt="" width="375"><figcaption></figcaption></figure>
 
-We'll also ask you to confirm how you call your statuses (trust us, you wouldn't beleive what names people give to their statuses).
+The most important field is **Status** — it tells our AI which leads were won or lost. This is how the model learns what kind of leads work for you.
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.51.36.png" alt="" width="375"><figcaption></figcaption></figure>
+We'll also ask you to confirm how you name your statuses.
 
-Et voila! You'll see your first selection of leads corresponding to the criteria.&#x20;
+<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.51.36.png" alt="" width="375"><figcaption></figcaption></figure>
+
+Once done, you'll see your first selection of AI-recommended leads.
+
+{% hint style="info" %}
+Don't have a CSV? You can still start — Leadbay will build recommendations from your description and qualification questions. You can always import data later from [Data Sources](data-sources.md).
+{% endhint %}
