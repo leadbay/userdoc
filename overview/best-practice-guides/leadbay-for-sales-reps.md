@@ -50,17 +50,17 @@ Each action trains the model to suggest leads that are increasingly relevant to 
 
 ***
 
-#### 4️⃣ Create your filtered views
+#### 4️⃣ Create your Lenses
 
-Structure your hunting ground:
+Structure your hunting ground with [Lenses](../../product-guides/lenses.md):
 
-* one view per vertical
-* one view per region
-* one view per company size
+* one lens per vertical
+* one lens per region
+* one lens per company size
 
-→ You’ll be able to come back to each easily for your prospecting sessions.
+→ You'll be able to switch between them for your prospecting sessions.
 
-💡 **Leadbay tip:** think of your views as _hunting territories_ — each one should be actionable.
+💡 **Leadbay tip:** think of your lenses as _hunting territories_ — each one should be actionable.
 
 ***
 

@@ -1,43 +1,36 @@
 # Table of contents
 
-* [👋 Welcome to Leadbay](README.md)
-
-## News
-
-* [🎬 Changelog](news/changelog.md)
-
-## Overview
-
-* [🧬 Features](overview/features.md)
-* [📗 Best practice guides](overview/best-practice-guides/README.md)
-  * [🏴‍☠️ Leadbay for sales reps](overview/best-practice-guides/leadbay-for-sales-reps.md)
-  * [🥷 Leadbay for managers](overview/best-practice-guides/leadbay-for-managers.md)
-  * [🦹 Leadbay for C-Level teams](overview/best-practice-guides/leadbay-for-c-level-teams.md)
-  * [🎯 Leadbay for marketing teams](overview/best-practice-guides/leadbay-for-marketing-teams.md)
+* [Welcome to Leadbay](README.md)
 
 ## Product Guides
 
-* [🚀 Onboarding](product-guides/onboarding.md)
-* [🔭 Lenses](product-guides/lenses.md)
-* [🔌 Connect your CRM](product-guides/connect-your-crm/README.md)
-  * [📥 Import CRM data with Zapier](product-guides/connect-your-crm/import-crm-data-with-zapier.md)
-  * [📤 Export to CRM with Zapier](product-guides/connect-your-crm/export-to-crm-with-zapier.md)
-  * [📄 Import a .csv file](product-guides/connect-your-crm/import-a-.csv-file.md)
-  * [🎨 Product Lenses and Custom fields](product-guides/connect-your-crm/custom-fields.md)
-* [📱 Install Mobile App](product-guides/install-mobile-app.md)
-* [📞 Contact Enrichment](product-guides/contact-enrichment.md)
-* [🎛️ Manager Dashboard](product-guides/manager-dashboard.md)
+* [Onboarding](product-guides/onboarding.md)
+* [Discover, Monitor & Activate](product-guides/discover-monitor-activate.md)
+* [Lead Profile](product-guides/lead-profile.md)
+* [Lenses](product-guides/lenses.md)
+* [AI Assistant](product-guides/ai-assistant.md)
+* [Contact Enrichment](product-guides/contact-enrichment.md)
+* [Export](product-guides/export.md)
+* [Data Sources](product-guides/data-sources.md)
+* [Team & Organization](product-guides/team-management.md)
+* [Manager Dashboard](product-guides/manager-dashboard.md)
+* [Install Mobile App](product-guides/install-mobile-app.md)
 
-## Fundamentals
+## Best Practices
 
-* [🧐 Definitions](fundamentals/definitions.md)
+* [Leadbay for Sales Reps](overview/best-practice-guides/leadbay-for-sales-reps.md)
+* [Leadbay for Managers](overview/best-practice-guides/leadbay-for-managers.md)
 
-## Q\&A
+## Q&A
 
-* [Leads dissapear from Discover after I export them](q-and-a/leads-dissapear-from-wishlist-after-i-export-them.md)
-* [Manager Dashboard: Chart and List numbers don't match](q-and-a/manager-dashboard-chart-and-list-numbers-dont-match.md)
-* [How are scores calculated](q-and-a/how-are-scores-calculated.md)
+* [How are scores calculated?](q-and-a/how-are-scores-calculated.md)
+* [Leads disappear from Discover after export](q-and-a/leads-dissapear-from-wishlist-after-i-export-them.md)
+* [Dashboard chart vs list numbers](q-and-a/manager-dashboard-chart-and-list-numbers-dont-match.md)
 
-## CONTACT US
+## News
 
-* [☎️ Support](contact-us/support.md)
+* [Changelog](news/changelog.md)
+
+## Contact Us
+
+* [Support](contact-us/support.md)

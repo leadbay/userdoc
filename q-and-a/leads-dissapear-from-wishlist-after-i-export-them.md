@@ -1,9 +1,10 @@
-# Leads dissapear from Discover after I export them
+# Leads disappear from Discover after I export them
 
-When you export leads from the `Discover` view, they are no longer shown there, and you can find them in the `Monitor` view.
+When you export leads from **Discover**, they move to **Monitor**. This is by design.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Discover and Monitor views</p></figcaption></figure>
+**Discover** shows AI-recommended leads that haven't entered your pipeline yet.\
+**Monitor** shows leads your organization is tracking — imported from a file, synced via Zapier, or exported from Discover.
 
-In `Discover`, your can find leads recommended for you, corresponding to your wishlist criteria and likely not yet propsected by your sales team. `Monitor` view, on the other hand, presents the leads known to your organization, imported from your CRM.
+Once you export a lead, it's part of your pipeline, so it moves to Monitor. Discover then fills in with new recommendations.
 
-So, it is normal that leads your export from `Discover` view end up imported to your `Monitor` view. Keep exporting to get more fresh leads in your `Discover` tab.
+**In short:** exported leads aren't lost — check Monitor to find them. Keep exporting from Discover to get fresh leads.

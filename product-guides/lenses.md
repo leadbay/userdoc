@@ -1,27 +1,88 @@
-# 🔭 Lenses
+# Lenses
 
-Lenses allow you to define filters (such as company sectors and sizes of interest to you) and reuse them later. Super handy when you prospect several disctinct segments at the same time, or when you are selling more than one product.
+Lenses are saved filter configurations that define which leads you see. Each lens targets a specific market segment — by sector, location, company size, or keywords.
 
-<div align="center"><figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
+Lenses also power AI recommendations: the system learns from your likes and wins within each lens to suggest increasingly relevant leads.
 
-Pick a lens from the dropdown menu. Whatever changes you make to your filters will remain attached to that lens. Pick another lens and everything changes - the parameters of that new lens get loaded instantly.&#x20;
+---
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.53.45.png" alt="" width="375"><figcaption></figcaption></figure>
+## Choosing a Lens
 
-Go to "Lens settings" to create new lenses, rename or delete existing ones.
+The lens selector appears at the top of the page. Pick a lens from the dropdown to instantly load its filters and recommendations.
 
-### Lens Filters
+<figure><img src="../.gitbook/assets/screenshot-lenses.png" alt=""><figcaption><p>Lens selector</p></figcaption></figure>
 
-Anything Leadbay knows about a [Lead](../fundamentals/definitions.md#user-content-lead) is potentially a criteria you can use to filter leads. For example, `Location:Paris` can be a criteria, or `size:50-100`, or `sector:Financial Services.`
+Whatever filters you change remain attached to the currently selected lens. Switch lenses and the parameters change with it.
 
-#### A Union of Several Criteria
+---
 
-Things get cool when you get to specify more then one criteria, e.g., `sector: Financial Services` , `sector:Agriculture` . Leadbay lets you select multiple criteria of the same type, e.g., `sector,` and understands that you looking for a union of possible matches, i.e. for leads who are in any one of the two sectors, either in `Financial Services` or in `Agriculture`.
+## Organization Lenses vs Private Lenses
 
-#### An Intersection of Unions
+There are two types of lenses:
 
-Things get even more cool when you combine several types of criteria. Let's say that we want to add `size:50-100` to our already defined union of sectors `Financial Services` and `Agriculture` .
+| Type | Visibility | Who can edit |
+|------|-----------|--------------|
+| **Organization lenses** | Shared with all team members | Admins |
+| **Private lenses** | Only visible to you | You |
 
-Leadbay will understand that you are looking for [Leads](../fundamentals/definitions.md#user-content-lead) that strictly fit the intersection of size criteria (`50-100`) and with the union of `sector` criteria (`Financial Services` or `Agriculture`). This means that a company in Financial Services having 150 employees will not be selected, while a company in Agriculture with 75 employees will be selected.
+One organization lens is marked as **Current** (the default lens for the team). You can promote a private lens to an organization lens if you want your team to share it.
 
-It's pretty convenient for modeling commonly used real-life criteria.
+---
+
+## Creating and Managing Lenses
+
+Click the lens settings icon (gear) to open the lens management panel.
+
+From here you can:
+
+- **Create a new lens**: type a name and click +
+- **Edit** a lens (pencil icon): rename it
+- **Delete** a lens (trash icon)
+- **Promote** a private lens to organization (arrow up icon)
+- **Set as current** organization lens (arrow down icon)
+
+### Draft Lenses
+
+If the current lens is **read-only** (e.g., the default organization lens when you're not an admin), you can click **Create draft lens** to make an editable copy. Adjust filters in your draft, then optionally promote it.
+
+---
+
+## Lens Filters
+
+Filters define which leads match a lens. Anything Leadbay knows about a company can be a filter criteria.
+
+### Available Filter Types
+
+| Filter | Example |
+|--------|---------|
+| **Location** | Paris, Lyon, Occitanie |
+| **Sector** | Financial Services, Agriculture |
+| **Size** | 10–200 employees |
+| **Keywords** | SaaS, B2B, renewable energy |
+
+### How Filters Combine
+
+**Within the same filter type** (e.g., multiple sectors): Leadbay uses **OR** logic. A lead matching *any* of the selected sectors qualifies.
+
+**Across different filter types** (e.g., sector + size): Leadbay uses **AND** logic. A lead must match *all* filter types.
+
+**Example:** Sectors = `Financial Services, Agriculture` + Size = `50-100`
+- A bank with 75 employees: **matches** (Financial Services AND 50-100)
+- A farm with 200 employees: **does not match** (Agriculture but NOT 50-100)
+- A tech company with 80 employees: **does not match** (NOT Financial Services or Agriculture)
+
+---
+
+## How Lenses Affect AI Recommendations
+
+Each lens builds its own AI model. The system learns from:
+
+- Leads you **liked** within this lens
+- Leads marked as **won** within this lens
+- Your **qualification question** answers
+
+The result is a relevance **score (0–99)** for each lead, specific to the active lens. Switch lenses and scores change because the AI model is different.
+
+{% hint style="info" %}
+If you sell multiple products to different markets, create one lens per product/segment. This gives each segment its own AI model and recommendations.
+{% endhint %}
