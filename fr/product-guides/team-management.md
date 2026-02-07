@@ -8,7 +8,7 @@ Gérez les paramètres de votre organisation et les membres de votre équipe dep
 
 Ouvrez le menu latéral et allez dans **My Organization**.
 
-<figure><img src="../../.gitbook/assets/fc011eef-93d0-4c38-876e-71f6989b7675.png" alt="" width="375"><figcaption><p>Paramètres de l'organisation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-team-organization.png" alt=""><figcaption><p>Paramètres de l'organisation</p></figcaption></figure>
 
 Vous pouvez consulter et modifier le **nom de votre organisation**.
 

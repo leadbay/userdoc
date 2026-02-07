@@ -8,7 +8,7 @@ Manage your organization settings and team members from the side menu.
 
 Open the side menu (hamburger icon, top-left) and go to **My Organization**.
 
-<figure><img src="../.gitbook/assets/fc011eef-93d0-4c38-876e-71f6989b7675.png" alt="" width="375"><figcaption><p>Organization settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot-team-organization.png" alt=""><figcaption><p>Organization settings</p></figcaption></figure>
 
 Here you can:
 

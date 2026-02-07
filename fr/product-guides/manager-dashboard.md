@@ -2,7 +2,7 @@
 
 Le Dashboard offre aux managers une visibilité sur l'activité de prospection de leur équipe, et permet aux commerciaux de suivre leur propre performance.
 
-<figure><img src="../../.gitbook/assets/5ab11fea-a1ab-4155-adb1-3e5883f5684f.png" alt=""><figcaption><p>Tableau de bord Manager</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-manager-dashboard.png" alt=""><figcaption><p>Tableau de bord Manager</p></figcaption></figure>
 
 ---
 
