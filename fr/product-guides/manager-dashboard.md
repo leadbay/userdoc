@@ -8,7 +8,7 @@ Le Dashboard offre aux managers une visibilité sur l'activité de prospection d
 
 ## Accès
 
-Ouvrez le menu latéral et cliquez sur **Dashboard**.
+Ouvrez le menu latéral (icône hamburger, en haut à gauche) et cliquez sur **Dashboard**.
 
 ---
 
@@ -27,6 +27,8 @@ Ouvrez le menu latéral et cliquez sur **Dashboard**.
 | **Liked leads** | Leads likés |
 | **Exported leads** | Leads exportés en CSV ou vers le CRM |
 | **Prospecting actions** | Actions enregistrées (still chasing, meeting planned, etc.) |
+
+Chaque ligne correspond à un membre de l'équipe. Utilisez ce tableau pour repérer qui est actif et qui pourrait avoir besoin de soutien.
 
 ---
 

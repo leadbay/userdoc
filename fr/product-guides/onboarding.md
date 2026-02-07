@@ -24,13 +24,20 @@ Fournissez un fichier CSV avec vos données CRM passées. Il n'a pas besoin d'ê
 
 <figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-20 à 10.50.22.png" alt="" width="375"><figcaption></figcaption></figure>
 
+Comment exporter depuis votre CRM :
+
+* [Exporter depuis Salesforce](https://help.salesforce.com/s/articleView?id=sf.exporting_data.htm\&type=5)
+* [Exporter depuis HubSpot](https://knowledge.hubspot.com/crm-setup/export-contacts-companies-deals-or-tickets)
+
 ### Mapper les champs
 
 Chaque CRM nomme les choses différemment. Leadbay détecte automatiquement vos colonnes — vérifiez ou corrigez le mapping.
 
 <figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-20 à 10.51.00.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Le champ le plus important est **Status** — il indique à notre IA quels leads ont été gagnés ou perdus.
+Le champ le plus important est **Status** — il indique à notre IA quels leads ont été gagnés ou perdus. C'est ainsi que le modèle apprend quel type de leads fonctionne pour vous.
+
+Nous vous demanderons aussi de confirmer comment vous nommez vos statuts.
 
 <figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-20 à 10.51.36.png" alt="" width="375"><figcaption></figcaption></figure>
 
