@@ -2,13 +2,13 @@
 
 Le Dashboard offre aux managers une visibilité sur l'activité de prospection de leur équipe, et permet aux commerciaux de suivre leur propre performance.
 
-<figure><img src="../../.gitbook/assets/5ab11fea-a1ab-4155-adb1-3e5883f5684f.png" alt=""><figcaption><p>Tableau de bord Manager</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-manager-dashboard.png" alt=""><figcaption><p>Tableau de bord Manager</p></figcaption></figure>
 
 ---
 
 ## Accès
 
-Ouvrez le menu latéral et cliquez sur **Dashboard**.
+Ouvrez le menu latéral (icône hamburger, en haut à gauche) et cliquez sur **Dashboard**.
 
 ---
 
@@ -27,6 +27,8 @@ Ouvrez le menu latéral et cliquez sur **Dashboard**.
 | **Liked leads** | Leads likés |
 | **Exported leads** | Leads exportés en CSV ou vers le CRM |
 | **Prospecting actions** | Actions enregistrées (still chasing, meeting planned, etc.) |
+
+Chaque ligne correspond à un membre de l'équipe. Utilisez ce tableau pour repérer qui est actif et qui pourrait avoir besoin de soutien.
 
 ---
 

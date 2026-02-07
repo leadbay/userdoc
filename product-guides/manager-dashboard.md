@@ -2,7 +2,7 @@
 
 The Dashboard gives managers visibility into their team's prospecting activity, and lets individual reps track their own performance.
 
-<figure><img src="../.gitbook/assets/5ab11fea-a1ab-4155-adb1-3e5883f5684f.png" alt=""><figcaption><p>Manager Dashboard</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot-manager-dashboard.png" alt=""><figcaption><p>Manager Dashboard</p></figcaption></figure>
 
 ---
 
