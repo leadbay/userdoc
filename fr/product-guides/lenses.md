@@ -10,7 +10,7 @@ Les Lenses alimentent aussi les recommandations IA : le système apprend de vos 
 
 Le sélecteur de lens apparaît en haut de la page. Choisissez une lens dans le menu déroulant pour charger instantanément ses filtres et recommandations.
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-20 à 10.53.45.png" alt="" width="375"><figcaption><p>Sélecteur de lens</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-lenses.png" alt=""><figcaption><p>Sélecteur de lens</p></figcaption></figure>
 
 ---
 

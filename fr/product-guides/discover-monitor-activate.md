@@ -39,6 +39,8 @@ Des leads recommandés par l'IA en fonction de votre ICP, de vos affaires gagné
 - **Dislike** (pouce vers le bas) : indique au modèle « pas pertinent ». Le lead est retiré de Discover.
 - **Cliquer sur un lead** pour ouvrir sa fiche et consulter les détails.
 
+<figure><img src="../../.gitbook/assets/screenshot-discover-detail.png" alt=""><figcaption><p>Panneau de détail d'un lead (vue scindée)</p></figcaption></figure>
+
 **Comment la liste se renouvelle :** Leadbay alimente en continu Discover avec de nouveaux leads. Les leads ignorés sont automatiquement remplacés. Les leads exportés passent dans Monitor.
 
 {% hint style="info" %}

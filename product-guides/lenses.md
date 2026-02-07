@@ -10,7 +10,7 @@ Lenses also power AI recommendations: the system learns from your likes and wins
 
 The lens selector appears at the top of the page. Pick a lens from the dropdown to instantly load its filters and recommendations.
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.53.45.png" alt="" width="375"><figcaption><p>Lens selector</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot-lenses.png" alt=""><figcaption><p>Lens selector</p></figcaption></figure>
 
 Whatever filters you change remain attached to the currently selected lens. Switch lenses and the parameters change with it.
 

@@ -2,6 +2,8 @@
 
 Exportez des leads depuis n'importe quel onglet pour les utiliser en dehors de Leadbay.
 
+<figure><img src="../../.gitbook/assets/screenshot-export.png" alt=""><figcaption><p>Export de leads</p></figcaption></figure>
+
 ---
 
 ## Comment exporter

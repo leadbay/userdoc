@@ -2,6 +2,8 @@
 
 Export leads from any tab to use them outside Leadbay — in your CRM, email tool, or spreadsheet.
 
+<figure><img src="../.gitbook/assets/screenshot-export.png" alt=""><figcaption><p>Exporting leads</p></figcaption></figure>
+
 ---
 
 ## How to Export

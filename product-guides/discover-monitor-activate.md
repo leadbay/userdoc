@@ -39,6 +39,8 @@ AI-recommended leads based on your ICP (Ideal Customer Profile), past wins, and 
 - **Dislike** (thumbs down): tells the model "not relevant." The lead is removed from Discover.
 - **Click a lead** to open its profile for details before deciding.
 
+<figure><img src="../.gitbook/assets/screenshot-discover-detail.png" alt=""><figcaption><p>Lead detail panel (split view)</p></figcaption></figure>
+
 **How it refreshes:** Leadbay continuously brings fresh leads into Discover. Leads you ignore for a while are automatically cycled out to make room for new ones. Exported leads move to Monitor.
 
 {% hint style="info" %}
