@@ -2,7 +2,7 @@
 
 Cliquez sur le nom d'un lead pour ouvrir sa fiche. C'est votre vue centrale pour comprendre une entreprise et décider comment l'aborder.
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-19 à 16.11.43.png" alt="" width="375"><figcaption><p>Fiche lead</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-lead-profile.png" alt=""><figcaption><p>Fiche lead</p></figcaption></figure>
 
 ---
 

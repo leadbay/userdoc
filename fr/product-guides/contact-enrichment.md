@@ -48,22 +48,22 @@ Sélectionnez plusieurs leads dans n'importe quel onglet, cliquez sur **Enrichme
 
 ### 5. Combien ça coûte ?
 
-* **Email** : 1 crédit (0,06 € par résultat)
-* **Téléphone** : 10 crédits (0,60 € par résultat)
+* **Email** : 1 token (0,06 € par résultat)
+* **Téléphone** : 10 tokens (0,60 € par résultat)
 
 **Exemples :**
 
 * 30 € → jusqu'à 500 emails **ou** 50 téléphones
 * 3 000 € → jusqu'à 50 000 emails **ou** 5 000 téléphones
 
-### 6. Abonnement et crédits
+### 6. Abonnement et tokens
 
-Gérez vos crédits depuis l'onglet **Subscription** dans le menu latéral.
+Gérez vos tokens depuis l'onglet **Subscription** dans le menu latéral.
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-20 à 10.58.17.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-subscription.png" alt=""><figcaption><p>Abonnement et tokens d'enrichissement</p></figcaption></figure>
 
-* Pack mensuel de crédits (par défaut : **1 000 crédits/mois**)
-* Vous n'êtes **facturé que pour les crédits consommés avec succès**
+* Pack mensuel de tokens (configurable selon votre plan)
+* Vous n'êtes **facturé que pour les tokens consommés avec succès**
 * Ajustez votre pack avec les boutons **+ / –**
 * Activez/désactivez l'enrichissement à tout moment
 

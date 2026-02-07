@@ -20,7 +20,7 @@ Discover → Like → Activate → Prospecter → Monitor
 
 Des leads recommandés par l'IA en fonction de votre ICP, de vos affaires gagnées et de votre historique de likes/dislikes.
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-19 à 17.27.06.png" alt=""><figcaption><p>Onglet Discover</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-discover-tab.png" alt=""><figcaption><p>Onglet Discover</p></figcaption></figure>
 
 **Ce que vous voyez :**
 
@@ -51,7 +51,7 @@ Likez 10 à 20 leads par session pour de meilleurs résultats. Liker en masse di
 
 Votre pipeline : leads importés depuis un fichier, exportés depuis Discover ou synchronisés via Zapier. Utilisez Monitor pour scorer et suivre vos comptes existants.
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-19 à 15.53.41.png" alt=""><figcaption><p>Onglet Monitor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-monitor-tab.png" alt=""><figcaption><p>Onglet Monitor</p></figcaption></figure>
 
 **Statuts des leads :**
 
@@ -72,7 +72,7 @@ Les leads exportés depuis Discover apparaissent ici automatiquement. C'est pour
 
 Votre espace de prospection quotidien. Affiche les leads likés prêts à être contactés, classés par pertinence.
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-19 à 16.17.35.png" alt=""><figcaption><p>Onglet Activate</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot-activate-tab.png" alt=""><figcaption><p>Onglet Activate</p></figcaption></figure>
 
 **Classifications des leads :**
 

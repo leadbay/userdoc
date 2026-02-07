@@ -2,7 +2,7 @@
 
 Click any lead name to open its profile. The profile is your central view for understanding a company and deciding how to engage.
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-19 à 16.11.43.png" alt="" width="375"><figcaption><p>Lead profile</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot-lead-profile.png" alt=""><figcaption><p>Lead profile</p></figcaption></figure>
 
 ---
 

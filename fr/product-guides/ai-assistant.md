@@ -15,7 +15,9 @@ L'AI Assistant qualifie automatiquement les leads en répondant à des questions
 
 ## Configuration
 
-Ouvrez **AI Assistant** depuis le menu latéral (icône hamburger, en haut à gauche).
+Ouvrez **AI Assistant** depuis le menu latéral (icône hamburger, en haut à droite).
+
+<figure><img src="../../.gitbook/assets/screenshot-ai-assistant.png" alt=""><figcaption><p>Configuration de l'AI Assistant</p></figcaption></figure>
 
 ### Profil de l'assistant
 

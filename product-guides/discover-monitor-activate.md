@@ -20,7 +20,7 @@ Discover → Like → Activate → Prospect → Monitor
 
 AI-recommended leads based on your ICP (Ideal Customer Profile), past wins, and like/dislike history.
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-19 à 17.27.06.png" alt=""><figcaption><p>Discover tab</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot-discover-tab.png" alt=""><figcaption><p>Discover tab</p></figcaption></figure>
 
 **What you see:**
 
@@ -51,7 +51,7 @@ Like 10-20 leads per session for best results. Mass-liking dilutes the signal to
 
 Your pipeline: leads imported from a file, exported from Discover, or synced via Zapier. Use Monitor to score and track your existing accounts.
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-19 à 15.53.41.png" alt=""><figcaption><p>Monitor tab</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot-monitor-tab.png" alt=""><figcaption><p>Monitor tab</p></figcaption></figure>
 
 **Columns:** Name, Description, Status, Location, Size, Data completeness.
 
@@ -80,7 +80,7 @@ Leads exported from Discover appear here automatically. That's why they "disappe
 
 Your daily prospecting workspace. Shows liked leads ready for action, ranked by relevance.
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-19 à 16.17.35.png" alt=""><figcaption><p>Activate tab</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot-activate-tab.png" alt=""><figcaption><p>Activate tab</p></figcaption></figure>
 
 **Columns:** Today's actions, Name, Description, Location, Source, Next step, Status, Last action.
 

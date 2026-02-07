@@ -65,31 +65,31 @@ You'll receive a **notification** (bell icon, top-right) when enrichments comple
 
 ### 5. How much does it cost?
 
-* **Email**: 1 credit (€0.06 per match)
-* **Phone number**: 10 credits (€0.60 per match)
+* **Email**: 1 token (€0.06 per match)
+* **Phone number**: 10 tokens (€0.60 per match)
 
 **Examples:**
 
 * Spend €30 → up to 500 matched emails **or** 50 phones
 * Spend €3,000 → up to 50,000 matched emails **or** 5,000 phones
 
-### 6. Subscription & Enrichment Credits
+### 6. Subscription & Enrichment Tokens
 
-Manage billing and enrichment credits from the **Subscription** tab in the side menu.
+Manage billing and enrichment tokens from the **Subscription** tab in the side menu.
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.58.17.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/screenshot-subscription.png" alt=""><figcaption><p>Subscription & enrichment tokens</p></figcaption></figure>
 
 #### Billing
 
 * Leadbay uses **Stripe** for secure billing
-* Click **"Manage my billing"** to update your payment method or subscription
+* Click **"Manage my subscription"** to update your payment method or subscription
 
-#### Enrichment Credits
+#### Enrichment Tokens
 
-* You have a monthly pack of enrichment credits (default: **1,000 credits/month**)
-* The progress bar shows how many credits you've used
-* You're **only charged credits when enrichment is successful**
-* Adjust your monthly credit pack using the **+ / –** buttons
+* You have a monthly pack of enrichment tokens (default varies by plan)
+* The progress bar shows how many tokens you've used
+* You're **only charged tokens when enrichment is successful**
+* Adjust your monthly token pack using the **+ / –** buttons
 * Toggle enrichment **On/Off** at any time using the switch
 
 ### 7. Privacy

@@ -15,7 +15,9 @@ The AI Assistant automatically qualifies leads by answering custom questions abo
 
 ## Configuration
 
-Open **AI Assistant** from the side menu (hamburger icon, top-left).
+Open **AI Assistant** from the side menu (hamburger icon, top-right).
+
+<figure><img src="../.gitbook/assets/screenshot-ai-assistant.png" alt=""><figcaption><p>AI Assistant configuration</p></figcaption></figure>
 
 ### Assistant Profile
 
