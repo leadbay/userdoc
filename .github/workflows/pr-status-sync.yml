@@ -1,0 +1,188 @@
+name: Sync PR status to linked issues
+
+on:
+  pull_request:
+    types: [opened, ready_for_review]
+
+jobs:
+  sync-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update linked issue status
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PROJECT_TOKEN }}
+          script: |
+            const pr = context.payload.pull_request;
+            const isDraft = pr.draft;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            // Determine target status based on PR state
+            // Note: Status names must match exactly (case-sensitive)
+            const targetStatus = isDraft ? 'In Progress' : 'In review';
+            console.log(`PR #${pr.number} is ${isDraft ? 'draft' : 'ready'}, target status: ${targetStatus}`);
+
+            // Get linked issues via GraphQL closingIssuesReferences
+            const linkedIssuesQuery = `
+              query($owner: String!, $repo: String!, $pr: Int!) {
+                repository(owner: $owner, name: $repo) {
+                  pullRequest(number: $pr) {
+                    closingIssuesReferences(first: 10) {
+                      nodes {
+                        number
+                        id
+                        repository {
+                          owner { login }
+                          name
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+
+            const linkedResult = await github.graphql(linkedIssuesQuery, {
+              owner,
+              repo,
+              pr: pr.number
+            });
+
+            const linkedIssues = linkedResult.repository.pullRequest.closingIssuesReferences.nodes;
+
+            if (linkedIssues.length === 0) {
+              console.log('No linked issues found');
+              return;
+            }
+
+            console.log(`Found ${linkedIssues.length} linked issue(s)`);
+
+            // Get the organization's "Product" project
+            const projectQuery = `
+              query($org: String!) {
+                organization(login: $org) {
+                  projectsV2(first: 20) {
+                    nodes {
+                      id
+                      title
+                      fields(first: 20) {
+                        nodes {
+                          ... on ProjectV2SingleSelectField {
+                            id
+                            name
+                            options {
+                              id
+                              name
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+
+            const projectResult = await github.graphql(projectQuery, { org: owner });
+            const project = projectResult.organization.projectsV2.nodes.find(p => p.title === 'Product');
+
+            if (!project) {
+              console.log('Project "Product" not found');
+              return;
+            }
+
+            console.log(`Found project: ${project.title} (${project.id})`);
+
+            // Find the Status field and its options
+            const statusField = project.fields.nodes.find(f => f.name === 'Status');
+            if (!statusField) {
+              console.log('Status field not found in project');
+              return;
+            }
+
+            const targetOption = statusField.options.find(o => o.name === targetStatus);
+            if (!targetOption) {
+              console.log(`Status option "${targetStatus}" not found. Available: ${statusField.options.map(o => o.name).join(', ')}`);
+              return;
+            }
+
+            console.log(`Status field: ${statusField.id}, Target option: ${targetOption.name} (${targetOption.id})`);
+
+            // Process each linked issue
+            for (const issue of linkedIssues) {
+              const issueOwner = issue.repository.owner.login;
+              const issueRepo = issue.repository.name;
+
+              console.log(`Processing issue #${issue.number} from ${issueOwner}/${issueRepo}`);
+
+              // Find the project item for this issue
+              const itemQuery = `
+                query($issueId: ID!) {
+                  node(id: $issueId) {
+                    ... on Issue {
+                      projectItems(first: 10) {
+                        nodes {
+                          id
+                          project {
+                            id
+                            title
+                          }
+                          fieldValueByName(name: "Status") {
+                            ... on ProjectV2ItemFieldSingleSelectValue {
+                              name
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              `;
+
+              const itemResult = await github.graphql(itemQuery, { issueId: issue.id });
+              const projectItem = itemResult.node.projectItems.nodes.find(
+                item => item.project.id === project.id
+              );
+
+              if (!projectItem) {
+                console.log(`Issue #${issue.number} is not in the "Product" project, skipping`);
+                continue;
+              }
+
+              const currentStatus = projectItem.fieldValueByName?.name || 'None';
+              console.log(`Issue #${issue.number} current status: ${currentStatus}`);
+
+              // Only update if moving from Todo to In Progress (for draft PRs)
+              if (isDraft && currentStatus !== 'Todo') {
+                console.log(`Skipping: draft PR but issue status is "${currentStatus}", not "Todo"`);
+                continue;
+              }
+
+              // Update the status
+              const updateMutation = `
+                mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
+                  updateProjectV2ItemFieldValue(
+                    input: {
+                      projectId: $projectId
+                      itemId: $itemId
+                      fieldId: $fieldId
+                      value: { singleSelectOptionId: $optionId }
+                    }
+                  ) {
+                    projectV2Item {
+                      id
+                    }
+                  }
+                }
+              `;
+
+              await github.graphql(updateMutation, {
+                projectId: project.id,
+                itemId: projectItem.id,
+                fieldId: statusField.id,
+                optionId: targetOption.id
+              });
+
+              console.log(`Updated issue #${issue.number} status to "${targetStatus}"`);
+            }
