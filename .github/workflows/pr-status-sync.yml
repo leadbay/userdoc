@@ -153,12 +153,6 @@ jobs:
               const currentStatus = projectItem.fieldValueByName?.name || 'None';
               console.log(`Issue #${issue.number} current status: ${currentStatus}`);
 
-              // Only update if moving from Todo to In Progress (for draft PRs)
-              if (isDraft && currentStatus !== 'Todo') {
-                console.log(`Skipping: draft PR but issue status is "${currentStatus}", not "Todo"`);
-                continue;
-              }
-
               // Update the status
               const updateMutation = `
                 mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
