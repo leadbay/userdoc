@@ -53,6 +53,14 @@ The AI will attempt to answer each question for every lead in your pipeline. Ans
 
 Toggle **Agent mode** on to have the AI proactively suggest next steps and approach angles for each lead. When enabled, lead profiles include AI-generated recommendations for how to engage.
 
+### Refine Results
+
+In addition to qualification questions, you can describe your ideal lead in free text using the **Refine results** prompt. This works like a search instruction — tell the AI what kind of companies you are looking for, and it will adjust its recommendations accordingly.
+
+The text prompt complements your filters and questions: filters set hard boundaries, questions qualify individual leads, and the text prompt guides the overall direction of recommendations.
+
+<figure><img src="../.gitbook/assets/screenshot-taste-profile.png" alt="Refine results"><figcaption><p>Enter a text description to guide AI recommendations</p></figcaption></figure>
+
 ---
 
 ## Impact on Scoring

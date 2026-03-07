@@ -4,7 +4,24 @@ Leadbay publie des mises à jour chaque semaine. Voici les étapes majeures.
 
 ---
 
+## Mars 2026
+
+- **Requalify** : le bouton « Fetch web insights » s'appelle désormais **Requalify** — un clic pour récupérer des données actualisées depuis le site web d'un lead et relancer l'évaluation IA complète.
+
 ## Février 2026
+
+- **Affiner les résultats avec l'IA** : décrivez en texte libre le type de leads que vous recherchez. L'IA utilise votre description comme consigne de recherche pour affiner ses recommandations — comme si vous expliquiez votre besoin à un collègue.
+
+<figure><img src="../../.gitbook/assets/screenshot-taste-profile.png" alt="Dialogue Affiner les résultats avec l'IA"><figcaption><p>Décrivez votre lead idéal avec vos propres mots</p></figcaption></figure>
+
+- **Raisonnement IA visible** : l'IA affiche désormais son raisonnement de qualification directement dans les fiches leads — suivez étape par étape comment le modèle évalue chaque entreprise par rapport à vos critères.
+
+<figure><img src="../../.gitbook/assets/screenshot-stream-of-consciousness.png" alt="Raisonnement de qualification dans la fiche lead"><figcaption><p>Questions de qualification et raisonnement IA dans la fiche lead</p></figcaption></figure>
+
+- **Filiales sur la carte** : les filiales apparaissent désormais sur la vue carte aux côtés des sociétés mères, offrant une vision géographique complète des groupes d'entreprises.
+- **Page de connexion redesignée** : une expérience de connexion entièrement repensée avec une mise en page plus claire et un nouveau branding.
+
+<figure><img src="../../.gitbook/assets/screenshot-login-page.png" alt="Nouvelle page de connexion Leadbay"><figcaption><p>La nouvelle page de connexion Leadbay</p></figcaption></figure>
 
 - **Export des contacts enrichis** : l'export CSV inclut désormais les contacts enrichis avec entreprise, nom, prénom, téléphone, email, poste et profil LinkedIn.
 - **Enrichissement en masse** : sélectionnez plusieurs leads, choisissez les postes cibles et enrichissez les contacts par lot.

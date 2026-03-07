@@ -70,15 +70,15 @@ Shows related entities and child companies within the same corporate group. Usef
 
 ---
 
-## Web Insights
+## Requalify
 
-Click **Fetch web insights** to pull fresh data from the company's website:
+Click **Requalify** to pull fresh data from the company's website and re-run the AI assessment:
 
 - **Company profile**: activities, products, services, employee count, target market
 - **Key people & organization**: decision-makers and org structure
 - **Technologies & Innovation**: tools and software the company uses
 
-Results are cached — you can re-fetch anytime for updated data.
+Results are cached — you can requalify anytime for an updated assessment based on the latest website data.
 
 ---
 
@@ -91,3 +91,9 @@ If the [AI Assistant](ai-assistant.md) is configured:
 - **Predicted next steps** and recommended approach angles
 
 These help you prepare before reaching out, without manual research.
+
+### AI Reasoning
+
+When the AI qualifies a lead, it can display its reasoning process. You can read step-by-step how the model interprets public data, web insights, and your qualification questions to reach its assessment. This transparency helps you understand — and trust — the AI's recommendations.
+
+<figure><img src="../.gitbook/assets/screenshot-stream-of-consciousness.png" alt="AI qualification reasoning"><figcaption><p>The AI's reasoning, visible in the lead profile</p></figcaption></figure>
