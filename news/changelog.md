@@ -4,7 +4,24 @@ Leadbay ships updates every week. Below are the major milestones.
 
 ---
 
+## March 2026
+
+- **Requalify**: the "Fetch web insights" button is now called **Requalify** — one click to pull fresh data from a lead's website and re-run the full AI assessment.
+
 ## February 2026
+
+- **Refine results with AI**: describe the kind of leads you're looking for in plain text. The AI uses your description as a search prompt to refine recommendations — like telling a colleague what you need.
+
+<figure><img src="../.gitbook/assets/screenshot-taste-profile.png" alt="Refine results with AI dialog"><figcaption><p>Describe your ideal lead in your own words</p></figcaption></figure>
+
+- **AI reasoning visible**: the AI now shows its qualification reasoning directly in lead profiles — see step-by-step how the model evaluates each company against your criteria.
+
+<figure><img src="../.gitbook/assets/screenshot-stream-of-consciousness.png" alt="AI qualification reasoning in the lead profile"><figcaption><p>Qualification questions and AI reasoning in the lead profile</p></figcaption></figure>
+
+- **Subsidiary locations on map**: subsidiary company locations now appear on the map view alongside parent companies, giving a complete geographic picture of corporate groups.
+- **Redesigned login page**: completely refreshed login experience with a cleaner layout and new branding.
+
+<figure><img src="../.gitbook/assets/screenshot-login-page.png" alt="New Leadbay login page"><figcaption><p>The new Leadbay login page</p></figcaption></figure>
 
 - **Enriched contacts export**: CSV export now includes enriched contacts with company, last name, first name, phone number, email, job title, and LinkedIn profile.
 - **Bulk contact enrichment**: select multiple leads from any tab, choose target job titles, and enrich contacts in batch.

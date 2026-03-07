@@ -53,6 +53,14 @@ L'IA tentera de répondre à chaque question pour chaque lead de votre pipeline.
 
 Activez le **mode Agent** pour que l'IA suggère proactivement des prochaines étapes et des angles d'approche pour chaque lead. Lorsqu'il est activé, les fiches leads incluent des recommandations générées par l'IA sur la meilleure manière d'engager la conversation.
 
+### Affiner les résultats
+
+En plus des questions de qualification, vous pouvez décrire votre lead idéal en texte libre grâce au bouton **Refine results**. Cela fonctionne comme une consigne de recherche : expliquez à l'IA le type d'entreprises que vous recherchez, et elle ajustera ses recommandations en conséquence.
+
+La consigne textuelle complète vos filtres et questions : les filtres définissent des limites strictes, les questions qualifient chaque lead individuellement, et la consigne textuelle oriente la direction globale des recommandations.
+
+<figure><img src="../../.gitbook/assets/screenshot-taste-profile.png" alt="Affiner les résultats"><figcaption><p>Saisissez une description textuelle pour guider les recommandations IA</p></figcaption></figure>
+
 ---
 
 ## Impact sur le scoring

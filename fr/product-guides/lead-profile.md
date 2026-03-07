@@ -70,15 +70,15 @@ Entités liées et filiales au sein du même groupe. Utile pour étendre votre p
 
 ---
 
-## Web Insights
+## Requalify
 
-Cliquez sur **Fetch web insights** pour récupérer des données actualisées depuis le site web de l'entreprise :
+Cliquez sur **Requalify** pour récupérer des données actualisées depuis le site web de l'entreprise et relancer l'évaluation IA :
 
 - **Profil entreprise** : activités, produits, services, effectifs, marché cible
 - **Personnes clés et organisation** : décideurs et organigramme
 - **Technologies et innovation** : outils et logiciels utilisés
 
-Les résultats sont mis en cache — vous pouvez relancer la récupération à tout moment pour des données à jour.
+Les résultats sont mis en cache — vous pouvez requalifier à tout moment pour obtenir une évaluation à jour basée sur les dernières données du site web.
 
 ---
 
@@ -91,3 +91,9 @@ Si l'[AI Assistant](ai-assistant.md) est configuré :
 - Des **prochaines étapes suggérées** et angles d'approche recommandés
 
 Tout cela vous aide à préparer votre prise de contact sans recherche manuelle.
+
+### Raisonnement IA
+
+Lors de la qualification d'un lead, l'IA peut afficher son raisonnement. Vous pouvez suivre pas à pas comment le modèle interprète les données publiques, les web insights et vos questions de qualification pour aboutir à son évaluation. Cette transparence vous aide à comprendre — et à faire confiance — aux recommandations de l'IA.
+
+<figure><img src="../../.gitbook/assets/screenshot-stream-of-consciousness.png" alt="Raisonnement de qualification IA"><figcaption><p>Le raisonnement de l'IA, visible dans la fiche lead</p></figcaption></figure>
