@@ -110,3 +110,19 @@ Your daily prospecting workspace. Shows liked leads ready for action, ranked by 
 {% hint style="info" %}
 Aim for a 1:1 ratio between liked leads and prospecting actions. Liking without acting is "squirrel mode" — it doesn't close deals.
 {% endhint %}
+
+---
+
+## Search
+
+Find any lead instantly across all tabs — Discover, Monitor, and Activate.
+
+<figure><img src="../.gitbook/assets/screenshot-search.png" alt="Search dialog with suggestions"><figcaption><p>Search for leads by name across all tabs</p></figcaption></figure>
+
+**How to search:**
+
+- Press **⌘K** (Mac) or **Ctrl+K** (Windows/Linux) to open the search dialog
+- Type a company name — suggestions appear as you type
+- Click a result to jump directly to the lead profile
+
+Search results indicate which tab each lead belongs to, so you always know where you are in the pipeline.

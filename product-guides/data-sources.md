@@ -66,3 +66,13 @@ Zapier automates data flow between Leadbay and thousands of other apps — inclu
 {% hint style="info" %}
 You only need to authorize the Leadbay-Zapier connection once. After that, all your Zaps can use it.
 {% endhint %}
+
+---
+
+## SFTP Connection
+
+For automated, recurring imports, Leadbay can connect directly to an SFTP server and sync a CSV file. The connector detects file changes and only re-imports when the content is updated.
+
+{% content-ref url="sftp-connector.md" %}
+[sftp-connector.md](sftp-connector.md)
+{% endcontent-ref %}

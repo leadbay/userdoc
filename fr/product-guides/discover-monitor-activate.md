@@ -110,3 +110,19 @@ Votre espace de prospection quotidien. Affiche les leads likés prêts à être 
 {% hint style="info" %}
 Visez un ratio 1:1 entre leads likés et actions de prospection. Liker sans agir, c'est le « mode écureuil » : ça ne conclut pas d'affaires.
 {% endhint %}
+
+---
+
+## Recherche
+
+Retrouvez n'importe quel lead instantanément dans tous les onglets — Discover, Monitor et Activate.
+
+<figure><img src="../../.gitbook/assets/screenshot-search.png" alt="Recherche avec suggestions"><figcaption><p>Recherchez des leads par nom dans tous les onglets</p></figcaption></figure>
+
+**Comment rechercher :**
+
+- Appuyez sur **⌘K** (Mac) ou **Ctrl+K** (Windows/Linux) pour ouvrir la recherche
+- Tapez un nom d'entreprise — des suggestions apparaissent au fil de la saisie
+- Cliquez sur un résultat pour accéder directement à la fiche lead
+
+Les résultats indiquent dans quel onglet se trouve chaque lead, pour vous situer immédiatement dans le pipeline.

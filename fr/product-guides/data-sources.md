@@ -66,3 +66,13 @@ Zapier automatise le flux de données entre Leadbay et des milliers d'applicatio
 {% hint style="info" %}
 Vous n'avez besoin d'autoriser la connexion Leadbay-Zapier qu'une seule fois. Après quoi, tous vos Zaps peuvent l'utiliser.
 {% endhint %}
+
+---
+
+## Connexion SFTP
+
+Pour des imports automatiques et récurrents, Leadbay peut se connecter directement à un serveur SFTP et synchroniser un fichier CSV. Le connecteur détecte les modifications et ne ré-importe que si le contenu a changé.
+
+{% content-ref url="sftp-connector.md" %}
+[sftp-connector.md](sftp-connector.md)
+{% endcontent-ref %}
