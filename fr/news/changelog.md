@@ -4,6 +4,18 @@ Leadbay publie des mises à jour chaque semaine. Voici les étapes majeures.
 
 ---
 
+## Avril 2026
+
+- **Connecteur SFTP** : connectez un serveur SFTP pour synchroniser automatiquement un fichier CSV avec vos leads. Leadbay détecte les modifications et ne ré-importe que si le fichier a changé. Réservé aux admins.
+
+<figure><img src="../../.gitbook/assets/screenshot-sftp-connector.png" alt="Formulaire du connecteur SFTP"><figcaption><p>Le formulaire de connexion SFTP</p></figcaption></figure>
+
+- **Recherche globale** : appuyez sur ⌘K (Mac) ou Ctrl+K pour rechercher des leads dans Discover, Monitor et Activate. Des suggestions apparaissent au fil de la saisie.
+
+<figure><img src="../../.gitbook/assets/screenshot-search.png" alt="Recherche globale avec suggestions"><figcaption><p>Recherchez des leads par nom — des suggestions apparaissent au fil de la saisie</p></figcaption></figure>
+- **Suivi des enrichissements échoués** : les fiches contacts indiquent désormais quels canaux d'enrichissement ont échoué, avec possibilité de relancer et info-bulles de date d'échec. Les contacts déjà échoués peuvent être ignorés lors de l'enrichissement en masse.
+- **Gestion des champs personnalisés** : les admins peuvent désormais ajouter et modifier des champs personnalisés directement depuis les paramètres Data Sources.
+
 ## Mars 2026
 
 - **Requalify** : le bouton « Fetch web insights » s'appelle désormais **Requalify** — un clic pour récupérer des données actualisées depuis le site web d'un lead et relancer l'évaluation IA complète.

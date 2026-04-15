@@ -4,6 +4,18 @@ Leadbay ships updates every week. Below are the major milestones.
 
 ---
 
+## April 2026
+
+- **SFTP connector**: connect an SFTP server to automatically sync a CSV file with your leads. Leadbay detects changes and re-imports only when the file is updated. Admin only.
+
+<figure><img src="../.gitbook/assets/screenshot-sftp-connector.png" alt="SFTP connector form"><figcaption><p>The SFTP connection form</p></figcaption></figure>
+
+- **Global search**: press ⌘K (Mac) or Ctrl+K to search for leads across Discover, Monitor, and Activate. Suggestions appear as you type.
+
+<figure><img src="../.gitbook/assets/screenshot-search.png" alt="Global search with suggestions"><figcaption><p>Search for leads by name — suggestions appear as you type</p></figcaption></figure>
+- **Failed enrichment tracking**: contact cards now show which enrichment channels failed, with retry options and failure date tooltips. Previously failed contacts can be skipped during bulk enrichment.
+- **Custom fields management**: admins can now add and edit custom fields directly from Data Sources settings.
+
 ## March 2026
 
 - **Requalify**: the "Fetch web insights" button is now called **Requalify** — one click to pull fresh data from a lead's website and re-run the full AI assessment.

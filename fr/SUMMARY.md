@@ -12,6 +12,7 @@
 * [Enrichissement de contacts](product-guides/contact-enrichment.md)
 * [Export](product-guides/export.md)
 * [Sources de données](product-guides/data-sources.md)
+* [Connecteur SFTP](product-guides/sftp-connector.md)
 * [Équipe & Organisation](product-guides/team-management.md)
 * [Tableau de bord Manager](product-guides/manager-dashboard.md)
 * [Installer l'application mobile](product-guides/install-mobile-app.md)
