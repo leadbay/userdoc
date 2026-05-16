@@ -31,6 +31,7 @@ AI-recommended leads based on your ICP (Ideal Customer Profile), past wins, and 
 | Description | Short AI-generated summary |
 | Location | City / region |
 | Size | Employee count range |
+| Recommended contact | The best contact Leadbay knows about — click to enrich |
 | Data | Data completeness indicator |
 
 **Key actions:**
@@ -38,6 +39,7 @@ AI-recommended leads based on your ICP (Ideal Customer Profile), past wins, and 
 - **Like** (thumbs up): tells the model "show me more like this." The lead moves to Activate.
 - **Dislike** (thumbs down): tells the model "not relevant." The lead is removed from Discover.
 - **Click a lead** to open its profile for details before deciding.
+- **Select leads** with the checkbox column, then use the floating action bar to **Qualify**, **Enrich**, or **Export**.
 
 <figure><img src="../.gitbook/assets/screenshot-discover-detail.png" alt=""><figcaption><p>Lead detail panel (split view)</p></figcaption></figure>
 
@@ -55,7 +57,7 @@ Your pipeline: leads imported from a file, exported from Discover, or synced via
 
 <figure><img src="../.gitbook/assets/screenshot-monitor-tab.png" alt=""><figcaption><p>Monitor tab</p></figcaption></figure>
 
-**Columns:** Name, Description, Status, Location, Size, Data completeness.
+**Columns:** Name, Description, Status, Location, Size, Recommended contact, Last action, Data, Actions.
 
 **Lead statuses:**
 
@@ -66,10 +68,23 @@ Your pipeline: leads imported from a file, exported from Discover, or synced via
 | WON | Deal closed successfully |
 | LOST | Deal lost |
 
-**Key actions:**
+### Filters
+
+Click the filter icon in the top-right toolbar to open the filter popover. Filters are Notion-style: stacked rows of **[field] [operator] [value]** joined with AND, plus two top-of-popover toggles.
+
+| Control | What it does |
+|---------|--------------|
+| **Only liked leads** | Restrict Monitor to leads you've liked |
+| **Include leads from organization** | Show leads your teammates interacted with, alongside your own — for a complete org-wide pipeline view |
+| **+ Add filter** | Add a [field] [operator] [value] row. Field picker is grouped into standard fields (Location, Sector, Size, Last action, Last action date) and CRM custom fields |
+| **Reset all** | Clear every filter at once |
+
+Custom-field text values auto-complete from your data as you type.
+
+### Other actions
 
 - Click a lead to open its profile and update its status
-- Use filters (via Lenses) to focus on specific segments
+- Switch between **List**, **Split**, **Map**, and **Dashboard** views using the view-mode toggle
 - Export leads to CSV
 
 {% hint style="info" %}
@@ -84,9 +99,9 @@ Your daily prospecting workspace. Shows liked leads ready for action, ranked by 
 
 <figure><img src="../.gitbook/assets/screenshot-activate-tab.png" alt=""><figcaption><p>Activate tab</p></figcaption></figure>
 
-**Columns:** Today's actions, Name, Description, Location, Source, Next step, Status, Last action.
+**Columns:** Today's actions, Name, Description, Location, Source, Next step, Recommended contact, Status, Last action.
 
-**Lead classifications:**
+**Lead classifications** (filter dropdown at the top-right):
 
 - **Activatable**: leads ready for outreach
 - **On hold**: paused leads

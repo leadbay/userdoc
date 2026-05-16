@@ -89,7 +89,7 @@ C'est votre terrain de jeu :
 
 * ouvrez la fiche d'un lead
 * demandez à l'IA de vous aider à le qualifier
-* lancez une recherche web
+* lancez une recherche web (Requalify)
 * préparez votre premier message ou votre appel
 
 💡 **Astuce Leadbay :** le chat IA vous aide à passer de la « découverte » au « contact » avec des insights très contextuels.

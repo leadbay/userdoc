@@ -4,6 +4,17 @@ Leadbay publie des mises à jour chaque semaine. Voici les étapes majeures.
 
 ---
 
+## Mai 2026
+
+- **Contacts épinglés dans la fiche lead** : épinglez les contacts qui comptent pour votre prise de contact en haut de la fiche. Le slot du contact recommandé continue d'apparaître automatiquement quand rien n'est épinglé ; épinglez-en un et il prend sa place. Plusieurs contacts peuvent être épinglés à la fois. Les pins sont au niveau de l'organisation, donc votre équipe voit la même priorisation.
+- **Filtres style Notion dans Monitor** : un popover de filtres focalisé en haut à droite de Monitor. Ajoutez autant de filtres que nécessaire avec des lignes [champ] [opérateur] [valeur], combinées en AND. Le sélecteur de champs est groupé en champs standards (Localisation, Secteur, Taille, Dernière action, Date de dernière action) et champs personnalisés CRM. Les valeurs texte des champs personnalisés s'auto-complètent depuis vos données.
+- **Vue Monitor à l'échelle de l'organisation** : un nouveau toggle **Inclure les leads provenant de l'organisation** en haut du popover de filtres de Monitor fait remonter les leads avec lesquels vos coéquipiers ont interagi — en plus des vôtres — pour une vue pipeline complète. Combinez-le avec **Uniquement les leads aimés** pour rester focalisé.
+- **Rôle Manager** : lors de l'invitation d'un membre, vous pouvez désormais le marquer comme **Manager** pour qu'il obtienne la visibilité sur l'activité de son équipe dans le Dashboard Manager. Le tableau des membres a une nouvelle colonne **Manager** indiquant qui supervise qui. Le compteur de sièges sur la page Organisation indique aussi combien sont managers.
+- **Déconnexion — cet appareil ou tous les appareils** : cliquer sur **Déconnexion** ouvre désormais un dialogue demandant si vous voulez vous déconnecter uniquement de cette session ou de chaque appareil et session de token agent/API d'un coup.
+- **Intégration Salesforce** : une nouvelle option Salesforce apparaît dans le sélecteur d'intégrations aux côtés de Zapier et SFTP — connectez vos données CRM directement.
+- **Affichage du score final affiné** : la décomposition du score sur les fiches leads a été resserrée — plus facile à lire en un coup d'œil.
+- **Serveur MCP Leadbay** : un tout nouveau serveur **Model Context Protocol** permet à Claude (Desktop, Code, Cowork) de récupérer des leads, les qualifier, enrichir des contacts et journaliser les actions de prospection pour vous — en utilisant votre compte Leadbay. Voir [Leadbay MCP](../product-guides/leadbay-mcp.md) pour le guide d'installation.
+
 ## Avril 2026
 
 - **Connecteur SFTP** : connectez un serveur SFTP pour synchroniser automatiquement un fichier CSV avec vos leads. Leadbay détecte les modifications et ne ré-importe que si le fichier a changé. Réservé aux admins.
@@ -13,6 +24,7 @@ Leadbay publie des mises à jour chaque semaine. Voici les étapes majeures.
 - **Recherche globale** : appuyez sur ⌘K (Mac) ou Ctrl+K pour rechercher des leads dans Discover, Monitor et Activate. Des suggestions apparaissent au fil de la saisie.
 
 <figure><img src="../../.gitbook/assets/screenshot-search.png" alt="Recherche globale avec suggestions"><figcaption><p>Recherchez des leads par nom — des suggestions apparaissent au fil de la saisie</p></figcaption></figure>
+
 - **Suivi des enrichissements échoués** : les fiches contacts indiquent désormais quels canaux d'enrichissement ont échoué, avec possibilité de relancer et info-bulles de date d'échec. Les contacts déjà échoués peuvent être ignorés lors de l'enrichissement en masse.
 - **Gestion des champs personnalisés** : les admins peuvent désormais ajouter et modifier des champs personnalisés directement depuis les paramètres Data Sources.
 
