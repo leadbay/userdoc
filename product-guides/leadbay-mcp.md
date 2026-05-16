@@ -112,6 +112,16 @@ When a new release ships, repeat **Step 1** (download the new `.mcpb`) and **Ste
 
 ---
 
+## Using Leadbay with Claude Desktop
+
+Claude Desktop is slower than Cowork to load MCP tools, so a couple of extra precautions help.
+
+After installing the Leadbay extension, **fully quit and relaunch Claude Desktop** (Cmd-Q on Mac, then reopen — not just closing the window). Open a new chat and wait about **30 seconds** before sending your first message. This gives Claude time to load the Leadbay tools.
+
+If your first message gets a response like *"I don't see any Leadbay tools"* or *"I can't find Leadbay in your setup"*, don't worry — the tools are still loading. Send any second message (even just *"try again"*) and Claude will pick them up. From that point on, the rest of your session works normally.
+
+---
+
 ## Troubleshooting
 
 | Symptom | Fix |
