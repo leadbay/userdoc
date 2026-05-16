@@ -4,6 +4,8 @@ Click any lead name to open its profile. The profile is your central view for un
 
 <figure><img src="../.gitbook/assets/screenshot-lead-profile.png" alt=""><figcaption><p>Lead profile</p></figcaption></figure>
 
+The profile is organized top-to-bottom in the order you typically need information: identity → who to talk to → AI take → qualification → deeper accordions.
+
 ---
 
 ## Header
@@ -12,10 +14,46 @@ At the top of every profile you'll find:
 
 - **Company name** and logo
 - **Tags**: location, employee size, sector
-- **Short description** (AI-generated from public data)
-- **Score** (0–99): how closely this lead matches your liked leads and won deals. Higher is better.
+- **Short description** (AI-generated from public data) — click **Read more** for the full version
+
+---
+
+## Recommended & Pinned Contacts
+
+Right under the header, you'll see either:
+
+- A **Recommended contact** — automatically selected by Leadbay based on your target persona
+- Or one or more **Pinned contacts** — contacts you (or a teammate) have explicitly chosen to keep at the top
+
+Click the pin icon on any org contact card to pin it. Pinning swaps the recommended contact for your pinned selection(s). Unpin them all and the recommended one re-appears. Pins are organization-level, so the rest of your team sees the same prioritization.
+
+Each pinned/recommended contact card is condensed — job title sits next to the name — and shows the phone, email, and LinkedIn at a glance.
+
+---
+
+## Requalify
+
+Click **Requalify** to pull fresh data from the company's website and re-run the full AI assessment:
+
+- **Company profile**: activities, products, services, employee count, target market
+- **Key people & organization**: decision-makers and org structure
+- **Technologies & Innovation**: tools and software the company uses
+
+Results are cached — you can requalify anytime for an updated assessment based on the latest website data.
+
+---
+
+## Score, Status & Likes
+
+- **Score** (0–99): how closely this lead matches your liked leads and won deals. The small badge next to it shows the AI **boost** contribution (positive / neutral / negative).
 - **Status**: click to change (NO STATUS, WANTED, WON, LOST)
 - **Like / Dislike** buttons
+
+---
+
+## Intent Tags
+
+Short colored tags that summarize why Leadbay flagged this company (e.g. "Fragmented SMB Market", "Hiring sales"). They reflect signals the AI surfaced while qualifying.
 
 ---
 
@@ -34,7 +72,27 @@ These actions appear in the Activate tab and are tracked in the Manager Dashboar
 
 ---
 
-## Tabs
+## AI Summary & Qualification
+
+If the [AI Assistant](ai-assistant.md) is configured:
+
+- An **AI summary** appears with context and predictions
+- **Qualification answers** show as indicators: 🟢 positive, 🔘 neutral, 🔴 negative
+- **Predicted next steps** and recommended approach angles
+
+These help you prepare before reaching out, without manual research.
+
+### AI Reasoning
+
+When the AI qualifies a lead, it can display its reasoning process. You can read step-by-step how the model interprets public data, web insights, and your qualification questions to reach its assessment. This transparency helps you understand — and trust — the AI's recommendations.
+
+<figure><img src="../.gitbook/assets/screenshot-stream-of-consciousness.png" alt="AI qualification reasoning"><figcaption><p>The AI's reasoning, visible in the lead profile</p></figcaption></figure>
+
+---
+
+## Accordion Sections
+
+Further down, expandable sections hold everything else:
 
 ### Company
 
@@ -67,33 +125,3 @@ Timeline of all interactions: status changes, likes, enrichments, exports. Helps
 ### Subsidiaries
 
 Shows related entities and child companies within the same corporate group. Useful for expanding prospecting within a group structure.
-
----
-
-## Requalify
-
-Click **Requalify** to pull fresh data from the company's website and re-run the AI assessment:
-
-- **Company profile**: activities, products, services, employee count, target market
-- **Key people & organization**: decision-makers and org structure
-- **Technologies & Innovation**: tools and software the company uses
-
-Results are cached — you can requalify anytime for an updated assessment based on the latest website data.
-
----
-
-## AI Summary & Qualification
-
-If the [AI Assistant](ai-assistant.md) is configured:
-
-- An **AI summary** appears with context and predictions
-- **Qualification answers** show as indicators: 🟢 positive, 🔘 neutral, 🔴 negative
-- **Predicted next steps** and recommended approach angles
-
-These help you prepare before reaching out, without manual research.
-
-### AI Reasoning
-
-When the AI qualifies a lead, it can display its reasoning process. You can read step-by-step how the model interprets public data, web insights, and your qualification questions to reach its assessment. This transparency helps you understand — and trust — the AI's recommendations.
-
-<figure><img src="../.gitbook/assets/screenshot-stream-of-consciousness.png" alt="AI qualification reasoning"><figcaption><p>The AI's reasoning, visible in the lead profile</p></figcaption></figure>

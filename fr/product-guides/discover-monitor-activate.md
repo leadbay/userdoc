@@ -31,6 +31,7 @@ Des leads recommandés par l'IA en fonction de votre ICP (Ideal Customer Profile
 | Description | Court résumé généré par l'IA |
 | Localisation | Ville / région |
 | Taille | Tranche d'effectifs |
+| Contact recommandé | Le meilleur contact connu par Leadbay — cliquez pour l'enrichir |
 | Data | Indicateur de complétude des données |
 
 **Actions principales :**
@@ -38,6 +39,7 @@ Des leads recommandés par l'IA en fonction de votre ICP (Ideal Customer Profile
 - **Like** (pouce vers le haut) : indique au modèle « montre-moi des leads similaires ». Le lead passe dans Activate.
 - **Dislike** (pouce vers le bas) : indique au modèle « pas pertinent ». Le lead est retiré de Discover.
 - **Cliquer sur un lead** pour ouvrir sa fiche et consulter les détails avant de décider.
+- **Sélectionnez des leads** via la colonne de cases à cocher, puis utilisez la barre d'actions flottante pour **Qualify**, **Enrichir** ou **Exporter**.
 
 <figure><img src="../../.gitbook/assets/screenshot-discover-detail.png" alt=""><figcaption><p>Panneau de détail d'un lead (vue scindée)</p></figcaption></figure>
 
@@ -55,7 +57,7 @@ Votre pipeline : leads importés depuis un fichier, exportés depuis Discover ou
 
 <figure><img src="../../.gitbook/assets/screenshot-monitor-tab.png" alt=""><figcaption><p>Onglet Monitor</p></figcaption></figure>
 
-**Colonnes :** Nom, Description, Statut, Localisation, Taille, Complétude des données.
+**Colonnes :** Nom, Description, Statut, Localisation, Taille, Contact recommandé, Dernière action, Données, Actions.
 
 **Statuts des leads :**
 
@@ -66,11 +68,24 @@ Votre pipeline : leads importés depuis un fichier, exportés depuis Discover ou
 | WON | Affaire conclue |
 | LOST | Affaire perdue |
 
-**Actions principales :**
+### Filtres
 
-- Cliquer sur un lead pour ouvrir sa fiche et modifier son statut
-- Utiliser les filtres (via les Lenses) pour se concentrer sur des segments précis
-- Exporter des leads en CSV
+Cliquez sur l'icône filtre en haut à droite pour ouvrir le popover. Les filtres sont de style Notion : des lignes empilées **[champ] [opérateur] [valeur]** combinées en AND, plus deux toggles en haut du popover.
+
+| Contrôle | Ce qu'il fait |
+|----------|--------------|
+| **Uniquement les leads aimés** | Limite Monitor aux leads que vous avez likés |
+| **Inclure les leads provenant de l'organisation** | Affiche les leads avec lesquels vos coéquipiers ont interagi, en plus des vôtres — pour une vue pipeline org-wide complète |
+| **+ Ajouter un filtre** | Ajoute une ligne [champ] [opérateur] [valeur]. Le sélecteur de champs est groupé en champs standards (Localisation, Secteur, Taille, Dernière action, Date de dernière action) et champs personnalisés CRM |
+| **Réinitialiser** | Efface tous les filtres d'un coup |
+
+Les valeurs texte des champs personnalisés s'auto-complètent depuis vos données au fil de la saisie.
+
+### Autres actions
+
+- Cliquez sur un lead pour ouvrir sa fiche et modifier son statut
+- Basculez entre les vues **Liste**, **Scindée**, **Carte** et **Dashboard** via le toggle de mode de vue
+- Exportez des leads en CSV
 
 {% hint style="info" %}
 Les leads exportés depuis Discover apparaissent ici automatiquement. C'est pourquoi ils « disparaissent » de Discover : ils ont intégré votre pipeline.
@@ -84,9 +99,9 @@ Votre espace de prospection quotidien. Affiche les leads likés prêts à être 
 
 <figure><img src="../../.gitbook/assets/screenshot-activate-tab.png" alt=""><figcaption><p>Onglet Activate</p></figcaption></figure>
 
-**Colonnes :** Actions du jour, Nom, Description, Localisation, Source, Prochaine étape, Statut, Dernière action.
+**Colonnes :** Actions du jour, Nom, Description, Localisation, Source, Prochaine étape, Contact recommandé, Statut, Dernière action.
 
-**Classifications des leads :**
+**Classifications des leads** (menu déroulant en haut à droite) :
 
 - **Activatable** : leads prêts pour la prise de contact
 - **On hold** : leads en pause

@@ -13,6 +13,7 @@
 * [Export](product-guides/export.md)
 * [Sources de données](product-guides/data-sources.md)
 * [Connecteur SFTP](product-guides/sftp-connector.md)
+* [Leadbay MCP pour Claude](product-guides/leadbay-mcp.md)
 * [Équipe & Organisation](product-guides/team-management.md)
 * [Tableau de bord Manager](product-guides/manager-dashboard.md)
 * [Installer l'application mobile](product-guides/install-mobile-app.md)

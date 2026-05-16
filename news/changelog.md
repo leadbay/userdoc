@@ -4,6 +4,17 @@ Leadbay ships updates every week. Below are the major milestones.
 
 ---
 
+## May 2026
+
+- **Pinned contacts on the lead profile**: pin the contacts that matter for your outreach to the top of the profile. The recommended contact slot still shows automatically when nothing is pinned; pin one and it takes its place. Several contacts can be pinned at once. Pins are org-level, so your team sees the same prioritization.
+- **Notion-style filters in Monitor**: a focused filter popover at the top-right of Monitor. Add as many filters as you need with [field] [operator] [value] rows, joined with AND. Field picker is grouped into standard fields (Location, Sector, Size, Last action, Last action date) and CRM custom fields. Custom-field text values auto-complete from your data.
+- **Organization-wide Monitor view**: a new **Include leads from organization** toggle at the top of the Monitor filter popover surfaces leads your teammates interacted with — alongside your own — for a complete pipeline view. Pair it with **Only liked leads** to keep things focused.
+- **Manager role**: when inviting a member, you can now mark them as a **Manager** so they get visibility into their team's activity in the Manager Dashboard. The members table has a new **Manager** column to show who covers whom. The seats counter on the Organization page also reports how many are managers.
+- **Logout — this device or all devices**: clicking **Logout** now opens a dialog asking whether you want to sign out of just this session or every device and agent/API token session at once.
+- **Salesforce integration**: a new Salesforce option appears in the integrations picker alongside Zapier and SFTP — connect your CRM data directly.
+- **Refined final-score display**: the score breakdown on lead profiles has been tightened — easier to read at a glance.
+- **Leadbay MCP server**: a brand-new **Model Context Protocol** server lets Claude (Desktop, Code, Cowork) pull leads, qualify them, enrich contacts, and log outreach on your behalf — using your Leadbay account. See [Leadbay MCP](../product-guides/leadbay-mcp.md) for the install walkthrough.
+
 ## April 2026
 
 - **SFTP connector**: connect an SFTP server to automatically sync a CSV file with your leads. Leadbay detects changes and re-imports only when the file is updated. Admin only.
@@ -13,6 +24,7 @@ Leadbay ships updates every week. Below are the major milestones.
 - **Global search**: press ⌘K (Mac) or Ctrl+K to search for leads across Discover, Monitor, and Activate. Suggestions appear as you type.
 
 <figure><img src="../.gitbook/assets/screenshot-search.png" alt="Global search with suggestions"><figcaption><p>Search for leads by name — suggestions appear as you type</p></figcaption></figure>
+
 - **Failed enrichment tracking**: contact cards now show which enrichment channels failed, with retry options and failure date tooltips. Previously failed contacts can be skipped during bulk enrichment.
 - **Custom fields management**: admins can now add and edit custom fields directly from Data Sources settings.
 

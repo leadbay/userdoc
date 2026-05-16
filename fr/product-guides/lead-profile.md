@@ -4,6 +4,8 @@ Cliquez sur le nom d'un lead pour ouvrir sa fiche. C'est votre vue centrale pour
 
 <figure><img src="../../.gitbook/assets/screenshot-lead-profile.png" alt=""><figcaption><p>Fiche lead</p></figcaption></figure>
 
+La fiche est organisée de haut en bas dans l'ordre où vous avez généralement besoin de l'information : identité → à qui parler → opinion de l'IA → qualification → accordéons détaillés.
+
 ---
 
 ## En-tête
@@ -12,10 +14,46 @@ En haut de chaque fiche, vous trouverez :
 
 - **Nom de l'entreprise** et logo
 - **Tags** : localisation, effectifs, secteur
-- **Description courte** (générée par l'IA à partir de données publiques)
-- **Score** (0–99) : degré de correspondance avec vos leads likés et affaires gagnées. Plus c'est élevé, mieux c'est.
+- **Description courte** (générée par l'IA à partir de données publiques) — cliquez sur **Read more** pour la version complète
+
+---
+
+## Contacts recommandés & épinglés
+
+Juste sous l'en-tête, vous verrez soit :
+
+- Un **contact recommandé** — sélectionné automatiquement par Leadbay en fonction de votre persona cible
+- Soit un ou plusieurs **contacts épinglés** — des contacts que vous (ou un coéquipier) avez explicitement choisi de garder en haut
+
+Cliquez sur l'icône pin de n'importe quelle carte contact org pour l'épingler. Épingler échange le contact recommandé pour votre (vos) sélection(s) épinglée(s). Désépinglez-les tous et le recommandé réapparaît. Les pins sont au niveau de l'organisation, donc le reste de votre équipe voit la même priorisation.
+
+Chaque carte de contact épinglé/recommandé est condensée — le poste apparaît à côté du nom — et affiche téléphone, email et LinkedIn d'un coup d'œil.
+
+---
+
+## Requalify
+
+Cliquez sur **Requalify** pour récupérer des données actualisées depuis le site web de l'entreprise et relancer l'évaluation IA :
+
+- **Profil entreprise** : activités, produits, services, effectifs, marché cible
+- **Personnes clés et organisation** : décideurs et organigramme
+- **Technologies et innovation** : outils et logiciels utilisés
+
+Les résultats sont mis en cache — vous pouvez requalifier à tout moment pour obtenir une évaluation à jour basée sur les dernières données du site web.
+
+---
+
+## Score, Statut & Likes
+
+- **Score** (0–99) : degré de correspondance avec vos leads likés et affaires gagnées. Le petit badge à côté affiche la contribution **boost** de l'IA (positif / neutre / négatif).
 - **Statut** : cliquez pour modifier (NO STATUS, WANTED, WON, LOST)
 - Boutons **Like / Dislike**
+
+---
+
+## Tags d'intention
+
+Tags colorés courts qui résument pourquoi Leadbay a remonté cette entreprise (ex. « Fragmented SMB Market », « Hiring sales »). Ils reflètent les signaux que l'IA a fait remonter lors de la qualification.
 
 ---
 
@@ -34,7 +72,27 @@ Ces actions apparaissent dans l'onglet Activate et sont suivies dans le Dashboar
 
 ---
 
-## Onglets
+## Résumé IA et qualification
+
+Si l'[AI Assistant](ai-assistant.md) est configuré :
+
+- Un **résumé IA** avec contexte et prédictions
+- Des **réponses de qualification** : 🟢 positif, 🔘 neutre, 🔴 négatif
+- Des **prochaines étapes suggérées** et angles d'approche recommandés
+
+Tout cela vous aide à préparer votre prise de contact sans recherche manuelle.
+
+### Raisonnement IA
+
+Lors de la qualification d'un lead, l'IA peut afficher son raisonnement. Vous pouvez suivre pas à pas comment le modèle interprète les données publiques, les web insights et vos questions de qualification pour aboutir à son évaluation. Cette transparence vous aide à comprendre — et à faire confiance — aux recommandations de l'IA.
+
+<figure><img src="../../.gitbook/assets/screenshot-stream-of-consciousness.png" alt="Raisonnement de qualification IA"><figcaption><p>Le raisonnement de l'IA, visible dans la fiche lead</p></figcaption></figure>
+
+---
+
+## Sections en accordéon
+
+Plus bas, des sections dépliables contiennent tout le reste :
 
 ### Entreprise
 
@@ -67,33 +125,3 @@ Chronologie de toutes les interactions : changements de statut, likes, enrichiss
 ### Filiales
 
 Entités liées et filiales au sein du même groupe. Utile pour étendre votre prospection au sein d'une structure de groupe.
-
----
-
-## Requalify
-
-Cliquez sur **Requalify** pour récupérer des données actualisées depuis le site web de l'entreprise et relancer l'évaluation IA :
-
-- **Profil entreprise** : activités, produits, services, effectifs, marché cible
-- **Personnes clés et organisation** : décideurs et organigramme
-- **Technologies et innovation** : outils et logiciels utilisés
-
-Les résultats sont mis en cache — vous pouvez requalifier à tout moment pour obtenir une évaluation à jour basée sur les dernières données du site web.
-
----
-
-## Résumé IA et qualification
-
-Si l'[AI Assistant](ai-assistant.md) est configuré :
-
-- Un **résumé IA** avec contexte et prédictions
-- Des **réponses de qualification** : 🟢 positif, 🔘 neutre, 🔴 négatif
-- Des **prochaines étapes suggérées** et angles d'approche recommandés
-
-Tout cela vous aide à préparer votre prise de contact sans recherche manuelle.
-
-### Raisonnement IA
-
-Lors de la qualification d'un lead, l'IA peut afficher son raisonnement. Vous pouvez suivre pas à pas comment le modèle interprète les données publiques, les web insights et vos questions de qualification pour aboutir à son évaluation. Cette transparence vous aide à comprendre — et à faire confiance — aux recommandations de l'IA.
-
-<figure><img src="../../.gitbook/assets/screenshot-stream-of-consciousness.png" alt="Raisonnement de qualification IA"><figcaption><p>Le raisonnement de l'IA, visible dans la fiche lead</p></figcaption></figure>

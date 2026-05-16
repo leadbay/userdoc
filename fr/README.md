@@ -27,3 +27,7 @@ _Recrutent-ils de manière saisonnière ? Ont-ils un CRM ? Sont-ils en croissanc
 {% content-ref url="product-guides/ai-assistant.md" %}
 [ai-assistant.md](product-guides/ai-assistant.md)
 {% endcontent-ref %}
+
+{% content-ref url="product-guides/leadbay-mcp.md" %}
+[leadbay-mcp.md](product-guides/leadbay-mcp.md)
+{% endcontent-ref %}

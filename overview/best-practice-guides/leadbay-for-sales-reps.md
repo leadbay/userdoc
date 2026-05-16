@@ -90,7 +90,7 @@ This is your playground:
 
 * open a lead’s profile
 * ask the AI to help you qualify it
-* launch a web search
+* launch a web search (Requalify)
 * draft your first message or prep your call
 
 💡 **Leadbay tip:** the chat AI helps you move seamlessly from “discovery” to “contact” with highly contextual insights.
