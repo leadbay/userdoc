@@ -14,7 +14,7 @@ The MCP server is open source and lives at [github.com/leadbay/leadclaw](https:/
 
 - A Leadbay account ([sign up here](https://leadbay.ai/) if you don't have one)
 - Claude Cowork (or any Claude client that supports MCP extensions)
-- Two minutes
+- One minute
 
 ---
 
@@ -26,30 +26,7 @@ Save it somewhere easy to find — your Downloads folder works.
 
 ---
 
-## Step 2 — Mint a Leadbay bearer token
-
-The extension needs a token to talk to Leadbay on your behalf.
-
-1. Open a terminal
-2. Run:
-
-   ```bash
-   npx -y @leadbay/mcp@latest login --email you@yourcompany.com --region us
-   ```
-
-   - Replace `you@yourcompany.com` with your Leadbay login email
-   - Use `--region us` if you signed up on the US instance, `--region fr` for the French instance
-
-3. You'll be prompted for your password (it's used once to authenticate, then discarded)
-4. The CLI prints a **bearer token** (starts with `u.`). Copy it — you'll paste it in Step 4
-
-{% hint style="warning" %}
-Treat the token like a password. Anyone with this token can act on your Leadbay account.
-{% endhint %}
-
----
-
-## Step 3 — Install the extension in Cowork
+## Step 2 — Install the extension in Cowork
 
 In Claude Cowork, go to:
 
@@ -63,17 +40,24 @@ Once installed, toggle the extension to **Enabled**.
 
 ---
 
-## Step 4 — Configure the token
+## Step 3 — Sign in with Leadbay
 
-Still in **Settings → Extensions**, find Leadbay in the list and click **Configure**.
+The first time Claude calls a Leadbay tool, it triggers a one-tap **Sign in with Leadbay** flow:
 
-- Paste your bearer token in the `LEADBAY_TOKEN` field
-- Set the `LEADBAY_REGION` field to match the one you used at login (`us` or `fr`)
-- Save
+1. A Leadbay login page opens in your browser
+2. Log in (or confirm your existing session)
+3. Click **Approve** to grant Claude access to your account
+4. The browser tab closes itself and Claude continues the conversation
+
+That's it — no tokens to mint, copy, paste, or rotate. The connection is scoped to your account and you can revoke it anytime from **Settings → Connected apps** in Leadbay.
+
+{% hint style="info" %}
+If you have access to both the US and EU instances of Leadbay, sign in on the instance you want Claude to use. You can switch later by signing out from the Leadbay extension in Cowork and signing back in on the other instance.
+{% endhint %}
 
 ---
 
-## Step 5 — Allow the tools
+## Step 4 — Allow the tools
 
 Leadbay ships two flavors of tools:
 
@@ -108,7 +92,7 @@ The full list of tools and recommended workflows is in the [LeadClaw README](htt
 
 ## Updating
 
-When a new release ships, repeat **Step 1** (download the new `.mcpb`) and **Step 3** (Install extension). Cowork replaces the old version in place; your token and permissions stay configured.
+When a new release ships, repeat **Step 1** (download the new `.mcpb`) and **Step 2** (Install extension). Cowork replaces the old version in place; your sign-in stays valid, so you don't need to re-authenticate.
 
 ---
 
@@ -126,8 +110,8 @@ If your first message gets a response like *"I don't see any Leadbay tools"* or 
 
 | Symptom | Fix |
 |---------|-----|
-| Claude says "not authenticated" or 401 errors | The token may have expired. Repeat **Step 2** to mint a fresh one and paste it in **Configure** |
+| Claude says "not authenticated" or 401 errors | Your sign-in may have expired or been revoked. Trigger any Leadbay tool again and Claude will re-prompt the **Sign in with Leadbay** flow |
 | Tools don't appear in Cowork | Make sure the extension toggle is **Enabled** in Settings → Extensions |
 | Tools appear but Claude won't call them | Open **Configure** and switch the tool groups to **Always allow** |
-| Wrong region (no leads / 404s) | Confirm `LEADBAY_REGION` matches where you signed up (`us` vs `fr`) |
+| Wrong instance (no leads / 404s) | Sign out from the Leadbay extension and sign back in on the right instance (US or EU) |
 | Other issue | File a bug at [github.com/leadbay/leadclaw/issues](https://github.com/leadbay/leadclaw/issues) |

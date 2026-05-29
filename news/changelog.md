@@ -14,6 +14,7 @@ Leadbay ships updates every week. Below are the major milestones.
 - **Salesforce integration**: a new Salesforce option appears in the integrations picker alongside Zapier and SFTP — connect your CRM data directly.
 - **Refined final-score display**: the score breakdown on lead profiles has been tightened — easier to read at a glance.
 - **Leadbay MCP server**: a brand-new **Model Context Protocol** server lets Claude (Desktop, Code, Cowork) pull leads, qualify them, enrich contacts, and log outreach on your behalf — using your Leadbay account. See [Leadbay MCP](../product-guides/leadbay-mcp.md) for the install walkthrough.
+- **OAuth sign-in for Leadbay MCP**: the MCP extension now authenticates with a one-tap **Sign in with Leadbay** flow on install — no more terminal, no more bearer tokens to mint, copy, paste, or rotate. Existing installs keep working; new ones are a single approval click. See [Leadbay MCP](../product-guides/leadbay-mcp.md) for the refreshed steps.
 
 ## April 2026
 

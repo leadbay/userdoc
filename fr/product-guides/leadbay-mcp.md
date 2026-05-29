@@ -14,7 +14,7 @@ Le serveur MCP est open source et se trouve sur [github.com/leadbay/leadclaw](ht
 
 - Un compte Leadbay ([inscrivez-vous ici](https://leadbay.ai/) si vous n'en avez pas)
 - Claude Cowork (ou tout client Claude qui supporte les extensions MCP)
-- Deux minutes
+- Une minute
 
 ---
 
@@ -26,30 +26,7 @@ Sauvegardez-le dans un endroit facile à retrouver — votre dossier Télécharg
 
 ---
 
-## Étape 2 — Générer un bearer token Leadbay
-
-L'extension a besoin d'un token pour parler à Leadbay en votre nom.
-
-1. Ouvrez un terminal
-2. Lancez :
-
-   ```bash
-   npx -y @leadbay/mcp@latest login --email vous@votreentreprise.com --region fr
-   ```
-
-   - Remplacez `vous@votreentreprise.com` par votre email de connexion Leadbay
-   - Utilisez `--region fr` si vous vous êtes inscrit sur l'instance française, `--region us` pour l'instance US
-
-3. Votre mot de passe vous sera demandé (utilisé une seule fois pour s'authentifier, puis jeté)
-4. La CLI imprime un **bearer token** (commence par `u.`). Copiez-le — vous le collerez à l'étape 4
-
-{% hint style="warning" %}
-Traitez le token comme un mot de passe. Quiconque a ce token peut agir sur votre compte Leadbay.
-{% endhint %}
-
----
-
-## Étape 3 — Installer l'extension dans Cowork
+## Étape 2 — Installer l'extension dans Cowork
 
 Dans Claude Cowork, allez dans :
 
@@ -63,17 +40,24 @@ Une fois installée, basculez l'extension sur **Enabled**.
 
 ---
 
-## Étape 4 — Configurer le token
+## Étape 3 — Se connecter avec Leadbay
 
-Toujours dans **Settings → Extensions**, trouvez Leadbay dans la liste et cliquez sur **Configure**.
+La première fois que Claude appelle un outil Leadbay, il déclenche un flux **Se connecter avec Leadbay** en un clic :
 
-- Collez votre bearer token dans le champ `LEADBAY_TOKEN`
-- Définissez le champ `LEADBAY_REGION` pour correspondre à celui utilisé lors du login (`us` ou `fr`)
-- Sauvegardez
+1. Une page de connexion Leadbay s'ouvre dans votre navigateur
+2. Connectez-vous (ou confirmez votre session existante)
+3. Cliquez sur **Approuver** pour donner à Claude l'accès à votre compte
+4. L'onglet du navigateur se ferme tout seul et Claude poursuit la conversation
+
+Et voilà — aucun token à générer, copier, coller ou faire tourner. La connexion est scopée à votre compte et vous pouvez la révoquer à tout moment depuis **Settings → Connected apps** dans Leadbay.
+
+{% hint style="info" %}
+Si vous avez accès aux deux instances de Leadbay (US et EU), connectez-vous sur celle que vous voulez que Claude utilise. Vous pouvez changer plus tard en vous déconnectant depuis l'extension Leadbay dans Cowork et en vous reconnectant sur l'autre instance.
+{% endhint %}
 
 ---
 
-## Étape 5 — Autoriser les outils
+## Étape 4 — Autoriser les outils
 
 Leadbay livre deux saveurs d'outils :
 
@@ -108,7 +92,7 @@ La liste complète des outils et des workflows recommandés est dans le [README 
 
 ## Mettre à jour
 
-Quand une nouvelle release sort, répétez l'**étape 1** (téléchargez le nouveau `.mcpb`) et l'**étape 3** (Install extension). Cowork remplace l'ancienne version en place ; votre token et vos permissions restent configurés.
+Quand une nouvelle release sort, répétez l'**étape 1** (téléchargez le nouveau `.mcpb`) et l'**étape 2** (Install extension). Cowork remplace l'ancienne version en place ; votre connexion reste valide, donc pas besoin de vous ré-authentifier.
 
 ---
 
@@ -126,8 +110,8 @@ Si votre premier message reçoit une réponse du genre *« Je ne vois pas d'outi
 
 | Symptôme | Solution |
 |----------|----------|
-| Claude dit « non authentifié » ou erreurs 401 | Le token a peut-être expiré. Refaites l'**étape 2** pour en générer un nouveau et collez-le dans **Configure** |
+| Claude dit « non authentifié » ou erreurs 401 | Votre connexion a peut-être expiré ou été révoquée. Déclenchez n'importe quel outil Leadbay et Claude vous reproposera le flux **Se connecter avec Leadbay** |
 | Les outils n'apparaissent pas dans Cowork | Vérifiez que l'extension est bien sur **Enabled** dans Settings → Extensions |
 | Les outils apparaissent mais Claude ne les appelle pas | Ouvrez **Configure** et passez les groupes d'outils en **Always allow** |
-| Mauvaise région (pas de leads / 404s) | Confirmez que `LEADBAY_REGION` correspond à l'endroit où vous vous êtes inscrit (`us` vs `fr`) |
+| Mauvaise instance (pas de leads / 404s) | Déconnectez-vous depuis l'extension Leadbay et reconnectez-vous sur la bonne instance (US ou EU) |
 | Autre problème | Ouvrez un bug sur [github.com/leadbay/leadclaw/issues](https://github.com/leadbay/leadclaw/issues) |
