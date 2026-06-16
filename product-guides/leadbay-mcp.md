@@ -2,7 +2,13 @@
 
 Give Claude (Desktop, Code, and Cowork) direct access to your Leadbay account. Once installed, Claude can pull leads, qualify them, enrich contacts, log outreach — all using your real data, with your permissions.
 
-This guide covers installation in **Claude Cowork** via the prebuilt `.mcpb` extension. Other clients (Claude Desktop, Cursor, Claude Code) are covered in the [Leadbay MCP README](https://github.com/leadbay/leadclaw#install).
+There are three ways to connect — pick the one that fits your client:
+
+- **Option A — Hosted connector:** paste a URL, nothing to install. Best for **Claude Desktop** and **ChatGPT**.
+- **Option B — One-command installer:** a guided wizard. Best for **Claude Desktop**, **Claude Code**, and **Cursor**.
+- **Option C — Manual `.mcpb` extension:** download and install by hand. Required for **Claude Cowork**.
+
+Advanced setup and other clients are covered in the [Leadbay MCP README](https://github.com/leadbay/leadclaw#install).
 
 {% hint style="info" %}
 The MCP server is open source and lives at [github.com/leadbay/leadclaw](https://github.com/leadbay/leadclaw). It uses **your** Leadbay account, so any action Claude takes is the same as if you'd done it yourself in the app.
@@ -13,12 +19,62 @@ The MCP server is open source and lives at [github.com/leadbay/leadclaw](https:/
 ## What you'll need
 
 - A Leadbay account ([sign up here](https://leadbay.ai/) if you don't have one)
-- Claude Cowork (or any Claude client that supports MCP extensions)
+- An AI assistant that supports MCP — Claude Desktop, Claude Cowork, Claude Code, Cursor, or ChatGPT
 - One minute
 
 ---
 
-## Step 1 — Download the latest extension
+## Option A — Hosted connector (no install)
+
+The fastest way: Leadbay runs a hosted MCP server, so you add a connector URL with nothing to download, update, or maintain. Pick the URL that matches your Leadbay instance:
+
+| Your Leadbay instance | Connector URL |
+|---|---|
+| EU / France | `https://leadbay-mcp-prod.fly.dev/fr/mcp` |
+| US | `https://leadbay-mcp-prod.fly.dev/mcp` |
+
+{% hint style="info" %}
+Not sure which instance you're on? Most accounts are EU/France — start with the `/fr/mcp` URL. If sign-in can't find your account, use the US URL instead.
+{% endhint %}
+
+**In Claude Desktop:**
+
+1. Open **Settings → Connectors → Add custom connector**.
+2. Paste the URL for your instance and confirm.
+3. The first time Claude uses a Leadbay tool, a **Sign in with Leadbay** page opens in your browser — log in and click **Approve**.
+
+**In ChatGPT:**
+
+1. Open **Settings → Apps → Add app**.
+2. Paste the same URL and follow the sign-in prompt.
+
+No tokens to copy or rotate. You can revoke access anytime from **Settings → Connected apps** in Leadbay.
+
+---
+
+## Option B — One-command installer
+
+Prefer a local setup, or using **Claude Code** or **Cursor**? One command installs Leadbay and signs you in. You'll need [Node.js](https://nodejs.org) 22 or newer.
+
+```bash
+npx -y -p @leadbay/mcp@latest installer
+```
+
+This opens a guided wizard that detects your installed clients (Claude Desktop, Claude Code, Cursor), adds Leadbay to the ones you pick, and runs the **Sign in with Leadbay** flow.
+
+To remove Leadbay later from every client the installer set up:
+
+```bash
+npx -y -p @leadbay/mcp@latest installer --uninstall
+```
+
+---
+
+## Option C — Manual `.mcpb` extension (Cowork)
+
+Claude Cowork installs MCP tools from a downloaded extension file. Use this method for Cowork (it also works for Claude Desktop).
+
+### Step 1 — Download the latest extension
 
 Open the [LeadClaw releases page](https://github.com/leadbay/leadclaw/releases/) and grab the latest `.mcpb` file (look for a name like `leadbay-X.Y.Z.mcpb` under the most recent release's **Assets**).
 
@@ -26,7 +82,7 @@ Save it somewhere easy to find — your Downloads folder works.
 
 ---
 
-## Step 2 — Install the extension in Cowork
+### Step 2 — Install the extension in Cowork
 
 In Claude Cowork, go to:
 
@@ -40,7 +96,7 @@ Once installed, toggle the extension to **Enabled**.
 
 ---
 
-## Step 3 — Sign in with Leadbay
+### Step 3 — Sign in with Leadbay
 
 The first time Claude calls a Leadbay tool, it triggers a one-tap **Sign in with Leadbay** flow:
 
@@ -57,7 +113,7 @@ If you have access to both the US and EU instances of Leadbay, sign in on the in
 
 ---
 
-## Step 4 — Allow the tools
+### Step 4 — Allow the tools
 
 Leadbay ships two flavors of tools:
 
@@ -92,7 +148,9 @@ The full list of tools and recommended workflows is in the [LeadClaw README](htt
 
 ## Updating
 
-When a new release ships, repeat **Step 1** (download the new `.mcpb`) and **Step 2** (Install extension). Cowork replaces the old version in place; your sign-in stays valid, so you don't need to re-authenticate.
+The hosted connector (**Option A**) always runs the latest version — there's nothing to update.
+
+For the manual `.mcpb` extension (**Option C**), when a new release ships, repeat **Step 1** (download the new `.mcpb`) and **Step 2** (Install extension). Cowork replaces the old version in place; your sign-in stays valid, so you don't need to re-authenticate.
 
 ---
 
@@ -111,6 +169,7 @@ If your first message gets a response like *"I don't see any Leadbay tools"* or 
 | Symptom | Fix |
 |---------|-----|
 | Claude says "not authenticated" or 401 errors | Your sign-in may have expired or been revoked. Trigger any Leadbay tool again and Claude will re-prompt the **Sign in with Leadbay** flow |
+| Hosted connector won't sign in ("couldn't register" or "can't find your account") | Make sure the URL matches your instance — `/fr/mcp` for EU/France, `/mcp` for US |
 | Tools don't appear in Cowork | Make sure the extension toggle is **Enabled** in Settings → Extensions |
 | Tools appear but Claude won't call them | Open **Configure** and switch the tool groups to **Always allow** |
 | Wrong instance (no leads / 404s) | Sign out from the Leadbay extension and sign back in on the right instance (US or EU) |
