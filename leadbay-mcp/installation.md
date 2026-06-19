@@ -1,17 +1,15 @@
-# Leadbay MCP for Claude
+# Installation
 
-Give Claude (Desktop, Code, and Cowork) direct access to your Leadbay account. Once installed, Claude can pull leads, qualify them, enrich contacts, log outreach — all using your real data, with your permissions.
-
-There are three ways to connect — pick the one that fits your client:
+Connecting Leadbay to Claude takes about a minute. There are three ways to connect — pick the one that fits your client:
 
 - **Option A — Hosted connector:** paste a URL, nothing to install. Best for **Claude Desktop** and **ChatGPT**.
 - **Option B — One-command installer:** a guided wizard. Best for **Claude Desktop**, **Claude Code**, and **Cursor**.
-- **Option C — Manual `.mcpb` extension:** download and install by hand. Required for **Claude Cowork**.
+- **Option C — Manual `.dxt` extension:** download and install by hand. Required for **Claude Cowork**.
 
 Advanced setup and other clients are covered in the [Leadbay MCP README](https://github.com/leadbay/leadclaw#install).
 
 {% hint style="info" %}
-The MCP server is open source and lives at [github.com/leadbay/leadclaw](https://github.com/leadbay/leadclaw). It uses **your** Leadbay account, so any action Claude takes is the same as if you'd done it yourself in the app.
+The MCP server uses **your** Leadbay account, so any action Claude takes is the same as if you'd done it yourself in the app.
 {% endhint %}
 
 ---
@@ -70,13 +68,13 @@ npx -y -p @leadbay/mcp@latest installer --uninstall
 
 ---
 
-## Option C — Manual `.mcpb` extension (Cowork)
+## Option C — Manual `.dxt` extension (Cowork)
 
 Claude Cowork installs MCP tools from a downloaded extension file. Use this method for Cowork (it also works for Claude Desktop).
 
 ### Step 1 — Download the latest extension
 
-Open the [LeadClaw releases page](https://github.com/leadbay/leadclaw/releases/) and grab the latest `.mcpb` file (look for a name like `leadbay-X.Y.Z.mcpb` under the most recent release's **Assets**).
+Open the [LeadClaw releases page](https://github.com/leadbay/leadclaw/releases/) and grab the latest `.dxt` file (look for a name like `leadbay-X.Y.Z.dxt` under the most recent release's **Assets**).
 
 Save it somewhere easy to find — your Downloads folder works.
 
@@ -88,7 +86,7 @@ In Claude Cowork, go to:
 
 **Settings → Extensions → Advanced → Install extension**
 
-Pick the `leadbay-X.Y.Z.mcpb` file you downloaded in Step 1.
+Pick the `leadbay-X.Y.Z.dxt` file you downloaded in Step 1.
 
 A dialog opens with the extension details. Click **Install**, then confirm with **Install** again.
 
@@ -130,7 +128,7 @@ To configure: in the Leadbay extension's **Configure** screen, set **Always allo
 
 ## Try it
 
-Open a Cowork conversation and ask:
+Open a conversation and ask:
 
 > *Pull today's top leads and tell me which two are worth opening this morning.*
 
@@ -146,14 +144,6 @@ The full list of tools and recommended workflows is in the [LeadClaw README](htt
 
 ---
 
-## Updating
-
-The hosted connector (**Option A**) always runs the latest version — there's nothing to update.
-
-For the manual `.mcpb` extension (**Option C**), when a new release ships, repeat **Step 1** (download the new `.mcpb`) and **Step 2** (Install extension). Cowork replaces the old version in place; your sign-in stays valid, so you don't need to re-authenticate.
-
----
-
 ## Using Leadbay with Claude Desktop
 
 Claude Desktop is slower than Cowork to load MCP tools, so a couple of extra precautions help.
@@ -161,6 +151,14 @@ Claude Desktop is slower than Cowork to load MCP tools, so a couple of extra pre
 After installing the Leadbay extension, **fully quit and relaunch Claude Desktop** (Cmd-Q on Mac, then reopen — not just closing the window). Open a new chat and wait about **30 seconds** before sending your first message. This gives Claude time to load the Leadbay tools.
 
 If your first message gets a response like *"I don't see any Leadbay tools"* or *"I can't find Leadbay in your setup"*, don't worry — the tools are still loading. Send any second message (even just *"try again"*) and Claude will pick them up. From that point on, the rest of your session works normally.
+
+---
+
+## Updating
+
+The hosted connector (**Option A**) always runs the latest version — there's nothing to update.
+
+For the manual `.dxt` extension (**Option C**), when a new release ships, repeat **Step 1** (download the new `.dxt`) and **Step 2** (Install extension). Cowork replaces the old version in place; your sign-in stays valid, so you don't need to re-authenticate.
 
 ---
 
