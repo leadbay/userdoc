@@ -21,6 +21,8 @@
 
 * [Qu'est-ce que Leadbay MCP ?](leadbay-mcp/what-is-leadbay-mcp.md)
 * [Installation](leadbay-mcp/installation.md)
+* [Référence des outils](leadbay-mcp/tools-reference.md)
+* [Exemples de prompts](leadbay-mcp/example-prompts.md)
 
 ## Bonnes Pratiques
 
