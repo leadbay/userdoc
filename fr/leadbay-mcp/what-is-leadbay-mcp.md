@@ -1,6 +1,8 @@
 # Qu'est-ce que Leadbay MCP ?
 
-Leadbay MCP donne à Claude un accès direct à votre compte Leadbay. Une fois connecté, vous pouvez demander à Claude — en langage naturel — de récupérer des leads, les qualifier, enrichir des contacts, rédiger des messages de prospection et journaliser vos actions. Claude effectue le travail avec **vos** vraies données et **vos** permissions, comme si vous l'aviez fait vous-même dans l'application.
+**Leadbay MCP connecte Claude à votre compte Leadbay : vous travaillez vos leads en demandant, tout simplement.**
+
+Récupérez des leads, qualifiez-les, rédigez votre prospection, journalisez vos actions — en langage naturel. Claude agit sur vos vraies données, avec vos permissions, exactement comme vous le feriez dans l'application.
 
 {% hint style="info" %}
 **MCP** signifie *Model Context Protocol* — un standard ouvert qui permet aux assistants IA comme Claude de se connecter de façon sécurisée à des outils et des données externes. Le serveur Leadbay MCP est open source et se trouve sur [github.com/leadbay/leadclaw](https://github.com/leadbay/leadclaw).
