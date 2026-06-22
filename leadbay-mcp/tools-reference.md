@@ -2,14 +2,7 @@
 
 When you connect Leadbay to Claude, the server exposes a set of **tools** that Claude calls on your behalf. You never call these directly — you ask in plain language ("pull today's leads", "research acme.com", "log that I emailed Jane") and Claude picks the right tool. This page is a reference for what's available and what each tool does.
 
-Tools come in two groups:
-
-- **Read-only** — pull data, never change anything. Always available.
-- **Write / activate** — take action on your account. On by default; an admin can disable them with `LEADBAY_MCP_WRITE=0`.
-
-{% hint style="info" %}
-This page covers the tools a normal user sees. There's also an **advanced** set of low-level, single-API-call tools for integrations and power users, hidden behind `LEADBAY_MCP_ADVANCED=1`. Most people never need them. The current source of truth for every tool is the [LeadClaw README](https://github.com/leadbay/leadclaw#tools).
-{% endhint %}
+Tools come in two groups: **read-only** (pull data, never change anything) and **write / activate** (take action on your account).
 
 ---
 

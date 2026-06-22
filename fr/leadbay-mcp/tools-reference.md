@@ -2,14 +2,7 @@
 
 Quand vous connectez Leadbay à Claude, le serveur expose un ensemble d'**outils** que Claude appelle pour vous. Vous ne les appelez jamais directement — vous demandez en langage naturel (« récupère les leads du jour », « recherche acme.com », « note que j'ai envoyé un email à Jane ») et Claude choisit le bon outil. Cette page est une référence de ce qui est disponible et de ce que fait chaque outil.
 
-Les outils se répartissent en deux groupes :
-
-- **Lecture seule** — récupèrent des données, ne modifient jamais rien. Toujours disponibles.
-- **Écriture / activation** — effectuent une action sur votre compte. Activés par défaut ; un administrateur peut les désactiver avec `LEADBAY_MCP_WRITE=0`.
-
-{% hint style="info" %}
-Cette page couvre les outils qu'un utilisateur normal voit. Il existe aussi un jeu d'outils **avancés**, de bas niveau (un appel API chacun), pour les intégrations et les utilisateurs experts, masqués derrière `LEADBAY_MCP_ADVANCED=1`. La plupart des gens n'en ont jamais besoin. La source de vérité à jour pour chaque outil est le [README LeadClaw](https://github.com/leadbay/leadclaw#tools).
-{% endhint %}
+Les outils se répartissent en deux groupes : **lecture seule** (récupèrent des données, ne modifient jamais rien) et **écriture / activation** (effectuent une action sur votre compte).
 
 ---
 
