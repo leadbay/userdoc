@@ -88,21 +88,13 @@ npx -y -p @leadbay/mcp@latest installer --uninstall
 
 ---
 
-## Try it
+## You're connected
 
-Open a conversation and ask:
+That's it — Leadbay is set up. Head to the Quickstart for your first prompt and what a successful result looks like.
 
-> *Pull today's top leads and tell me which two are worth opening this morning.*
-
-Claude will call `leadbay_pull_leads`, `leadbay_get_lead_profile`, and friends — and reply with a short, qualified shortlist.
-
-A few more prompts that work out of the box:
-
-- *Research acme.com — is it a fit for us?*
-- *Refine my audience to focus on EU companies hiring sales reps.*
-- *I just emailed Jane at Acme. Log it as outreach.*
-
-The full list of tools and recommended workflows is in the [LeadClaw README](https://github.com/leadbay/leadclaw#tools).
+{% content-ref url="quickstart.md" %}
+[Quickstart](quickstart.md)
+{% endcontent-ref %}
 
 ---
 
