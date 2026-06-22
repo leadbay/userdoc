@@ -20,27 +20,21 @@ Le serveur MCP utilise **votre** compte Leadbay, donc toute action prise par Cla
 
 ## Installer l'extension `.dxt` (recommandé)
 
-La configuration la plus simple : téléchargez un seul fichier d'extension et installez-le.
+La configuration la plus simple : téléchargez un seul fichier d'extension et double-cliquez dessus.
 
 ### Étape 1 — Télécharger la dernière extension
 
-Ouvrez la [page des releases LeadClaw](https://github.com/leadbay/leadclaw/releases/) et récupérez le dernier fichier `.dxt` (cherchez un nom du type `leadbay-X.Y.Z.dxt` dans la section **Assets** de la release la plus récente).
-
-Sauvegardez-le dans un endroit facile à retrouver — votre dossier Téléchargements fonctionne.
+Ouvrez la [page des releases LeadClaw](https://github.com/leadbay/leadclaw/releases/latest) et téléchargez le dernier fichier `.dxt` (cherchez un nom du type `leadbay-X.Y.Z.dxt` dans la section **Assets** de la release).
 
 ---
 
-### Étape 2 — Installer l'extension
+### Étape 2 — Double-cliquer pour installer
 
-Dans Claude, allez dans :
+**Double-cliquez sur le fichier `.dxt` téléchargé.** Claude s'ouvre avec les détails de l'extension — cliquez sur **Install** pour confirmer, puis basculez l'extension sur **Enabled**. C'est tout.
 
-**Settings → Extensions → Advanced → Install extension**
-
-Sélectionnez le fichier `leadbay-X.Y.Z.dxt` que vous avez téléchargé à l'étape 1.
-
-Un dialogue s'ouvre avec les détails de l'extension. Cliquez sur **Install**, puis confirmez avec **Install** à nouveau.
-
-Une fois installée, basculez l'extension sur **Enabled**.
+{% hint style="info" %}
+Vous préférez installer depuis l'application ? Allez dans **Settings → Extensions → Advanced → Install extension** et sélectionnez le fichier `.dxt` au lieu de double-cliquer.
+{% endhint %}
 
 ---
 
@@ -78,13 +72,13 @@ Pour configurer : dans l'écran **Configure** de l'extension Leadbay, réglez **
 
 ## Alternative — installateur en une commande
 
-Vous préférez automatiser la configuration, ou vous utilisez **Claude Code** ou **Cursor** ? Une seule commande installe Leadbay et vous connecte. Il vous faut [Node.js](https://nodejs.org) 22 ou plus récent.
+Vous préférez automatiser la configuration, ou vous utilisez **Claude Code**, **Cursor** ou **Codex** ? Une seule commande installe Leadbay et vous connecte. Il vous faut [Node.js](https://nodejs.org) 22 ou plus récent.
 
 ```bash
 npx -y -p @leadbay/mcp@latest installer
 ```
 
-Cela ouvre un assistant guidé qui détecte vos clients installés (Claude Desktop, Claude Code, Cursor), ajoute Leadbay à ceux que vous choisissez, et lance le flux **Se connecter avec Leadbay**.
+Cela ouvre un assistant guidé qui détecte vos clients installés (Claude Desktop, Claude Code, Cursor, Codex), ajoute Leadbay à ceux que vous choisissez, et lance le flux **Se connecter avec Leadbay**.
 
 Pour retirer Leadbay plus tard de tous les clients configurés par l'installateur :
 

@@ -15,11 +15,11 @@ The recommended path is the **`.dxt` extension** — download one file and insta
 | Your client | Recommended path |
 |---|---|
 | **Claude Desktop** or **Claude Cowork** | **`.dxt` extension** — download from releases and install |
-| **Claude Code** or **Cursor** | **One-command installer** — `npx -y -p @leadbay/mcp@latest installer` |
+| **Claude Code**, **Cursor**, or **Codex** | **One-command installer** — `npx -y -p @leadbay/mcp@latest installer` |
 
-**`.dxt` extension** (recommended): download the latest `leadbay-X.Y.Z.dxt` from the [LeadClaw releases page](https://github.com/leadbay/leadclaw/releases/), then in Claude open **Settings → Extensions → Advanced → Install extension** and pick the file.
+**`.dxt` extension** (recommended): download the latest `leadbay-X.Y.Z.dxt` from the [LeadClaw releases page](https://github.com/leadbay/leadclaw/releases/latest), then **double-click it** to install in Claude.
 
-**One-command installer** (alternative — Code / Cursor, needs [Node.js](https://nodejs.org) 22+):
+**One-command installer** (alternative — Code / Cursor / Codex, needs [Node.js](https://nodejs.org) 22+):
 
 ```bash
 npx -y -p @leadbay/mcp@latest installer
@@ -81,10 +81,6 @@ Claude remembers the leads it surfaced, so you can keep referring to "the top on
 ---
 
 ## Where to next
-
-{% content-ref url="what-is-leadbay-mcp.md" %}
-[What is Leadbay MCP?](what-is-leadbay-mcp.md)
-{% endcontent-ref %}
 
 {% content-ref url="example-prompts.md" %}
 [Example prompts](example-prompts.md)

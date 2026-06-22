@@ -20,27 +20,21 @@ The MCP server uses **your** Leadbay account, so any action Claude takes is the 
 
 ## Install the `.dxt` extension (recommended)
 
-The simplest setup: download a single extension file and install it.
+The simplest setup: download a single extension file and double-click it.
 
 ### Step 1 — Download the latest extension
 
-Open the [LeadClaw releases page](https://github.com/leadbay/leadclaw/releases/) and grab the latest `.dxt` file (look for a name like `leadbay-X.Y.Z.dxt` under the most recent release's **Assets**).
-
-Save it somewhere easy to find — your Downloads folder works.
+Open the [LeadClaw releases page](https://github.com/leadbay/leadclaw/releases/latest) and download the latest `.dxt` file (look for a name like `leadbay-X.Y.Z.dxt` under the release's **Assets**).
 
 ---
 
-### Step 2 — Install the extension
+### Step 2 — Double-click to install
 
-In Claude, go to:
+**Double-click the downloaded `.dxt` file.** Claude opens with the extension details — click **Install** to confirm, then toggle the extension to **Enabled**. That's it.
 
-**Settings → Extensions → Advanced → Install extension**
-
-Pick the `leadbay-X.Y.Z.dxt` file you downloaded in Step 1.
-
-A dialog opens with the extension details. Click **Install**, then confirm with **Install** again.
-
-Once installed, toggle the extension to **Enabled**.
+{% hint style="info" %}
+Prefer to install from inside the app? Go to **Settings → Extensions → Advanced → Install extension** and pick the `.dxt` file instead of double-clicking.
+{% endhint %}
 
 ---
 
@@ -78,13 +72,13 @@ To configure: in the Leadbay extension's **Configure** screen, set **Always allo
 
 ## Alternative — one-command installer
 
-Prefer to automate the setup, or using **Claude Code** or **Cursor**? One command installs Leadbay and signs you in. You'll need [Node.js](https://nodejs.org) 22 or newer.
+Prefer to automate the setup, or using **Claude Code**, **Cursor**, or **Codex**? One command installs Leadbay and signs you in. You'll need [Node.js](https://nodejs.org) 22 or newer.
 
 ```bash
 npx -y -p @leadbay/mcp@latest installer
 ```
 
-This opens a guided wizard that detects your installed clients (Claude Desktop, Claude Code, Cursor), adds Leadbay to the ones you pick, and runs the **Sign in with Leadbay** flow.
+This opens a guided wizard that detects your installed clients (Claude Desktop, Claude Code, Cursor, Codex), adds Leadbay to the ones you pick, and runs the **Sign in with Leadbay** flow.
 
 To remove Leadbay later from every client the installer set up:
 
