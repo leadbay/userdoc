@@ -1,10 +1,6 @@
 # Installation
 
-Connecter Leadbay à Claude prend environ une minute. Il y a trois façons de se connecter — choisissez celle qui correspond à votre client :
-
-- **Option A — Connecteur hébergé :** collez une URL, rien à installer. Idéal pour **Claude Desktop** et **ChatGPT**.
-- **Option B — Installateur en une commande :** un assistant guidé. Idéal pour **Claude Desktop**, **Claude Code** et **Cursor**.
-- **Option C — Extension `.dxt` manuelle :** téléchargez et installez à la main. Requis pour **Claude Cowork**.
+Connecter Leadbay à Claude prend environ une minute. La méthode recommandée est l'**extension `.dxt`** — téléchargez un fichier et installez-le. Si vous préférez automatiser la configuration, l'**installateur en une commande** est une alternative.
 
 La configuration avancée et les autres clients sont couverts dans le [README Leadbay MCP](https://github.com/leadbay/leadclaw#install).
 
@@ -17,60 +13,14 @@ Le serveur MCP utilise **votre** compte Leadbay, donc toute action prise par Cla
 ## Ce dont vous avez besoin
 
 - Un compte Leadbay ([inscrivez-vous ici](https://leadbay.ai/) si vous n'en avez pas)
-- Un assistant IA qui supporte MCP — Claude Desktop, Claude Cowork, Claude Code, Cursor ou ChatGPT
+- Un assistant IA qui supporte MCP — Claude, Claude Code ou Codex
 - Une minute
 
 ---
 
-## Option A — Connecteur hébergé (sans installation)
+## Installer l'extension `.dxt` (recommandé)
 
-La façon la plus rapide : Leadbay héberge un serveur MCP, vous ajoutez donc une URL de connecteur sans rien à télécharger, mettre à jour ou maintenir. Choisissez l'URL qui correspond à votre instance Leadbay :
-
-| Votre instance Leadbay | URL du connecteur |
-|---|---|
-| UE / France | `https://leadbay-mcp-prod.fly.dev/fr/mcp` |
-| US | `https://leadbay-mcp-prod.fly.dev/mcp` |
-
-{% hint style="info" %}
-Vous ne savez pas sur quelle instance vous êtes ? La plupart des comptes sont en UE/France — commencez par l'URL `/fr/mcp`. Si la connexion ne trouve pas votre compte, utilisez l'URL US.
-{% endhint %}
-
-**Dans Claude Desktop :**
-
-1. Ouvrez **Settings → Connectors → Add custom connector**.
-2. Collez l'URL de votre instance et confirmez.
-3. La première fois que Claude utilise un outil Leadbay, une page **Se connecter avec Leadbay** s'ouvre dans votre navigateur — connectez-vous et cliquez sur **Approuver**.
-
-**Dans ChatGPT :**
-
-1. Ouvrez **Settings → Apps → Add app**.
-2. Collez la même URL et suivez l'invite de connexion.
-
-Aucun jeton à copier ou renouveler. Vous pouvez révoquer l'accès à tout moment depuis **Paramètres → Applications connectées** dans Leadbay.
-
----
-
-## Option B — Installateur en une commande
-
-Vous préférez une installation locale, ou vous utilisez **Claude Code** ou **Cursor** ? Une seule commande installe Leadbay et vous connecte. Il vous faut [Node.js](https://nodejs.org) 22 ou plus récent.
-
-```bash
-npx -y -p @leadbay/mcp@latest installer
-```
-
-Cela ouvre un assistant guidé qui détecte vos clients installés (Claude Desktop, Claude Code, Cursor), ajoute Leadbay à ceux que vous choisissez, et lance le flux **Se connecter avec Leadbay**.
-
-Pour retirer Leadbay plus tard de tous les clients configurés par l'installateur :
-
-```bash
-npx -y -p @leadbay/mcp@latest installer --uninstall
-```
-
----
-
-## Option C — Extension `.dxt` manuelle (Cowork)
-
-Claude Cowork installe les outils MCP à partir d'un fichier d'extension téléchargé. Utilisez cette méthode pour Cowork (elle fonctionne aussi pour Claude Desktop).
+La configuration la plus simple : téléchargez un seul fichier d'extension et installez-le.
 
 ### Étape 1 — Télécharger la dernière extension
 
@@ -80,9 +30,9 @@ Sauvegardez-le dans un endroit facile à retrouver — votre dossier Télécharg
 
 ---
 
-### Étape 2 — Installer l'extension dans Cowork
+### Étape 2 — Installer l'extension
 
-Dans Claude Cowork, allez dans :
+Dans Claude, allez dans :
 
 **Settings → Extensions → Advanced → Install extension**
 
@@ -106,7 +56,7 @@ La première fois que Claude appelle un outil Leadbay, il déclenche un flux **S
 C'est tout — aucun jeton à générer, copier, coller ou renouveler. La connexion est limitée à votre compte et vous pouvez la révoquer à tout moment depuis **Paramètres → Applications connectées** dans Leadbay.
 
 {% hint style="info" %}
-Si vous avez accès aux instances US et UE de Leadbay, connectez-vous sur l'instance que vous voulez que Claude utilise. Vous pouvez changer plus tard en vous déconnectant de l'extension Leadbay dans Cowork et en vous reconnectant sur l'autre instance.
+Si vous avez accès aux instances US et UE de Leadbay, connectez-vous sur l'instance que vous voulez que Claude utilise. Vous pouvez changer plus tard en vous déconnectant de l'extension Leadbay et en vous reconnectant sur l'autre instance.
 {% endhint %}
 
 ---
@@ -123,6 +73,24 @@ Leadbay propose deux familles d'outils :
 Les deux familles peuvent être autorisées en permanence sans risque, car le Leadbay MCP est **limité à votre compte** — il n'y a rien de destructeur au niveau de la plateforme. Régler les deux sur « toujours autoriser » permet à Claude de travailler en continu sans vous interrompre à chaque appel.
 
 Pour configurer : dans l'écran **Configure** de l'extension Leadbay, réglez **Always allow** pour le groupe d'outils en lecture seule et pour le groupe en écriture/suppression.
+
+---
+
+## Alternative — installateur en une commande
+
+Vous préférez automatiser la configuration, ou vous utilisez **Claude Code** ou **Cursor** ? Une seule commande installe Leadbay et vous connecte. Il vous faut [Node.js](https://nodejs.org) 22 ou plus récent.
+
+```bash
+npx -y -p @leadbay/mcp@latest installer
+```
+
+Cela ouvre un assistant guidé qui détecte vos clients installés (Claude Desktop, Claude Code, Cursor), ajoute Leadbay à ceux que vous choisissez, et lance le flux **Se connecter avec Leadbay**.
+
+Pour retirer Leadbay plus tard de tous les clients configurés par l'installateur :
+
+```bash
+npx -y -p @leadbay/mcp@latest installer --uninstall
+```
 
 ---
 
@@ -156,9 +124,9 @@ Si votre premier message reçoit une réponse du type *« Je ne vois aucun outil
 
 ## Mise à jour
 
-Le connecteur hébergé (**Option A**) exécute toujours la dernière version — il n'y a rien à mettre à jour.
+Pour l'**extension `.dxt`**, quand une nouvelle release sort, répétez l'**Étape 1** (télécharger le nouveau `.dxt`) et l'**Étape 2** (Install extension). Claude remplace l'ancienne version sur place ; votre connexion reste valide, vous n'avez donc pas à vous ré-authentifier.
 
-Pour l'extension `.dxt` manuelle (**Option C**), quand une nouvelle release sort, répétez l'**Étape 1** (télécharger le nouveau `.dxt`) et l'**Étape 2** (Install extension). Cowork remplace l'ancienne version sur place ; votre connexion reste valide, vous n'avez donc pas à vous ré-authentifier.
+L'**installateur en une commande** exécute toujours la dernière version — il n'y a rien à mettre à jour.
 
 ---
 
@@ -167,8 +135,7 @@ Pour l'extension `.dxt` manuelle (**Option C**), quand une nouvelle release sort
 | Symptôme | Solution |
 |---------|-----|
 | Claude dit « non authentifié » ou erreurs 401 | Votre connexion a peut-être expiré ou été révoquée. Déclenchez n'importe quel outil Leadbay à nouveau et Claude relancera le flux **Se connecter avec Leadbay** |
-| Le connecteur hébergé ne se connecte pas (« échec d'enregistrement » ou « compte introuvable ») | Vérifiez que l'URL correspond à votre instance — `/fr/mcp` pour UE/France, `/mcp` pour US |
-| Les outils n'apparaissent pas dans Cowork | Vérifiez que l'extension est bien sur **Enabled** dans Settings → Extensions |
+| Les outils n'apparaissent pas après l'installation | Vérifiez que l'extension est bien sur **Enabled** dans Settings → Extensions |
 | Les outils apparaissent mais Claude ne les appelle pas | Ouvrez **Configure** et basculez les groupes d'outils sur **Always allow** |
 | Connecté, mais « montre-moi les leads » renvoie une liste vide | Vous êtes bien connecté — il n'y a simplement rien à afficher pour l'instant. Demandez *« montre-moi mes lenses »* pour confirmer quelle audience est active et basculer si besoin, ou vérifiez que vous êtes sur la bonne instance (US vs UE) |
 | Mauvaise instance (aucun lead / erreurs 404) | Déconnectez-vous de l'extension Leadbay et reconnectez-vous sur la bonne instance (US ou UE) |

@@ -10,22 +10,16 @@ Il vous faut un [compte Leadbay](https://leadbay.ai/) et un assistant IA qui sup
 
 ## Étape 1 — Installer
 
-Choisissez la voie qui correspond à votre client. (Les détails complets de chacune sont dans le guide d'[Installation](installation.md).)
+La voie recommandée est l'**extension `.dxt`** — téléchargez un fichier et installez-le. (Les détails complets et les autres options sont dans le guide d'[Installation](installation.md).)
 
-| Votre client | Voie la plus rapide |
+| Votre client | Voie recommandée |
 |---|---|
-| **Claude Desktop** ou **ChatGPT** | **Connecteur hébergé** — collez une URL, rien à installer |
+| **Claude Desktop** ou **Claude Cowork** | **Extension `.dxt`** — téléchargez depuis les releases et installez |
 | **Claude Code** ou **Cursor** | **Installateur en une commande** — `npx -y -p @leadbay/mcp@latest installer` |
-| **Claude Cowork** | **Extension `.dxt` manuelle** — téléchargez depuis les releases et installez |
 
-**URL du connecteur hébergé** (Desktop / ChatGPT — ajoutez-la dans *Settings → Connectors → Add custom connector*) :
+**Extension `.dxt`** (recommandé) : téléchargez le dernier `leadbay-X.Y.Z.dxt` depuis la [page des releases LeadClaw](https://github.com/leadbay/leadclaw/releases/), puis dans Claude ouvrez **Settings → Extensions → Advanced → Install extension** et sélectionnez le fichier.
 
-| Instance | URL |
-|---|---|
-| UE / France | `https://leadbay-mcp-prod.fly.dev/fr/mcp` |
-| US | `https://leadbay-mcp-prod.fly.dev/mcp` |
-
-**Installateur en une commande** (Code / Cursor — nécessite [Node.js](https://nodejs.org) 22+) :
+**Installateur en une commande** (alternative — Code / Cursor, nécessite [Node.js](https://nodejs.org) 22+) :
 
 ```bash
 npx -y -p @leadbay/mcp@latest installer
