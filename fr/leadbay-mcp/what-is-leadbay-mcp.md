@@ -24,32 +24,13 @@ Claude lit vos leads, vos lenses et votre profil de goût, raisonne dessus, et r
 
 ---
 
-## Ce que Claude peut faire
-
-Leadbay expose ses capacités à Claude sous forme d'**outils**, regroupés en deux familles :
-
-| Famille | Ce qu'elle couvre | Exemples |
-|--------|---------------|----------|
-| **Lecture seule** | Récupère des données, ne modifie jamais rien | Récupérer des leads, parcourir les lenses, lire des profils de lead, rechercher des contacts, consulter le quota d'enrichissement |
-| **Écriture / activation** | Effectue des actions sur votre compte | Qualifier des leads, enrichir des contacts, ajouter des notes, importer des leads, journaliser la prospection, affiner votre audience |
-
-Tout est **limité à votre compte** — il n'y a rien de destructeur au niveau de la plateforme, et toute action prise par Claude est une action que vous pourriez prendre vous-même dans l'application.
-
-{% hint style="info" %}
-La liste complète et à jour des outils ainsi que les workflows recommandés se trouvent dans le [README LeadClaw](https://github.com/leadbay/leadclaw#tools).
-{% endhint %}
-
----
-
 ## Où ça fonctionne
 
 Leadbay MCP fonctionne avec tout assistant IA qui supporte le Model Context Protocol :
 
-- **Claude Desktop**
+- **Claude**
 - **Claude Code**
-- **Claude Cowork**
-- **Cursor**
-- **ChatGPT**
+- **Codex**
 
 ---
 
@@ -66,12 +47,6 @@ Quelques termes Leadbay reviennent dans les prompts et les réponses. Vous n'ave
 | **Lecture vs écriture** | Les outils en **lecture** récupèrent seulement des données (leads, profils, contacts) et ne changent jamais rien. Les outils en **écriture** effectuent une action (qualifier, enrichir, journaliser la prospection, modifier des lenses). Les deux sont limités à votre compte, et Claude confirme avant toute action qui écrit. |
 
 Ces notions sont détaillées dans les guides produit [Lenses](../product-guides/lenses.md) et [AI Assistant](../product-guides/ai-assistant.md).
-
----
-
-## Comment fonctionne la connexion
-
-Vous n'avez jamais à copier, coller ou renouveler de jetons d'API. La première fois que Claude appelle un outil Leadbay, une page **Se connecter avec Leadbay** s'ouvre dans votre navigateur — vous vous connectez, cliquez sur **Approuver**, et Claude est relié à votre compte. Vous pouvez révoquer l'accès à tout moment depuis **Paramètres → Applications connectées** dans Leadbay.
 
 ---
 

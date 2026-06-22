@@ -24,32 +24,13 @@ Claude reads your leads, lenses, and taste profile, reasons over them, and repli
 
 ---
 
-## What Claude can do
-
-Leadbay exposes its capabilities to Claude as **tools**, grouped into two flavors:
-
-| Flavor | What it covers | Examples |
-|--------|---------------|----------|
-| **Read-only** | Pulls data, never changes anything | Pull leads, browse lenses, read lead profiles, look up contacts, check enrichment quota |
-| **Write / activate** | Takes action on your account | Qualify leads, enrich contacts, add notes, import leads, report outreach, refine your audience |
-
-Everything is **scoped to your account** — there's nothing destructive at the platform level, and any action Claude takes is one you could take yourself in the app.
-
-{% hint style="info" %}
-The full, current list of tools and recommended workflows lives in the [LeadClaw README](https://github.com/leadbay/leadclaw#tools).
-{% endhint %}
-
----
-
 ## Where it works
 
 Leadbay MCP works with any AI assistant that supports the Model Context Protocol:
 
-- **Claude Desktop**
+- **Claude**
 - **Claude Code**
-- **Claude Cowork**
-- **Cursor**
-- **ChatGPT**
+- **Codex**
 
 ---
 
@@ -66,12 +47,6 @@ A few Leadbay terms show up in prompts and responses. You don't need to manage a
 | **Read vs write** | **Read** tools only pull data (leads, profiles, contacts) and never change anything. **Write** tools take action (qualify, enrich, log outreach, edit lenses). Both are scoped to your account, and Claude confirms before anything that writes. |
 
 These are covered in depth in the [Lenses](../product-guides/lenses.md) and [AI Assistant](../product-guides/ai-assistant.md) product guides.
-
----
-
-## How sign-in works
-
-You never copy, paste, or rotate API tokens. The first time Claude calls a Leadbay tool, a **Sign in with Leadbay** page opens in your browser — you log in, click **Approve**, and Claude is connected to your account. You can revoke access anytime from **Settings → Connected apps** in Leadbay.
 
 ---
 
