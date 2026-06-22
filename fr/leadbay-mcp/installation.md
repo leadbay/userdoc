@@ -170,5 +170,6 @@ Pour l'extension `.dxt` manuelle (**Option C**), quand une nouvelle release sort
 | Le connecteur hébergé ne se connecte pas (« échec d'enregistrement » ou « compte introuvable ») | Vérifiez que l'URL correspond à votre instance — `/fr/mcp` pour UE/France, `/mcp` pour US |
 | Les outils n'apparaissent pas dans Cowork | Vérifiez que l'extension est bien sur **Enabled** dans Settings → Extensions |
 | Les outils apparaissent mais Claude ne les appelle pas | Ouvrez **Configure** et basculez les groupes d'outils sur **Always allow** |
+| Connecté, mais « montre-moi les leads » renvoie une liste vide | Vous êtes bien connecté — il n'y a simplement rien à afficher pour l'instant. Demandez *« montre-moi mes lenses »* pour confirmer quelle audience est active et basculer si besoin, ou vérifiez que vous êtes sur la bonne instance (US vs UE) |
 | Mauvaise instance (aucun lead / erreurs 404) | Déconnectez-vous de l'extension Leadbay et reconnectez-vous sur la bonne instance (US ou UE) |
 | Autre problème | Signalez un bug sur [github.com/leadbay/leadclaw/issues](https://github.com/leadbay/leadclaw/issues) |

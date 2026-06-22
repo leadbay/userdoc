@@ -170,5 +170,6 @@ For the manual `.dxt` extension (**Option C**), when a new release ships, repeat
 | Hosted connector won't sign in ("couldn't register" or "can't find your account") | Make sure the URL matches your instance — `/fr/mcp` for EU/France, `/mcp` for US |
 | Tools don't appear in Cowork | Make sure the extension toggle is **Enabled** in Settings → Extensions |
 | Tools appear but Claude won't call them | Open **Configure** and switch the tool groups to **Always allow** |
+| Connected, but "show me leads" returns an empty list | You're signed in fine — there's just nothing to show right now. Ask *"show me my lenses"* to confirm which audience is active and switch if needed, or check you're on the right instance (US vs EU) |
 | Wrong instance (no leads / 404s) | Sign out from the Leadbay extension and sign back in on the right instance (US or EU) |
 | Other issue | File a bug at [github.com/leadbay/leadclaw/issues](https://github.com/leadbay/leadclaw/issues) |
