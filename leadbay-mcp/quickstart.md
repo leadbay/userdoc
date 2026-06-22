@@ -70,10 +70,6 @@ A successful first response looks like a **ranked table of leads**, not a wall o
 
 If Claude replies with leads like that, you're fully connected. 🎉
 
-{% hint style="warning" %}
-**Got an empty list or "no leads"?** You're connected, but Claude found nothing to show. Usually that means your active lens has no fresh leads right now, or you're signed in to the wrong instance (US vs EU). Try *"show me my lenses"* to confirm what's active, or see [Troubleshooting](installation.md#troubleshooting).
-{% endhint %}
-
 ---
 
 ## Step 5 — Keep going

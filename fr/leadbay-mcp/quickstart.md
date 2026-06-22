@@ -70,10 +70,6 @@ Une première réponse réussie ressemble à un **tableau de leads classés**, p
 
 Si Claude répond avec des leads comme ça, vous êtes complètement connecté. 🎉
 
-{% hint style="warning" %}
-**Liste vide ou « aucun lead » ?** Vous êtes connecté, mais Claude n'a rien trouvé à afficher. En général cela signifie que votre lens active n'a pas de leads frais pour l'instant, ou que vous êtes connecté sur la mauvaise instance (US vs UE). Essayez *« montre-moi mes lenses »* pour confirmer ce qui est actif, ou voyez le [Dépannage](installation.md#depannage).
-{% endhint %}
-
 ---
 
 ## Étape 5 — Continuez
