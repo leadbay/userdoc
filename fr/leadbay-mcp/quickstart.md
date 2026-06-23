@@ -3,7 +3,7 @@
 Connectez Leadbay à Claude et obtenez vos premiers leads qualifiés en environ cinq minutes. C'est la voie rapide — choisissez votre client, installez, connectez-vous, et demandez. Les options détaillées et le dépannage sont dans le guide d'[Installation](installation.md).
 
 {% hint style="info" %}
-Il vous faut un [compte Leadbay](https://leadbay.ai/) et un assistant IA qui supporte MCP (Claude Desktop, Claude Code, Claude Cowork, Cursor ou ChatGPT). C'est tout — aucun jeton d'API à copier ou coller.
+Il vous faut un [compte Leadbay](https://leadbay.ai/) et un assistant IA qui supporte MCP (Claude Desktop, Claude Cowork, Claude Code ou Cursor — Codex aussi). C'est tout — aucun jeton d'API à copier ou coller. _Le support de ChatGPT arrive bientôt._
 {% endhint %}
 
 ---
