@@ -28,6 +28,6 @@ _Do they hire seasonally? Do they have a CRM? Are they expanding?_
 [ai-assistant.md](product-guides/ai-assistant.md)
 {% endcontent-ref %}
 
-{% content-ref url="product-guides/leadbay-mcp.md" %}
-[leadbay-mcp.md](product-guides/leadbay-mcp.md)
+{% content-ref url="leadbay-mcp/what-is-leadbay-mcp.md" %}
+[what-is-leadbay-mcp.md](leadbay-mcp/what-is-leadbay-mcp.md)
 {% endcontent-ref %}

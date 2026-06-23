@@ -1,0 +1,5 @@
+root: ./
+
+redirects:
+  product-guides/leadbay-mcp: leadbay-mcp/what-is-leadbay-mcp.md
+  fr/product-guides/leadbay-mcp: fr/leadbay-mcp/what-is-leadbay-mcp.md

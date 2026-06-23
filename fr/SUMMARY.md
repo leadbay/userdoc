@@ -13,10 +13,17 @@
 * [Export](product-guides/export.md)
 * [Sources de données](product-guides/data-sources.md)
 * [Connecteur SFTP](product-guides/sftp-connector.md)
-* [Leadbay MCP pour Claude](product-guides/leadbay-mcp.md)
 * [Équipe & Organisation](product-guides/team-management.md)
 * [Tableau de bord Manager](product-guides/manager-dashboard.md)
 * [Installer l'application mobile](product-guides/install-mobile-app.md)
+
+## Leadbay MCP
+
+* [Qu'est-ce que Leadbay MCP ?](leadbay-mcp/what-is-leadbay-mcp.md)
+* [Démarrage rapide](leadbay-mcp/quickstart.md)
+* [Installation](leadbay-mcp/installation.md)
+* [Référence des outils](leadbay-mcp/tools-reference.md)
+* [Exemples de prompts](leadbay-mcp/example-prompts.md)
 
 ## Bonnes Pratiques
 
