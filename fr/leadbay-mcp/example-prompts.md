@@ -70,6 +70,8 @@ Ces prompts s'affichent sur une carte là où votre client le permet, avec le me
 
 ## Rédiger & journaliser la prospection
 
+> *Rédige-moi un email de prospection pour Brooklyn Brewery.*
+
 > *Rédige-moi un email de prospection pour JAX PARTY COMPANY LLC.*
 
 > *Écris une accroche d'appel à froid pour Acme — je vends un logiciel de gestion d'interventions.*
@@ -78,7 +80,9 @@ Ces prompts s'affichent sur une carte là où votre client le permet, avec le me
 
 > *J'ai appelé Acme ce matin et laissé un message vocal — note-le.*
 
-La rédaction est en lecture seule. La journalisation écrit l'activité sur votre compte.
+La rédaction est en lecture seule. La journalisation écrit l'activité sur votre compte. Un brouillon revient sous forme de plusieurs variantes prêtes à envoyer, chacune avec un angle différent :
+
+<figure><img src="../../.gitbook/assets/mcp-outreach-draft-brooklyn.png" alt="Claude rédige un email de prospection pour Brooklyn Brewery avec trois variantes de stratégie — intro chaleureuse, angle durabilité + opérations, et demande directe"><figcaption><p>« Rédige-moi un email de prospection pour Brooklyn Brewery. » Claude renvoie trois variantes de stratégie — une intro chaleureuse, un angle durabilité + opérations, et une demande directe — chacune personnalisée avec objet et corps, prête à ouvrir dans votre client mail.</figcaption></figure>
 
 ---
 

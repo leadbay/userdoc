@@ -70,6 +70,8 @@ These render on a map where your client supports it, with the best contact and a
 
 ## Draft & log outreach
 
+> *Draft me an outreach email for Brooklyn Brewery.*
+
 > *Draft me an outreach email for JAX PARTY COMPANY LLC.*
 
 > *Write a cold-call opener for Acme — I'm selling field-service software.*
@@ -78,7 +80,9 @@ These render on a map where your client supports it, with the best contact and a
 
 > *I called Acme this morning and left a voicemail — record that.*
 
-Drafting is read-only. Logging writes the activity to your account.
+Drafting is read-only. Logging writes the activity to your account. A draft comes back as a few ready-to-send variants, each taking a different angle:
+
+<figure><img src="../.gitbook/assets/mcp-outreach-draft-brooklyn.png" alt="Claude drafting an outreach email to Brooklyn Brewery with three strategy variants — warm intro, sustainability + ops angle, and direct ask"><figcaption><p>"Draft me an outreach email for Brooklyn Brewery." Claude returns three strategy variants — a warm intro, a sustainability + ops angle, and a direct ask — each personalized with subject and body, ready to open in your mail client.</figcaption></figure>
 
 ---
 
