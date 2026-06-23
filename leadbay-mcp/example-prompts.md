@@ -52,6 +52,8 @@ Claude returns a research card with the company's score, why it fits, and the be
 
 ## Plan a trip / field sales
 
+> *I'm going to NYC in 2 days — plan a prospecting tour.*
+
 > *I'm visiting Jacksonville in 3 days — plan my visits.*
 
 > *I'm flying to Berlin Thursday — who should I meet while I'm there?*
@@ -60,7 +62,9 @@ Claude returns a research card with the company's score, why it fits, and the be
 
 > *Give me 3 existing customers, 3 qualified leads, and 3 new prospects near Limoges, on one map.*
 
-These render on a map where your client supports it, with the best contact and a one-line reason per stop.
+These render on a map where your client supports it, with the best contact and a one-line reason per stop. Here's the NYC tour above, planned and mapped in a single reply:
+
+<figure><img src="../.gitbook/assets/mcp-tour-plan-nyc.png" alt="Claude planning a two-day NYC prospecting tour — an interactive map with a Day 1/Day 2 route and a stop-by-stop itinerary card"><figcaption><p>"I'm going to NYC in 2 days — plan a prospecting tour." Claude picks the best-scoring accounts, lays out a two-day Brooklyn-to-Harlem route on an interactive map, and groups it into a <strong>NYC Tour</strong> campaign — qualified accounts plus high-scoring new discoveries, each with timing and contact.</figcaption></figure>
 
 ---
 

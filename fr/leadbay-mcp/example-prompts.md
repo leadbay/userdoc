@@ -52,6 +52,8 @@ Claude renvoie une fiche de recherche avec le score de l'entreprise, pourquoi el
 
 ## Planifier un déplacement / terrain
 
+> *Je vais à New York dans 2 jours — planifie une tournée de prospection.*
+
 > *Je vais à Jacksonville dans 3 jours — planifie mes visites.*
 
 > *Je m'envole pour Berlin jeudi — qui devrais-je rencontrer sur place ?*
@@ -60,7 +62,9 @@ Claude renvoie une fiche de recherche avec le score de l'entreprise, pourquoi el
 
 > *Donne-moi 3 clients existants, 3 leads qualifiés et 3 nouveaux prospects près de Limoges, sur une seule carte.*
 
-Ces prompts s'affichent sur une carte là où votre client le permet, avec le meilleur contact et une raison en une ligne par étape.
+Ces prompts s'affichent sur une carte là où votre client le permet, avec le meilleur contact et une raison en une ligne par étape. Voici la tournée new-yorkaise ci-dessus, planifiée et cartographiée en une seule réponse :
+
+<figure><img src="../../.gitbook/assets/mcp-tour-plan-nyc.png" alt="Claude planifie une tournée de prospection de deux jours à New York — une carte interactive avec un itinéraire Jour 1/Jour 2 et une fiche d'étapes détaillée"><figcaption><p>« Je vais à New York dans 2 jours — planifie une tournée de prospection. » Claude choisit les comptes les mieux scorés, trace un itinéraire de deux jours de Brooklyn à Harlem sur une carte interactive, et regroupe le tout dans une campagne <strong>NYC Tour</strong> — comptes qualifiés plus nouvelles découvertes à fort score, chacun avec horaire et contact.</figcaption></figure>
 
 ---
 
