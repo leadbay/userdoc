@@ -18,7 +18,9 @@ Vous n'avez pas besoin de nommer des outils ou des IDs. « Récupère les leads 
 
 > *Donne-moi une vue d'ensemble de ma prospection — où en suis-je, que dois-je faire ensuite ?*
 
-Claude récupère votre lot frais, le classe, et propose une courte liste. Il n'effectue aucune action tant que vous ne le demandez pas.
+Claude récupère votre lot frais, le classe, et propose une courte liste. Il n'effectue aucune action tant que vous ne le demandez pas :
+
+<figure><img src="../../.gitbook/assets/mcp-pull-leads-shortlist.png" alt="Un tableau de prospects classés — fit, raison de qualification et contact — suivi du choix par Claude des deux à ouvrir en premier"><figcaption><p>« Récupère mes meilleurs nouveaux prospects et dis-moi lesquels valent la peine d'être ouverts en premier. » Claude renvoie un tableau classé — fit, raison de qualification et meilleur contact — puis désigne les deux premiers avec une justification pour chacun.</figcaption></figure>
 
 ---
 

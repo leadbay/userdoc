@@ -66,6 +66,8 @@ Une première réponse réussie ressemble à un **tableau de leads classés**, p
 
 Si Claude répond avec des leads comme ça, vous êtes complètement connecté. 🎉
 
+<figure><img src="../../.gitbook/assets/mcp-pull-leads-shortlist.png" alt="Un tableau de prospects classés avec fit, raison de qualification et contact, plus le choix par Claude des deux premiers à ouvrir"><figcaption><p>Une première réponse réussie : un tableau de prospects classés, puis les deux qui valent la peine d'être ouverts en premier.</figcaption></figure>
+
 ---
 
 ## Étape 5 — Continuez

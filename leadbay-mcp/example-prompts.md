@@ -18,7 +18,9 @@ You don't need to name tools or IDs. "Pull today's leads", "research acme.com", 
 
 > *Give me an overview of my prospecting — where am I, what should I do next?*
 
-Claude pulls your fresh batch, ranks it, and offers a short shortlist. It won't take any action until you ask.
+Claude pulls your fresh batch, ranks it, and offers a short shortlist. It won't take any action until you ask:
+
+<figure><img src="../.gitbook/assets/mcp-pull-leads-shortlist.png" alt="A ranked table of prospects — fit, why-it-qualifies, and contact — followed by Claude's pick of the two worth opening first"><figcaption><p>"Pull my best new prospects and tell me which two are worth opening first." Claude returns a ranked table — fit, why each qualifies, and the best contact — then calls the top two with a reason for each.</figcaption></figure>
 
 ---
 

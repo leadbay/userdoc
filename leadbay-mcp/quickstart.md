@@ -66,6 +66,8 @@ A successful first response looks like a **ranked table of leads**, not a wall o
 
 If Claude replies with leads like that, you're fully connected. 🎉
 
+<figure><img src="../.gitbook/assets/mcp-pull-leads-shortlist.png" alt="A ranked table of prospects with fit, why-it-qualifies, and contact, plus Claude's pick of the top two to open first"><figcaption><p>A successful first reply: a ranked table of prospects, then the two worth opening first.</figcaption></figure>
+
 ---
 
 ## Step 5 — Keep going
