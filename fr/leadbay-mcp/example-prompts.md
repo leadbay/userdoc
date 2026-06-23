@@ -164,7 +164,15 @@ Vous pouvez demander toute une séquence en un seul message, ou la construire to
 
 > *Montre-moi mes relances près de Madrid, mets-les sur une carte, et prépare la prospection pour les trois plus proches.*
 
-Claude conserve le contexte au fil de la conversation — une fois qu'il a fait remonter un lead, vous pouvez continuer à parler du « meilleur » ou de « cette entreprise » sans vous répéter.
+Claude conserve le contexte au fil de la conversation — une fois qu'il a fait remonter un lead, vous pouvez continuer à parler du « meilleur » ou de « cette entreprise » sans vous répéter. Voici ce premier prompt exécuté de bout en bout :
+
+<figure><img src="../../.gitbook/assets/mcp-chain-1.png" alt="Les leads du jour sous forme de tableau classé avec barres de score, entreprises liées, raison de qualification et contacts liés"><figcaption><p><strong>1. Récupérer les leads du jour.</strong> Un tableau classé avec barres de score, raison de qualification et meilleur contact — Claude choisit YouFit LLC, le mieux scoré, pour la recherche.</figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/mcp-chain-2.png" alt="Une fiche de recherche détaillée sur YouFit LLC — signaux business, indices de prospection et positionnement stratégique"><figcaption><p><strong>2. Rechercher le meilleur.</strong> Une fiche détaillée sur YouFit : signaux business, indices de prospection et positionnement stratégique, chacun sourcé.</figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/mcp-chain-3.png" alt="Les contacts de YouFit — nom et poste, l'un marqué recommandé et 152 autres dans le système"><figcaption><p><strong>…avec la bonne personne identifiée.</strong> Contacts classés par pertinence — Kriston Tomlinson (Director of Operations) signalé comme contact recommandé.</figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/mcp-chain-4.png" alt="Un brouillon d'email pour Kriston Tomlinson avec deux variantes de stratégie — accroche expansion et angle opérations"><figcaption><p><strong>3. Rédiger l'email.</strong> Un brouillon personnalisé pour Kriston, en deux angles (accroche expansion / angle opérations), lié à l'expansion de YouFit à Boynton Beach — prêt à ouvrir dans votre client mail.</figcaption></figure>
 
 ---
 
