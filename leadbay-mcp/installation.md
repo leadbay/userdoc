@@ -1,6 +1,9 @@
 # Installation
 
-Connecting Leadbay to Claude takes about a minute. The recommended way is the **`.dxt` extension** — download one file and install it. If you'd rather automate the setup, the **one-command installer** is an alternative.
+Connecting Leadbay takes about a minute. Pick the path that matches your client:
+
+- **On Claude (Desktop / Cowork):** the **`.dxt` extension** — download one file and double-click to install. Recommended.
+- **On Claude Code, Cursor, or Codex:** the **one-command installer**. It also works for Claude Desktop.
 
 Advanced setup and other clients are covered in the [Leadbay MCP README](https://github.com/leadbay/leadclaw#install).
 
@@ -13,14 +16,14 @@ The MCP server uses **your** Leadbay account, so any action Claude takes is the 
 ## What you'll need
 
 - A Leadbay account ([sign up here](https://leadbay.ai/) if you don't have one)
-- An AI assistant that supports MCP — Claude, Claude Code, or Codex
+- An AI assistant that supports MCP — Claude, Claude Code, Cursor, or Codex
 - One minute
 
 ---
 
-## Install the `.dxt` extension (recommended)
+## On Claude — `.dxt` extension (recommended)
 
-The simplest setup: download a single extension file and double-click it.
+For **Claude Desktop and Claude Cowork**, the simplest setup is to download a single extension file and double-click it. (Using Claude Code, Cursor, or Codex instead? Skip to the [one-command installer](#one-command-installer-claude-code-cursor-codex) below.)
 
 ### Step 1 — Download the latest extension
 
@@ -70,9 +73,9 @@ To configure: in the Leadbay extension's **Configure** screen, set **Always allo
 
 ---
 
-## Alternative — one-command installer
+## One-command installer (Claude Code, Cursor, Codex)
 
-Prefer to automate the setup? One command installs Leadbay and signs you in — it works for every supported client (Claude, Claude Code, Cursor, Codex). You'll need [Node.js](https://nodejs.org) 22 or newer.
+For **Claude Code, Cursor, or Codex**, one command installs Leadbay and signs you in. It also works for **Claude Desktop** if you'd rather automate the setup than install the `.dxt` by hand. You'll need [Node.js](https://nodejs.org) 22 or newer.
 
 ```bash
 npx -y -p @leadbay/mcp@latest installer

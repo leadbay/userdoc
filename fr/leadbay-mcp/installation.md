@@ -1,6 +1,9 @@
 # Installation
 
-Connecter Leadbay à Claude prend environ une minute. La méthode recommandée est l'**extension `.dxt`** — téléchargez un fichier et installez-le. Si vous préférez automatiser la configuration, l'**installateur en une commande** est une alternative.
+Connecter Leadbay prend environ une minute. Choisissez la voie qui correspond à votre client :
+
+- **Sur Claude (Desktop / Cowork) :** l'**extension `.dxt`** — téléchargez un fichier et double-cliquez pour l'installer. Recommandé.
+- **Sur Claude Code, Cursor ou Codex :** l'**installateur en une commande**. Il fonctionne aussi pour Claude Desktop.
 
 La configuration avancée et les autres clients sont couverts dans le [README Leadbay MCP](https://github.com/leadbay/leadclaw#install).
 
@@ -13,14 +16,14 @@ Le serveur MCP utilise **votre** compte Leadbay, donc toute action prise par Cla
 ## Ce dont vous avez besoin
 
 - Un compte Leadbay ([inscrivez-vous ici](https://leadbay.ai/) si vous n'en avez pas)
-- Un assistant IA qui supporte MCP — Claude, Claude Code ou Codex
+- Un assistant IA qui supporte MCP — Claude, Claude Code, Cursor ou Codex
 - Une minute
 
 ---
 
-## Installer l'extension `.dxt` (recommandé)
+## Sur Claude — extension `.dxt` (recommandé)
 
-La configuration la plus simple : téléchargez un seul fichier d'extension et double-cliquez dessus.
+Pour **Claude Desktop et Claude Cowork**, la configuration la plus simple est de télécharger un seul fichier d'extension et de double-cliquer dessus. (Vous utilisez Claude Code, Cursor ou Codex ? Passez à l'[installateur en une commande](#installateur-en-une-commande-claude-code-cursor-codex) ci-dessous.)
 
 ### Étape 1 — Télécharger la dernière extension
 
@@ -70,9 +73,9 @@ Pour configurer : dans l'écran **Configure** de l'extension Leadbay, réglez **
 
 ---
 
-## Alternative — installateur en une commande
+## Installateur en une commande (Claude Code, Cursor, Codex)
 
-Vous préférez automatiser la configuration ? Une seule commande installe Leadbay et vous connecte — elle fonctionne pour tous les clients supportés (Claude, Claude Code, Cursor, Codex). Il vous faut [Node.js](https://nodejs.org) 22 ou plus récent.
+Pour **Claude Code, Cursor ou Codex**, une seule commande installe Leadbay et vous connecte. Elle fonctionne aussi pour **Claude Desktop** si vous préférez automatiser la configuration plutôt qu'installer le `.dxt` à la main. Il vous faut [Node.js](https://nodejs.org) 22 ou plus récent.
 
 ```bash
 npx -y -p @leadbay/mcp@latest installer
