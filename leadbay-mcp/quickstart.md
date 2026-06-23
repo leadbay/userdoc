@@ -10,16 +10,11 @@ You'll need a [Leadbay account](https://leadbay.ai/) and an AI assistant that su
 
 ## Step 1 — Install
 
-The recommended path is the **`.dxt` extension** — download one file and install it. (Full details and the other options are in the [Installation](installation.md) guide.)
-
-| Your client | Recommended path |
-|---|---|
-| **Claude Desktop** or **Claude Cowork** | **`.dxt` extension** — download from releases and install |
-| **Claude Code**, **Cursor**, or **Codex** | **One-command installer** — `npx -y -p @leadbay/mcp@latest installer` |
+Two ways to connect — both work for every supported client (Claude, Claude Code, Cursor, Codex). Full details are in the [Installation](installation.md) guide.
 
 **`.dxt` extension** (recommended): download the latest `leadbay-X.Y.Z.dxt` from the [LeadClaw releases page](https://github.com/leadbay/leadclaw/releases/latest), then **double-click it** to install in Claude.
 
-**One-command installer** (alternative — Code / Cursor / Codex, needs [Node.js](https://nodejs.org) 22+):
+**One-command installer** (alternative, needs [Node.js](https://nodejs.org) 22+):
 
 ```bash
 npx -y -p @leadbay/mcp@latest installer

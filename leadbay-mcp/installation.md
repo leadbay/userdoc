@@ -72,7 +72,7 @@ To configure: in the Leadbay extension's **Configure** screen, set **Always allo
 
 ## Alternative — one-command installer
 
-Prefer to automate the setup, or using **Claude Code**, **Cursor**, or **Codex**? One command installs Leadbay and signs you in. You'll need [Node.js](https://nodejs.org) 22 or newer.
+Prefer to automate the setup? One command installs Leadbay and signs you in — it works for every supported client (Claude, Claude Code, Cursor, Codex). You'll need [Node.js](https://nodejs.org) 22 or newer.
 
 ```bash
 npx -y -p @leadbay/mcp@latest installer

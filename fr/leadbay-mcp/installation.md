@@ -72,7 +72,7 @@ Pour configurer : dans l'écran **Configure** de l'extension Leadbay, réglez **
 
 ## Alternative — installateur en une commande
 
-Vous préférez automatiser la configuration, ou vous utilisez **Claude Code**, **Cursor** ou **Codex** ? Une seule commande installe Leadbay et vous connecte. Il vous faut [Node.js](https://nodejs.org) 22 ou plus récent.
+Vous préférez automatiser la configuration ? Une seule commande installe Leadbay et vous connecte — elle fonctionne pour tous les clients supportés (Claude, Claude Code, Cursor, Codex). Il vous faut [Node.js](https://nodejs.org) 22 ou plus récent.
 
 ```bash
 npx -y -p @leadbay/mcp@latest installer
