@@ -3,7 +3,7 @@
 Leadbay MCP fonctionne mieux quand vous parlez à Claude comme à un collègue — décrivez le résultat, pas l'outil. Voici une bibliothèque de prompts qui fonctionnent d'emblée, regroupés par objectif. Copiez, adaptez, et appropriez-vous-les.
 
 {% hint style="info" %}
-Vous n'avez pas besoin de nommer des outils ou des IDs. « Récupère les leads du jour », « recherche acme.com », « note que j'ai envoyé un email à Jane » — Claude choisit le bon outil et vous demande de confirmer tout ce qui modifie votre compte.
+Vous n'avez pas besoin de nommer des outils ou des IDs. « Récupère les leads du jour », « recherche acme.com », « note que j'ai envoyé un email à Jane » — Claude choisit le bon outil. Chaque action est limitée à votre compte ; ce que votre client demande avant chacune dépend de ses réglages d'autorisation des outils.
 {% endhint %}
 
 ---
@@ -74,7 +74,7 @@ Ces prompts s'affichent sur une carte là où votre client le permet, avec le me
 
 > *J'ai appelé Acme ce matin et laissé un message vocal — note-le.*
 
-La rédaction est en lecture seule. La journalisation écrit l'activité sur votre compte, donc Claude confirme d'abord.
+La rédaction est en lecture seule. La journalisation écrit l'activité sur votre compte.
 
 ---
 

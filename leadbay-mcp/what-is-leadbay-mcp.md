@@ -28,8 +28,10 @@ Claude reads your leads, lenses, and taste profile, reasons over them, and repli
 
 Leadbay MCP works with any AI assistant that supports the Model Context Protocol:
 
-- **Claude**
+- **Claude Desktop**
+- **Claude Cowork**
 - **Claude Code**
+- **Cursor**
 - **Codex**
 
 ---
@@ -44,7 +46,7 @@ A few Leadbay terms show up in prompts and responses. You don't need to manage a
 | **Score** | A 0–100 firmographic fit score on every lead — how well it matches your audience. Shown as a bar in lead tables. |
 | **AI score** | A deeper qualification score on the top leads in each batch, from targeted web research against your qualification questions. Most leads ship with the basic score; the best get AI-qualified. |
 | **Taste profile** | What Leadbay learns from your likes, dislikes, and outreach — it tunes future scoring to your judgement. Liking a lead in chat teaches it. |
-| **Read vs write** | **Read** tools only pull data (leads, profiles, contacts) and never change anything. **Write** tools take action (qualify, enrich, log outreach, edit lenses). Both are scoped to your account, and Claude confirms before anything that writes. |
+| **Read vs write** | **Read** tools only pull data (leads, profiles, contacts) and never change anything. **Write** tools take action (qualify, enrich, log outreach, edit lenses). Both are scoped to your account — every write is something you could do yourself in the app, with nothing destructive at the platform level. You control how much your client asks before each action through its tool-permission settings. |
 
 These are covered in depth in the [Lenses](../product-guides/lenses.md) and [AI Assistant](../product-guides/ai-assistant.md) product guides.
 

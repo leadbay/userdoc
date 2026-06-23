@@ -3,7 +3,7 @@
 Leadbay MCP works best when you talk to Claude the way you'd talk to a colleague — describe the outcome, not the tool. Below is a library of prompts that work out of the box, grouped by what you're trying to do. Copy, tweak, and make them yours.
 
 {% hint style="info" %}
-You don't need to name tools or IDs. "Pull today's leads", "research acme.com", "log that I emailed Jane" — Claude picks the right tool and asks you to confirm anything that changes your account.
+You don't need to name tools or IDs. "Pull today's leads", "research acme.com", "log that I emailed Jane" — Claude picks the right tool. Every action is scoped to your account; how much your client asks before each one depends on its tool-permission settings.
 {% endhint %}
 
 ---
@@ -74,7 +74,7 @@ These render on a map where your client supports it, with the best contact and a
 
 > *I called Acme this morning and left a voicemail — record that.*
 
-Drafting is read-only. Logging writes the activity to your account, so Claude confirms first.
+Drafting is read-only. Logging writes the activity to your account.
 
 ---
 
