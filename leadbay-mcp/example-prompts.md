@@ -28,6 +28,8 @@ Claude pulls your fresh batch, ranks it, and offers a short shortlist. It won't 
 
 > *Which leads should I follow up with this week?*
 
+<figure><img src="../.gitbook/assets/mcp-pull-followups.png" alt="Claude's follow-up plan — leads grouped into do-first, do-next, and lower-priority, with the concrete action for each"><figcaption><p>"Which leads should I follow up with this week?" Claude reads your Monitor view and orders it into <strong>do first</strong> (act today), <strong>do next</strong> (enrich a contact first), and <strong>lower priority</strong> — then ends with the exact moves: who to call, who to email, who to enrich.</figcaption></figure>
+
 > *Who have I contacted that I should circle back to?*
 
 > *What's the full history on this account — is it worth another visit?*

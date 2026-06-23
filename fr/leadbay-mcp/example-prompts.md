@@ -28,6 +28,8 @@ Claude récupère votre lot frais, le classe, et propose une courte liste. Il n'
 
 > *Quels leads dois-je relancer cette semaine ?*
 
+<figure><img src="../../.gitbook/assets/mcp-pull-followups.png" alt="Le plan de relance de Claude — leads regroupés en à faire d'abord, ensuite, et priorité basse, avec l'action concrète pour chacun"><figcaption><p>« Quels leads dois-je relancer cette semaine ? » Claude lit votre vue Monitor et la classe en <strong>à faire d'abord</strong> (agir aujourd'hui), <strong>ensuite</strong> (enrichir un contact d'abord) et <strong>priorité basse</strong> — puis termine par les actions exactes : qui appeler, qui contacter par email, qui enrichir.</figcaption></figure>
+
 > *Qui ai-je contacté et que je devrais relancer ?*
 
 > *Quel est l'historique complet de ce compte — vaut-il une nouvelle visite ?*
