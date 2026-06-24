@@ -164,6 +164,6 @@ New here? Start with the overview, then connect.
 [What is Leadbay MCP?](what-is-leadbay-mcp.md)
 {% endcontent-ref %}
 
-{% content-ref url="installation.md" %}
-[Installation](installation.md)
+{% content-ref url="quickstart.md" %}
+[Quickstart](quickstart.md)
 {% endcontent-ref %}
