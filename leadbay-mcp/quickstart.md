@@ -12,7 +12,7 @@ You'll need a [Leadbay account](https://leadbay.ai/) and an AI assistant that su
 
 **On Claude (Desktop / Cowork) — `.dxt` extension** (recommended):
 
-1. **[⬇ Download the Leadbay extension (.dxt)](https://github.com/leadbay/leadclaw/releases/download/mcp-v0.23.2/leadbay-0.23.2.dxt)** — this downloads the file directly.
+1. **[⬇ Download the Leadbay extension (.dxt)](https://github.com/leadbay/leadclaw/releases/latest/download/leadbay-latest.dxt)** — this downloads the latest version directly.
 2. **Double-click the downloaded `.dxt`.** Claude opens with the extension details — click **Install**, then toggle the extension to **Enabled**.
 
 {% hint style="info" %}
