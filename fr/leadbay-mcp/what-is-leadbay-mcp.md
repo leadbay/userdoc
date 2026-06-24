@@ -36,6 +36,26 @@ Leadbay MCP fonctionne avec tout assistant IA qui supporte le Model Context Prot
 
 ---
 
+## En action
+
+<!-- CAPTURE 1 — un résultat `leadbay_pull_leads` rendu dans le chat (le tableau de leads classés). La boucle « demander → obtenir des leads qualifiés ». Remplacez le placeholder ci-dessous par la vraie image :
+<figure><img src="../.gitbook/assets/mcp-teaser-leads.png" alt="Claude renvoie un tableau de leads qualifiés classés dans le chat"><figcaption>Demandez les leads du jour — Claude répond avec une liste classée.</figcaption></figure>
+-->
+
+<!-- CAPTURE 2 — un brouillon de prospection (message_compose). Montre qu'il n'énumère pas seulement, il agit.
+<figure><img src="../.gitbook/assets/mcp-teaser-outreach.png" alt="Claude rédige un email de prospection personnalisé"><figcaption>« Rédige un email d'intro » — un message prêt à envoyer en quelques secondes.</figcaption></figure>
+-->
+
+<!-- CAPTURE 3 — une carte de recherche / analyse d'entreprise. Montre la profondeur.
+<figure><img src="../.gitbook/assets/mcp-teaser-research.png" alt="Une carte de recherche d'entreprise avec résumé de fit et meilleur contact"><figcaption>« Recherche Acme » — un résumé de fit et le meilleur contact à joindre.</figcaption></figure>
+-->
+
+{% hint style="info" %}
+**Captures à ajouter :** (1) un tableau de leads classés dans le chat, (2) un email de prospection rédigé, (3) une carte de recherche d'entreprise. Déposez les images dans `.gitbook/assets/` et décommentez les trois blocs `<figure>` ci-dessus.
+{% endhint %}
+
+---
+
 ## Pour commencer
 
 Connectez Leadbay à Claude et obtenez vos premiers leads en environ cinq minutes — sans coder, sans jeton à copier.

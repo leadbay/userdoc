@@ -36,6 +36,26 @@ Leadbay MCP works with any AI assistant that supports the Model Context Protocol
 
 ---
 
+## See it in action
+
+<!-- SCREENSHOT 1 — a `leadbay_pull_leads` result rendered in chat (the ranked lead table). The core "ask → get qualified leads" loop. Replace the placeholder below with the real asset:
+<figure><img src="../.gitbook/assets/mcp-teaser-leads.png" alt="Claude returning a ranked table of qualified leads in chat"><figcaption>Ask for today's leads — Claude replies with a ranked shortlist.</figcaption></figure>
+-->
+
+<!-- SCREENSHOT 2 — an outreach draft (message_compose). Shows it doesn't just list, it acts.
+<figure><img src="../.gitbook/assets/mcp-teaser-outreach.png" alt="Claude drafting a personalized outreach email"><figcaption>"Draft an intro email" — a ready-to-send message in seconds.</figcaption></figure>
+-->
+
+<!-- SCREENSHOT 3 — a research card / company deep-dive. Shows depth.
+<figure><img src="../.gitbook/assets/mcp-teaser-research.png" alt="A company research card with fit summary and best contact"><figcaption>"Research Acme" — a fit summary and the best contact to reach.</figcaption></figure>
+-->
+
+{% hint style="info" %}
+**Screenshots to add:** (1) a ranked lead table in chat, (2) a drafted outreach email, (3) a company research card. Drop the images into `.gitbook/assets/` and uncomment the three `<figure>` blocks above.
+{% endhint %}
+
+---
+
 ## Get started
 
 Connect Leadbay to Claude and get to your first leads in about five minutes — no coding, no tokens to copy.
