@@ -2,8 +2,8 @@
 
 Leadbay MCP fonctionne mieux quand vous parlez à Claude comme à un collègue — décrivez le résultat, pas l'outil. Voici une bibliothèque de prompts qui fonctionnent d'emblée, regroupés par objectif. Copiez, adaptez, et appropriez-vous-les.
 
-{% hint style="info" %}
-Vous n'avez pas besoin de nommer des outils ou des IDs. « Récupère les leads du jour », « recherche acme.com », « note que j'ai envoyé un email à Jane » — Claude choisit le bon outil. Chaque action est limitée à votre compte ; ce que votre client demande avant chacune dépend de ses réglages d'autorisation des outils.
+{% hint style="success" %}
+**Mieux dans le chat Claude.** Les résultats riches ci-dessous — tableaux de leads classés, cartes de tournée interactives et brouillons prêts à envoyer — s'affichent nativement là. Les autres clients MCP fonctionnent aussi, mais retombent en texte brut quand ils ne supportent pas ces vues.
 {% endhint %}
 
 ---
@@ -18,13 +18,17 @@ Vous n'avez pas besoin de nommer des outils ou des IDs. « Récupère les leads 
 
 > *Donne-moi une vue d'ensemble de ma prospection — où en suis-je, que dois-je faire ensuite ?*
 
-Claude récupère votre lot frais, le classe, et propose une courte liste. Il n'effectue aucune action tant que vous ne le demandez pas.
+Claude récupère votre lot frais, le classe, et propose une courte liste. Il n'effectue aucune action tant que vous ne le demandez pas :
+
+<figure><img src="../../.gitbook/assets/mcp-pull-leads-shortlist.png" alt="Un tableau de prospects classés — fit, raison de qualification et contact — suivi du choix par Claude des deux à ouvrir en premier"><figcaption><p>« Récupère mes meilleurs nouveaux prospects et dis-moi lesquels valent la peine d'être ouverts en premier. » Claude renvoie un tableau classé — fit, raison de qualification et meilleur contact — puis désigne les deux premiers avec une justification pour chacun.</figcaption></figure>
 
 ---
 
 ## Relancer & réengager
 
 > *Quels leads dois-je relancer cette semaine ?*
+
+<figure><img src="../../.gitbook/assets/mcp-pull-followups.png" alt="Le plan de relance de Claude — leads regroupés en à faire d'abord, ensuite, et priorité basse, avec l'action concrète pour chacun"><figcaption><p>« Quels leads dois-je relancer cette semaine ? » Claude lit votre vue Monitor et la classe en <strong>à faire d'abord</strong> (agir aujourd'hui), <strong>ensuite</strong> (enrichir un contact d'abord) et <strong>priorité basse</strong> — puis termine par les actions exactes : qui appeler, qui contacter par email, qui enrichir.</figcaption></figure>
 
 > *Qui ai-je contacté et que je devrais relancer ?*
 
@@ -52,6 +56,8 @@ Claude renvoie une fiche de recherche avec le score de l'entreprise, pourquoi el
 
 ## Planifier un déplacement / terrain
 
+> *Je vais à New York dans 2 jours — planifie une tournée de prospection.*
+
 > *Je vais à Jacksonville dans 3 jours — planifie mes visites.*
 
 > *Je m'envole pour Berlin jeudi — qui devrais-je rencontrer sur place ?*
@@ -60,11 +66,15 @@ Claude renvoie une fiche de recherche avec le score de l'entreprise, pourquoi el
 
 > *Donne-moi 3 clients existants, 3 leads qualifiés et 3 nouveaux prospects près de Limoges, sur une seule carte.*
 
-Ces prompts s'affichent sur une carte là où votre client le permet, avec le meilleur contact et une raison en une ligne par étape.
+Ces prompts s'affichent sur une carte là où votre client le permet, avec le meilleur contact et une raison en une ligne par étape. Voici la tournée new-yorkaise ci-dessus, planifiée et cartographiée en une seule réponse :
+
+<figure><img src="../../.gitbook/assets/mcp-tour-plan-nyc.png" alt="Claude planifie une tournée de prospection de deux jours à New York — une carte interactive avec un itinéraire Jour 1/Jour 2 et une fiche d'étapes détaillée"><figcaption><p>« Je vais à New York dans 2 jours — planifie une tournée de prospection. » Claude choisit les comptes les mieux scorés, trace un itinéraire de deux jours de Brooklyn à Harlem sur une carte interactive, et regroupe le tout dans une campagne <strong>NYC Tour</strong> — comptes qualifiés plus nouvelles découvertes à fort score, chacun avec horaire et contact.</figcaption></figure>
 
 ---
 
 ## Rédiger & journaliser la prospection
+
+> *Rédige-moi un email de prospection pour Brooklyn Brewery.*
 
 > *Rédige-moi un email de prospection pour JAX PARTY COMPANY LLC.*
 
@@ -74,7 +84,9 @@ Ces prompts s'affichent sur une carte là où votre client le permet, avec le me
 
 > *J'ai appelé Acme ce matin et laissé un message vocal — note-le.*
 
-La rédaction est en lecture seule. La journalisation écrit l'activité sur votre compte.
+La rédaction est en lecture seule. La journalisation écrit l'activité sur votre compte. Un brouillon revient sous forme de plusieurs variantes prêtes à envoyer, chacune avec un angle différent :
+
+<figure><img src="../../.gitbook/assets/mcp-outreach-draft-brooklyn.png" alt="Claude rédige un email de prospection pour Brooklyn Brewery avec trois variantes de stratégie — intro chaleureuse, angle durabilité + opérations, et demande directe"><figcaption><p>« Rédige-moi un email de prospection pour Brooklyn Brewery. » Claude renvoie trois variantes de stratégie — une intro chaleureuse, un angle durabilité + opérations, et une demande directe — chacune personnalisée avec objet et corps, prête à ouvrir dans votre client mail.</figcaption></figure>
 
 ---
 
@@ -152,7 +164,15 @@ Vous pouvez demander toute une séquence en un seul message, ou la construire to
 
 > *Montre-moi mes relances près de Madrid, mets-les sur une carte, et prépare la prospection pour les trois plus proches.*
 
-Claude conserve le contexte au fil de la conversation — une fois qu'il a fait remonter un lead, vous pouvez continuer à parler du « meilleur » ou de « cette entreprise » sans vous répéter.
+Claude conserve le contexte au fil de la conversation — une fois qu'il a fait remonter un lead, vous pouvez continuer à parler du « meilleur » ou de « cette entreprise » sans vous répéter. Voici ce premier prompt exécuté de bout en bout :
+
+<figure><img src="../../.gitbook/assets/mcp-chain-1.png" alt="Les leads du jour sous forme de tableau classé avec barres de score, entreprises liées, raison de qualification et contacts liés"><figcaption><p><strong>1. Récupérer les leads du jour.</strong> Un tableau classé avec barres de score, raison de qualification et meilleur contact — Claude choisit YouFit LLC, le mieux scoré, pour la recherche.</figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/mcp-chain-2.png" alt="Une fiche de recherche détaillée sur YouFit LLC — signaux business, indices de prospection et positionnement stratégique"><figcaption><p><strong>2. Rechercher le meilleur.</strong> Une fiche détaillée sur YouFit : signaux business, indices de prospection et positionnement stratégique, chacun sourcé.</figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/mcp-chain-3.png" alt="Les contacts de YouFit — nom et poste, l'un marqué recommandé et 152 autres dans le système"><figcaption><p><strong>…avec la bonne personne identifiée.</strong> Contacts classés par pertinence — le Director of Operations signalé comme contact recommandé.</figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/mcp-chain-4.png" alt="Un brouillon d'email pour le Director of Operations avec deux variantes de stratégie — accroche expansion et angle opérations"><figcaption><p><strong>3. Rédiger l'email.</strong> Un brouillon personnalisé pour le contact recommandé, en deux angles (accroche expansion / angle opérations), lié à l'expansion de YouFit à Boynton Beach — prêt à ouvrir dans votre client mail.</figcaption></figure>
 
 ---
 
