@@ -2,10 +2,6 @@
 
 Leadbay MCP fonctionne mieux quand vous parlez à Claude comme à un collègue — décrivez le résultat, pas l'outil. Voici une bibliothèque de prompts qui fonctionnent d'emblée, regroupés par objectif. Copiez, adaptez, et appropriez-vous-les.
 
-{% hint style="info" %}
-Vous n'avez pas besoin de nommer des outils ou des IDs. « Récupère les leads du jour », « recherche acme.com », « note que j'ai envoyé un email à Jane » — Claude choisit le bon outil. Chaque action est limitée à votre compte ; ce que votre client demande avant chacune dépend de ses réglages d'autorisation des outils.
-{% endhint %}
-
 {% hint style="success" %}
 **Mieux dans le chat Claude.** Les résultats riches ci-dessous — tableaux de leads classés, cartes de tournée interactives et brouillons prêts à envoyer — s'affichent nativement là. Les autres clients MCP fonctionnent aussi, mais retombent en texte brut quand ils ne supportent pas ces vues.
 {% endhint %}
