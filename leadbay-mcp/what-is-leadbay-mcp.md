@@ -20,7 +20,7 @@ Instead of switching between the Leadbay app and your workflow, you work convers
 
 > *I just emailed Jane at Acme. Log it as outreach.*
 
-Claude reads your leads, lenses, and taste profile, reasons over them, and replies with a short, qualified answer — then takes the follow-up action you ask for.
+Claude pulls the right companies, reasons over them, and replies with a short, qualified answer — then takes the follow-up action you ask for.
 
 ---
 
@@ -36,30 +36,10 @@ Leadbay MCP works with any AI assistant that supports the Model Context Protocol
 
 ---
 
-## Key concepts
+## Get started
 
-A few Leadbay terms show up in prompts and responses. You don't need to manage any of them to get started — Claude handles the details — but knowing what they mean helps:
-
-| Term | What it means |
-|------|---------------|
-| **Lens** | Your saved audience — the sector, company size, and criteria that define which leads Leadbay surfaces. You can have several and switch between them ("switch to my Joinery lens"). |
-| **Score** | A 0–100 firmographic fit score on every lead — how well it matches your audience. Shown as a bar in lead tables. |
-| **AI score** | A deeper qualification score on the top leads in each batch, from targeted web research against your qualification questions. Most leads ship with the basic score; the best get AI-qualified. |
-| **Taste profile** | What Leadbay learns from your likes, dislikes, and outreach — it tunes future scoring to your judgement. Liking a lead in chat teaches it. |
-| **Read vs write** | **Read** tools only pull data (leads, profiles, contacts) and never change anything. **Write** tools take action (qualify, enrich, log outreach, edit lenses). Both are scoped to your account — every write is something you could do yourself in the app, with nothing destructive at the platform level. You control how much your client asks before each action through its tool-permission settings. |
-
-These are covered in depth in the [Lenses](../product-guides/lenses.md) and [AI Assistant](../product-guides/ai-assistant.md) product guides.
-
----
-
-## Next step
-
-Ready to connect? The Quickstart gets you to your first leads in about five minutes.
+Connect Leadbay to Claude and get to your first leads in about five minutes — no coding, no tokens to copy.
 
 {% content-ref url="quickstart.md" %}
 [Quickstart](quickstart.md)
-{% endcontent-ref %}
-
-{% content-ref url="installation.md" %}
-[Installation](installation.md)
 {% endcontent-ref %}

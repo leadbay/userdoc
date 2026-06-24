@@ -20,7 +20,7 @@ Au lieu de basculer entre l'application Leadbay et votre flux de travail, vous t
 
 > *Je viens d'envoyer un email à Jane chez Acme. Journalise-le comme action de prospection.*
 
-Claude lit vos leads, vos lenses et votre profil de goût, raisonne dessus, et répond avec une analyse courte et qualifiée — puis effectue l'action que vous demandez.
+Claude fait remonter les bonnes entreprises, raisonne dessus, et répond avec une analyse courte et qualifiée — puis effectue l'action que vous demandez.
 
 ---
 
@@ -36,30 +36,10 @@ Leadbay MCP fonctionne avec tout assistant IA qui supporte le Model Context Prot
 
 ---
 
-## Concepts clés
+## Pour commencer
 
-Quelques termes Leadbay reviennent dans les prompts et les réponses. Vous n'avez besoin d'en gérer aucun pour démarrer — Claude s'occupe des détails — mais savoir ce qu'ils signifient aide :
-
-| Terme | Ce que ça veut dire |
-|------|---------------|
-| **Lens** | Votre audience enregistrée — le secteur, la taille d'entreprise et les critères qui définissent quels leads Leadbay fait remonter. Vous pouvez en avoir plusieurs et basculer entre elles (« bascule sur ma lens Joinery »). |
-| **Score** | Un score de fit firmographique de 0 à 100 sur chaque lead — à quel point il correspond à votre audience. Affiché sous forme de barre dans les tableaux de leads. |
-| **Score IA** | Un score de qualification plus poussé sur les meilleurs leads de chaque lot, issu d'une recherche web ciblée par rapport à vos questions de qualification. La plupart des leads ont le score de base ; les meilleurs sont qualifiés par l'IA. |
-| **Profil de goût** | Ce que Leadbay apprend de vos likes, dislikes et actions de prospection — il ajuste le scoring futur à votre jugement. Aimer un lead dans le chat l'entraîne. |
-| **Lecture vs écriture** | Les outils en **lecture** récupèrent seulement des données (leads, profils, contacts) et ne changent jamais rien. Les outils en **écriture** effectuent une action (qualifier, enrichir, journaliser la prospection, modifier des lenses). Les deux sont limités à votre compte — chaque écriture est une action que vous pourriez faire vous-même dans l'application, sans rien de destructeur au niveau de la plateforme. Vous contrôlez ce que votre client demande avant chaque action via ses réglages d'autorisation des outils. |
-
-Ces notions sont détaillées dans les guides produit [Lenses](../product-guides/lenses.md) et [AI Assistant](../product-guides/ai-assistant.md).
-
----
-
-## Étape suivante
-
-Prêt à connecter ? Le Démarrage rapide vous amène à vos premiers leads en environ cinq minutes.
+Connectez Leadbay à Claude et obtenez vos premiers leads en environ cinq minutes — sans coder, sans jeton à copier.
 
 {% content-ref url="quickstart.md" %}
 [Démarrage rapide](quickstart.md)
-{% endcontent-ref %}
-
-{% content-ref url="installation.md" %}
-[Installation](installation.md)
 {% endcontent-ref %}

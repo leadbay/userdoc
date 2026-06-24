@@ -1,6 +1,6 @@
 # Quickstart
 
-Connect Leadbay to Claude and get your first qualified leads in about five minutes. This is the fast path — pick your client, install, sign in, and ask. Detailed options and troubleshooting live in the [Installation](installation.md) guide.
+Connect Leadbay to Claude and get your first qualified leads in about five minutes. Pick your client, install, sign in, and ask — no coding, no tokens to copy.
 
 {% hint style="info" %}
 You'll need a [Leadbay account](https://leadbay.ai/) and an AI assistant that supports MCP (Claude Desktop, Claude Cowork, Claude Code, or Cursor — Codex too). That's it — no API tokens to copy or paste. _ChatGPT support is coming soon._
@@ -10,15 +10,22 @@ You'll need a [Leadbay account](https://leadbay.ai/) and an AI assistant that su
 
 ## Step 1 — Install
 
-Pick the path for your client. Full details are in the [Installation](installation.md) guide.
+**On Claude (Desktop / Cowork) — `.dxt` extension** (recommended):
 
-**On Claude (Desktop / Cowork) — `.dxt` extension** (recommended): download the latest `leadbay-X.Y.Z.dxt` from the [LeadClaw releases page](https://github.com/leadbay/leadclaw/releases/latest), then **double-click it** to install in Claude.
+1. **[⬇ Download the Leadbay extension (.dxt)](https://github.com/leadbay/leadclaw/releases/download/mcp-v0.23.2/leadbay-0.23.2.dxt)** — this downloads the file directly.
+2. **Double-click the downloaded `.dxt`.** Claude opens with the extension details — click **Install**, then toggle the extension to **Enabled**.
 
-**On Claude Code, Cursor, or Codex — one-command installer** (needs [Node.js](https://nodejs.org) 22+). It also works for Claude Desktop:
+{% hint style="info" %}
+Doesn't open Claude? Install it from inside the app: **Settings → Extensions → Advanced → Install extension**, then pick the `.dxt` file.
+{% endhint %}
+
+**On Claude Code, Cursor, or Codex — one-command installer** (needs [Node.js](https://nodejs.org) 22+). It also works for Claude Desktop if you'd rather automate the setup:
 
 ```bash
 npx -y -p @leadbay/mcp@latest installer
 ```
+
+This opens a guided wizard that detects your installed clients, adds Leadbay to the ones you pick, and runs the sign-in flow.
 
 ---
 
@@ -31,7 +38,7 @@ You don't set anything up by hand. The moment you install — or the first time 
 3. Click **Approve** to connect Claude to your account.
 4. The tab closes itself and Claude is ready.
 
-That's the whole connection. No tokens, no config files. Claude is now linked to **your** account, with all the leads and lenses you already have in Leadbay. You can revoke access anytime from **Settings → Connected apps**.
+That's the whole connection. No tokens, no config files. Claude is now linked to **your** account, with all the leads you already have in Leadbay. You can revoke access anytime from **Settings → Connected apps**.
 
 {% hint style="info" %}
 If you have both a US and an EU account, sign in on the instance you want Claude to use. You can switch later by signing out and back in on the other instance.
@@ -72,6 +79,37 @@ Once you've seen your first leads, try these:
 > *I just emailed them. Log it as outreach.*
 
 Claude remembers the leads it surfaced, so you can keep referring to "the top one" without repeating yourself.
+
+---
+
+## Using Leadbay with Claude Desktop
+
+Claude Desktop is slower than Cowork to load MCP tools, so a couple of extra precautions help.
+
+After installing the Leadbay extension, **fully quit and relaunch Claude Desktop** (Cmd-Q on Mac, then reopen — not just closing the window). Open a new chat and wait about **30 seconds** before sending your first message. This gives Claude time to load the Leadbay tools.
+
+If your first message gets a response like *"I don't see any Leadbay tools"* or *"I can't find Leadbay in your setup"*, don't worry — the tools are still loading. Send any second message (even just *"try again"*) and Claude will pick them up. From that point on, the rest of your session works normally.
+
+---
+
+## Updating
+
+For the **`.dxt` extension**, when a new release ships, repeat **Step 1** (download the new `.dxt`, double-click, Install). Claude replaces the old version in place; your sign-in stays valid, so you don't need to re-authenticate.
+
+The **one-command installer** always runs the latest version — there's nothing to update.
+
+---
+
+## Troubleshooting
+
+| Symptom | Fix |
+|---------|-----|
+| Claude says "not authenticated" or 401 errors | Your sign-in may have expired or been revoked. Trigger any Leadbay tool again and Claude will re-prompt the **Sign in with Leadbay** flow |
+| Tools don't appear after install | Make sure the extension toggle is **Enabled** in Settings → Extensions |
+| Tools appear but Claude won't call them | Open **Configure** and switch the tool groups to **Always allow** |
+| Connected, but "show me leads" returns an empty list | You're signed in fine — there's just nothing to show right now. Ask *"show me my lenses"* to confirm which audience is active and switch if needed, or check you're on the right instance (US vs EU) |
+| Wrong instance (no leads / 404s) | Sign out from the Leadbay extension and sign back in on the right instance (US or EU) |
+| Other issue | File a bug at [github.com/leadbay/leadclaw/issues](https://github.com/leadbay/leadclaw/issues) |
 
 ---
 
