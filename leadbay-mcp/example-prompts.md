@@ -7,7 +7,7 @@ You don't need to name tools or IDs. "Pull today's leads", "research acme.com", 
 {% endhint %}
 
 {% hint style="success" %}
-**Best experienced in Claude chat** (Claude.ai, Claude Desktop, or Claude Cowork). The rich outputs below — ranked lead tables, interactive trip maps, and ready-to-send draft cards — render natively there. Other MCP clients work too, but fall back to plain text where they don't support these views.
+**Better in Claude chat.** The rich outputs below — ranked lead tables, interactive trip maps, and ready-to-send draft cards — render natively there. Other MCP clients work too, but fall back to plain text where they don't support these views.
 {% endhint %}
 
 ---

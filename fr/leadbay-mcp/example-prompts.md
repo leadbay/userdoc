@@ -7,7 +7,7 @@ Vous n'avez pas besoin de nommer des outils ou des IDs. « Récupère les leads 
 {% endhint %}
 
 {% hint style="success" %}
-**À privilégier dans le chat Claude** (Claude.ai, Claude Desktop ou Claude Cowork). Les résultats riches ci-dessous — tableaux de leads classés, cartes de tournée interactives et brouillons prêts à envoyer — s'affichent nativement là. Les autres clients MCP fonctionnent aussi, mais retombent en texte brut quand ils ne supportent pas ces vues.
+**Mieux dans le chat Claude.** Les résultats riches ci-dessous — tableaux de leads classés, cartes de tournée interactives et brouillons prêts à envoyer — s'affichent nativement là. Les autres clients MCP fonctionnent aussi, mais retombent en texte brut quand ils ne supportent pas ces vues.
 {% endhint %}
 
 ---
