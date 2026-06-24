@@ -170,9 +170,9 @@ Claude conserve le contexte au fil de la conversation — une fois qu'il a fait 
 
 <figure><img src="../../.gitbook/assets/mcp-chain-2.png" alt="Une fiche de recherche détaillée sur YouFit LLC — signaux business, indices de prospection et positionnement stratégique"><figcaption><p><strong>2. Rechercher le meilleur.</strong> Une fiche détaillée sur YouFit : signaux business, indices de prospection et positionnement stratégique, chacun sourcé.</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/mcp-chain-3.png" alt="Les contacts de YouFit — nom et poste, l'un marqué recommandé et 152 autres dans le système"><figcaption><p><strong>…avec la bonne personne identifiée.</strong> Contacts classés par pertinence — Kriston Tomlinson (Director of Operations) signalé comme contact recommandé.</figcaption></figure>
+<figure><img src="../../.gitbook/assets/mcp-chain-3.png" alt="Les contacts de YouFit — nom et poste, l'un marqué recommandé et 152 autres dans le système"><figcaption><p><strong>…avec la bonne personne identifiée.</strong> Contacts classés par pertinence — le Director of Operations signalé comme contact recommandé.</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/mcp-chain-4.png" alt="Un brouillon d'email pour Kriston Tomlinson avec deux variantes de stratégie — accroche expansion et angle opérations"><figcaption><p><strong>3. Rédiger l'email.</strong> Un brouillon personnalisé pour Kriston, en deux angles (accroche expansion / angle opérations), lié à l'expansion de YouFit à Boynton Beach — prêt à ouvrir dans votre client mail.</figcaption></figure>
+<figure><img src="../../.gitbook/assets/mcp-chain-4.png" alt="Un brouillon d'email pour le Director of Operations avec deux variantes de stratégie — accroche expansion et angle opérations"><figcaption><p><strong>3. Rédiger l'email.</strong> Un brouillon personnalisé pour le contact recommandé, en deux angles (accroche expansion / angle opérations), lié à l'expansion de YouFit à Boynton Beach — prêt à ouvrir dans votre client mail.</figcaption></figure>
 
 ---
 

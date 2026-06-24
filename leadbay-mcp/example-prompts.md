@@ -170,9 +170,9 @@ Claude carries context across the conversation — once it's surfaced a lead, yo
 
 <figure><img src="../.gitbook/assets/mcp-chain-2.png" alt="A deep research card on YouFit LLC — business signals, prospecting clues, and strategic positioning"><figcaption><p><strong>2. Research the top one.</strong> A deep-dive card on YouFit: business signals, prospecting clues, and strategic positioning, each sourced.</figcaption></figure>
 
-<figure><img src="../.gitbook/assets/mcp-chain-3.png" alt="YouFit's contacts — name and title, with one marked recommended and 152 more in the system"><figcaption><p><strong>…with the right person surfaced.</strong> Contacts ranked by relevance — Kriston Tomlinson (Director of Operations) flagged as the recommended reach.</figcaption></figure>
+<figure><img src="../.gitbook/assets/mcp-chain-3.png" alt="YouFit's contacts — name and title, with one marked recommended and 152 more in the system"><figcaption><p><strong>…with the right person surfaced.</strong> Contacts ranked by relevance — the Director of Operations flagged as the recommended reach.</figcaption></figure>
 
-<figure><img src="../.gitbook/assets/mcp-chain-4.png" alt="An email draft to Kriston Tomlinson with two strategy variants — expansion hook and facilities-focused"><figcaption><p><strong>3. Draft the email.</strong> A personalized draft to Kriston, in two angles (expansion hook / facilities-focused), tied to YouFit's Boynton Beach expansion — ready to open in your mail client.</figcaption></figure>
+<figure><img src="../.gitbook/assets/mcp-chain-4.png" alt="An email draft to the Director of Operations with two strategy variants — expansion hook and facilities-focused"><figcaption><p><strong>3. Draft the email.</strong> A personalized draft to the recommended contact, in two angles (expansion hook / facilities-focused), tied to YouFit's Boynton Beach expansion — ready to open in your mail client.</figcaption></figure>
 
 ---
 
