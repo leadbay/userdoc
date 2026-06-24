@@ -6,6 +6,10 @@ Leadbay MCP works best when you talk to Claude the way you'd talk to a colleague
 You don't need to name tools or IDs. "Pull today's leads", "research acme.com", "log that I emailed Jane" — Claude picks the right tool. Every action is scoped to your account; how much your client asks before each one depends on its tool-permission settings.
 {% endhint %}
 
+{% hint style="success" %}
+**Best experienced in Claude chat** (Claude.ai, Claude Desktop, or Claude Cowork). The rich outputs below — ranked lead tables, interactive trip maps, and ready-to-send draft cards — render natively there. Other MCP clients work too, but fall back to plain text where they don't support these views.
+{% endhint %}
+
 ---
 
 ## Start your day
