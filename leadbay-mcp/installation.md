@@ -25,9 +25,13 @@ The MCP server uses **your** Leadbay account, so any action Claude takes is the 
 
 For **Claude Desktop and Claude Cowork**, the simplest setup is to download a single extension file and double-click it. (Using Claude Code, Cursor, or Codex instead? Skip to the [one-command installer](#one-command-installer-claude-code-cursor-codex) below.)
 
-### Step 1 — Download the latest extension
+### Step 1 — Download the extension
 
-Open the [LeadClaw releases page](https://github.com/leadbay/leadclaw/releases/latest) and download the latest `.dxt` file (look for a name like `leadbay-X.Y.Z.dxt` under the release's **Assets**).
+**[⬇ Download the Leadbay extension (.dxt)](https://get.leadbay.app/leadbay.dxt)** — this downloads the file directly, no page to navigate.
+
+{% hint style="info" %}
+Prefer to grab it manually? Open the [LeadClaw releases page](https://github.com/leadbay/leadclaw/releases/latest) and download the latest `.dxt` (a name like `leadbay-X.Y.Z.dxt`) under the release's **Assets**.
+{% endhint %}
 
 ---
 
@@ -64,8 +68,8 @@ Leadbay ships two flavors of tools:
 
 | Flavor | What's in it | Recommended permission |
 |--------|--------------|------------------------|
-| **Read-only** | Pulls leads, lenses, profiles, contacts, taste profile, enrichment quota — never changes anything | **Always allow** |
-| **Write / delete** | Qualifies leads, enriches contacts, adds notes, imports leads, reports outreach, refines audience | **Always allow** |
+| **Read-only** | Pulls leads, profiles, contacts, and account info — never changes anything | **Always allow** |
+| **Write / delete** | Qualifies leads, enriches contacts, adds notes, imports leads, reports outreach | **Always allow** |
 
 Both flavors are safe to always-allow because the Leadbay MCP is **scoped to your account** — there's nothing destructive at the platform level. Setting both to "always allow" makes Claude flow without interrupting you for permission on every call.
 
