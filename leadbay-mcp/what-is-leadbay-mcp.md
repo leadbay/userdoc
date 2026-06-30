@@ -5,7 +5,7 @@
 Pull leads, qualify them, draft outreach, log activity — in plain language. Claude acts on your real data, with your permissions, just as you would in the app.
 
 {% hint style="info" %}
-**MCP** stands for *Model Context Protocol* — an open standard that lets AI assistants like Claude securely connect to external tools and data. The Leadbay MCP server is open source and lives at [github.com/leadbay/leadclaw](https://github.com/leadbay/leadclaw).
+**MCP** stands for *Model Context Protocol* — an open standard that lets AI assistants like Claude securely connect to external tools and data. The Leadbay MCP server is open source and lives at [github.com/leadbay/mcp](https://github.com/leadbay/mcp).
 {% endhint %}
 
 ---
