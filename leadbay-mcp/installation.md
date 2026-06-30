@@ -27,35 +27,52 @@ Sign-in is handled by your browser (OAuth) — there are no tokens to copy or pa
 
 Add Leadbay as a **custom connector**.
 
-1. In Claude.ai, open **Settings → Connectors** (you'll be sent to the **Customize → Connectors** page).
-2. In the **Connectors** column, click the **+** button next to the search bar (**Add custom connector**).
-3. Enter:
-   - **Name:** `Leadbay`
-   - **URL:** `https://mcp.leadbay.app/mcp`
-4. Click **Add**, then open the new **Leadbay** connector and click **Connect**.
-5. A **Sign in with Leadbay** page opens — log in and approve. The connector now shows as connected, and the Leadbay tools are available in your chats.
+**1. Open the Add custom connector form.** Click this link (or in Claude, go to **Settings → Connectors**, then the **+** next to the search bar → **Add custom connector**):
 
 {% hint style="info" %}
-Custom connectors require a paid Claude plan (Pro, Max, Team, or Enterprise). On Team/Enterprise, an admin may need to enable custom connectors for the workspace before the **+** button appears.
+[https://claude.ai/customize/connectors?modal=add-custom-connector](https://claude.ai/customize/connectors?modal=add-custom-connector)
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/claude-02-connectors-plus-menu.png" alt="Connectors + menu with Add custom connector"><figcaption><p>The + menu → Add custom connector</p></figcaption></figure>
+
+**2. Fill in the fields and click Add:**
+
+- **Name:** `Leadbay`
+- **URL:** `https://mcp.leadbay.app/mcp`
+
+Leave the Advanced settings as they are (Individual sign-in is fine).
+
+<figure><img src="../.gitbook/assets/claude-01-add-custom-connector-form.png" alt="Add custom connector form with Leadbay name and URL"><figcaption><p>Name it Leadbay, paste the URL, click Add</p></figcaption></figure>
+
+**3. Find the Leadbay connector** in the directory (search "Leadbay" — it appears under **Custom connectors**) and open it.
+
+<figure><img src="../.gitbook/assets/claude-03-directory-search.png" alt="Directory search showing the Leadbay custom connector"><figcaption><p>Your new Leadbay custom connector</p></figcaption></figure>
+
+**4. Click Connect** and sign in. A **Sign in with Leadbay** page opens — log in and approve. The connector shows as connected, and the Leadbay tools are available in your chats.
+
+<figure><img src="../.gitbook/assets/claude-04-connect.png" alt="Leadbay connector with the Connect button"><figcaption><p>Click Connect, then sign in with Leadbay</p></figcaption></figure>
+
+{% hint style="warning" %}
+**Not an admin of your organization?** Members can't add a custom connector themselves — your **workspace admin** needs to add the Leadbay connector first (steps 1–2 above). Once the admin has added it, you'll find it in the directory and can **Connect** (steps 3–4).
+{% endhint %}
+
+{% hint style="info" %}
+Custom connectors require a paid Claude plan (Pro, Max, Team, or Enterprise).
 {% endhint %}
 
 ---
 
 ## Claude Desktop
 
-Claude Desktop connects to Leadbay over the same remote URL as Claude.ai.
+Claude Desktop connects to Leadbay exactly like Claude.ai — same **custom connector**, same URL.
 
-1. Open **Settings → Connectors**.
-2. Click **Add custom connector**.
-3. Enter:
-   - **Name:** `Leadbay`
-   - **URL:** `https://mcp.leadbay.app/mcp`
-4. Click **Add**, then **Connect** on the new Leadbay connector.
-5. A **Sign in with Leadbay** page opens in your browser — log in and approve. Claude Desktop is now connected.
-6. Open a new chat and wait a few seconds for the Leadbay tools to load before your first message.
+1. Open **Settings → Connectors**, click the **+** → **Add custom connector**.
+2. Enter **Name** `Leadbay` and **URL** `https://mcp.leadbay.app/mcp`, then click **Add**.
+3. Open the **Leadbay** connector and click **Connect** — sign in with Leadbay in your browser.
+4. Open a new chat and wait a few seconds for the Leadbay tools to load before your first message.
 
 {% hint style="info" %}
-If your first message gets _"I don't see any Leadbay tools"_, the tools are still loading. Send any second message (even just _"try again"_) and Claude will pick them up.
+If your first message gets _"I don't see any Leadbay tools"_, the tools are still loading. Send any second message (even just _"try again"_) and Claude will pick them up. As with Claude.ai, if you're not an org admin, the admin must add the connector first.
 {% endhint %}
 
 ---

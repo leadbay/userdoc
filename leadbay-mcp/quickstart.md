@@ -10,15 +10,15 @@ You'll need a [Leadbay account](https://leadbay.ai/) and Claude (Pro, Max, Team,
 
 ## Step 1 — Add the Leadbay connector
 
-1. In Claude, open **Settings → Connectors**.
-2. Click **Add custom connector** (in Claude.ai this is the **+** next to the search bar on the Connectors page).
-3. Enter:
+1. Open the **Add custom connector** form — use this link, or in Claude go to **Settings → Connectors** → the **+** → **Add custom connector**:
+   - [https://claude.ai/customize/connectors?modal=add-custom-connector](https://claude.ai/customize/connectors?modal=add-custom-connector)
+2. Enter:
    - **Name:** `Leadbay`
    - **URL:** `https://mcp.leadbay.app/mcp`
-4. Click **Add**.
+3. Click **Add**.
 
 {% hint style="info" %}
-On the **EU** instance, use `https://mcp.leadbay.app/fr/mcp` instead. Custom connectors require a paid Claude plan; on Team/Enterprise an admin may need to enable them first.
+On the **EU** instance, use `https://mcp.leadbay.app/fr/mcp` instead. Custom connectors require a paid Claude plan. **If you're not an admin of your organization**, your workspace admin needs to add the connector first — then you can connect to it. See [Installation](installation.md) for the full walkthrough with screenshots.
 {% endhint %}
 
 ---
