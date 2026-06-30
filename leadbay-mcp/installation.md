@@ -102,19 +102,62 @@ You should see `leadbay` with **Status: enabled** and **Auth: OAuth**. Remove it
 
 ## ChatGPT
 
-Add Leadbay as a connector in ChatGPT.
-
-1. Open **Settings → Connectors** (you may need to enable **Developer mode** under **Settings → Connectors → Advanced** to add a custom MCP server).
-2. Choose **Create / Add custom connector** and enter:
-   - **Name:** `Leadbay`
-   - **MCP Server URL:** `https://mcp.leadbay.app/mcp`
-   - **Authentication:** OAuth
-3. Click **Create / Connect** — a **Sign in with Leadbay** page opens. Log in and approve.
-4. In a chat, enable the **Leadbay** connector (composer **+** / tools menu) so ChatGPT can call its tools.
+Add Leadbay as a custom app (MCP connector) in ChatGPT.
 
 {% hint style="info" %}
-Custom MCP connectors in ChatGPT require a paid plan (Plus, Pro, Business, or Enterprise) and may be gated behind Developer mode or an admin setting for your workspace.
+Custom MCP connectors require a paid ChatGPT plan (Plus, Pro, Business, or Enterprise) and Developer mode, which you enable in step 5 below. On Business/Enterprise an admin may need to allow custom connectors first.
 {% endhint %}
+
+**1. Open the workspace menu** (bottom-left) and click your workspace name.
+
+<figure><img src="../.gitbook/assets/chatgpt-01-workspace-menu.png" alt="ChatGPT bottom-left workspace menu"><figcaption></figcaption></figure>
+
+**2. Click Settings.**
+
+<figure><img src="../.gitbook/assets/chatgpt-02-settings.png" alt="Workspace menu with Settings highlighted"><figcaption></figcaption></figure>
+
+**3. Open the Apps tab** in the Settings sidebar.
+
+<figure><img src="../.gitbook/assets/chatgpt-03-apps.png" alt="Settings sidebar with Apps highlighted"><figcaption></figcaption></figure>
+
+**4. Click Advanced settings.**
+
+<figure><img src="../.gitbook/assets/chatgpt-04-advanced-settings.png" alt="Apps page with Advanced settings highlighted"><figcaption></figcaption></figure>
+
+**5. Turn on Developer mode.** This is required to add a custom MCP connector.
+
+<figure><img src="../.gitbook/assets/chatgpt-05-developer-mode.png" alt="Developer mode toggle switched on"><figcaption></figcaption></figure>
+
+**6. Go back to Apps and click Create app.**
+
+<figure><img src="../.gitbook/assets/chatgpt-06-create-app.png" alt="Apps page with Create app highlighted"><figcaption></figcaption></figure>
+
+**7. Fill in the New App form:**
+
+- **Name:** `Leadbay MCP`
+- **Connection:** select **Server URL**, then enter `https://mcp.leadbay.app/mcp`
+- **Authentication:** **OAuth**
+- Check **I understand and want to continue**, then click **Create**.
+
+<figure><img src="../.gitbook/assets/chatgpt-07-new-app-form.png" alt="New App form with name, server URL, and OAuth"><figcaption></figcaption></figure>
+
+**8. Click Sign in with Leadbay MCP.** Log in and approve — ChatGPT is now connected.
+
+<figure><img src="../.gitbook/assets/chatgpt-08-sign-in.png" alt="Sign in with Leadbay MCP prompt"><figcaption></figcaption></figure>
+
+In a chat, enable the **Leadbay MCP** app from the composer **+** / tools menu so ChatGPT can call its tools.
+
+### If the connection has a problem
+
+If the app shows as disconnected or its tools stop responding, reconnect it:
+
+**1. Open the Leadbay MCP app** (Settings → Apps → Leadbay MCP) and click the **⋯** menu (top-right).
+
+<figure><img src="../.gitbook/assets/chatgpt-09-app-menu.png" alt="Leadbay MCP app page with the three-dot menu highlighted"><figcaption></figcaption></figure>
+
+**2. Click Reconnect** and sign in again.
+
+<figure><img src="../.gitbook/assets/chatgpt-10-reconnect.png" alt="App menu with Reconnect highlighted"><figcaption></figcaption></figure>
 
 ---
 
