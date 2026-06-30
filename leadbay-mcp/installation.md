@@ -110,27 +110,27 @@ Custom MCP connectors require a paid ChatGPT plan (Plus, Pro, Business, or Enter
 
 **1. Open the workspace menu** (bottom-left) and click your workspace name.
 
-<figure><img src="../.gitbook/assets/chatgpt-01-workspace-menu.png" alt="ChatGPT bottom-left workspace menu"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/chatgpt-01-workspace-menu.png" alt="ChatGPT bottom-left workspace menu"><figcaption><p>Open the workspace menu</p></figcaption></figure>
 
 **2. Click Settings.**
 
-<figure><img src="../.gitbook/assets/chatgpt-02-settings.png" alt="Workspace menu with Settings highlighted"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/chatgpt-02-settings.png" alt="Workspace menu with Settings highlighted"><figcaption><p>Click Settings</p></figcaption></figure>
 
 **3. Open the Apps tab** in the Settings sidebar.
 
-<figure><img src="../.gitbook/assets/chatgpt-03-apps.png" alt="Settings sidebar with Apps highlighted"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/chatgpt-03-apps.png" alt="Settings sidebar with Apps highlighted"><figcaption><p>Open the Apps tab</p></figcaption></figure>
 
 **4. Click Advanced settings.**
 
-<figure><img src="../.gitbook/assets/chatgpt-04-advanced-settings.png" alt="Apps page with Advanced settings highlighted"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/chatgpt-04-advanced-settings.png" alt="Apps page with Advanced settings highlighted"><figcaption><p>Click Advanced settings</p></figcaption></figure>
 
 **5. Turn on Developer mode.** This is required to add a custom MCP connector.
 
-<figure><img src="../.gitbook/assets/chatgpt-05-developer-mode.png" alt="Developer mode toggle switched on"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/chatgpt-05-developer-mode.png" alt="Developer mode toggle switched on"><figcaption><p>Turn on Developer mode</p></figcaption></figure>
 
 **6. Go back to Apps and click Create app.**
 
-<figure><img src="../.gitbook/assets/chatgpt-06-create-app.png" alt="Apps page with Create app highlighted"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/chatgpt-06-create-app.png" alt="Apps page with Create app highlighted"><figcaption><p>Click Create app</p></figcaption></figure>
 
 **7. Fill in the New App form:**
 
@@ -139,11 +139,11 @@ Custom MCP connectors require a paid ChatGPT plan (Plus, Pro, Business, or Enter
 - **Authentication:** **OAuth**
 - Check **I understand and want to continue**, then click **Create**.
 
-<figure><img src="../.gitbook/assets/chatgpt-07-new-app-form.png" alt="New App form with name, server URL, and OAuth"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/chatgpt-07-new-app-form.png" alt="New App form with name, server URL, and OAuth"><figcaption><p>Name it, set the Server URL and OAuth, then Create</p></figcaption></figure>
 
 **8. Click Sign in with Leadbay MCP.** Log in and approve — ChatGPT is now connected.
 
-<figure><img src="../.gitbook/assets/chatgpt-08-sign-in.png" alt="Sign in with Leadbay MCP prompt"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/chatgpt-08-sign-in.png" alt="Sign in with Leadbay MCP prompt"><figcaption><p>Sign in with Leadbay MCP</p></figcaption></figure>
 
 In a chat, enable the **Leadbay MCP** app from the composer **+** / tools menu so ChatGPT can call its tools.
 
@@ -153,11 +153,11 @@ If the app shows as disconnected or its tools stop responding, reconnect it:
 
 **1. Open the Leadbay MCP app** (Settings → Apps → Leadbay MCP) and click the **⋯** menu (top-right).
 
-<figure><img src="../.gitbook/assets/chatgpt-09-app-menu.png" alt="Leadbay MCP app page with the three-dot menu highlighted"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/chatgpt-09-app-menu.png" alt="Leadbay MCP app page with the three-dot menu highlighted"><figcaption><p>Open the ⋯ menu on the Leadbay MCP app</p></figcaption></figure>
 
 **2. Click Reconnect** and sign in again.
 
-<figure><img src="../.gitbook/assets/chatgpt-10-reconnect.png" alt="App menu with Reconnect highlighted"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/chatgpt-10-reconnect.png" alt="App menu with Reconnect highlighted"><figcaption><p>Click Reconnect and sign in again</p></figcaption></figure>
 
 ---
 
