@@ -1,12 +1,12 @@
 # Installation
 
-Step-by-step setup for every assistant that works with Leadbay. Pick your client below — each takes a couple of minutes, and **none of them need an API token**. You sign in once with your Leadbay account and you're connected.
+Step-by-step setup for every assistant that works with Leadbay. Pick your client below — each takes a couple of minutes, and **none of them need an API token**. You add one server URL, sign in once with your Leadbay account, and you're connected.
 
 {% hint style="info" %}
 **Before you start, you need:**
 
 - A [Leadbay account](https://leadbay.ai/) (the same login you use for the web app).
-- One of the assistants below: **Claude Desktop**, **Claude.ai**, **Claude Code**, **ChatGPT**, or **Codex**.
+- One of the assistants below: **Claude.ai**, **Claude Desktop**, **Claude Code**, **ChatGPT**, or **Codex**.
 
 Everywhere a server URL is asked for, it's:
 
@@ -19,21 +19,6 @@ Sign-in is handled by your browser (OAuth) — there are no tokens to copy or pa
 
 {% hint style="warning" %}
 **US vs EU accounts.** If your Leadbay account is on the **EU** instance, use `https://mcp.leadbay.app/fr/mcp` instead of `https://mcp.leadbay.app/mcp`. When in doubt, the US URL works for most accounts — a valid login is routed to whichever backend owns it.
-{% endhint %}
-
----
-
-## Claude Desktop
-
-The simplest path — a one-click extension, no terminal.
-
-1. **[⬇ Download the Leadbay extension (.dxt)](https://github.com/leadbay/mcp/releases/latest)** — on the Releases page, click the file ending in **`.dxt`**.
-2. **Double-click the downloaded `.dxt`.** Claude Desktop opens with the extension details — click **Install**, then make sure the extension toggle is **Enabled**.
-3. **Quit and relaunch Claude Desktop** (Cmd-Q on Mac / fully close on Windows — not just the window). Open a new chat and wait ~30 seconds for the tools to load.
-4. The first time Claude uses a Leadbay tool, a **Sign in with Leadbay** page opens in your browser. Log in and click **Approve** — the tab closes itself and you're connected.
-
-{% hint style="info" %}
-Double-clicking doesn't open Claude? Install from inside the app: **Settings → Extensions → Advanced → Install extension**, then pick the `.dxt` file.
 {% endhint %}
 
 ---
@@ -52,6 +37,25 @@ Add Leadbay as a **custom connector**.
 
 {% hint style="info" %}
 Custom connectors require a paid Claude plan (Pro, Max, Team, or Enterprise). On Team/Enterprise, an admin may need to enable custom connectors for the workspace before the **+** button appears.
+{% endhint %}
+
+---
+
+## Claude Desktop
+
+Claude Desktop connects to Leadbay over the same remote URL as Claude.ai.
+
+1. Open **Settings → Connectors**.
+2. Click **Add custom connector**.
+3. Enter:
+   - **Name:** `Leadbay`
+   - **URL:** `https://mcp.leadbay.app/mcp`
+4. Click **Add**, then **Connect** on the new Leadbay connector.
+5. A **Sign in with Leadbay** page opens in your browser — log in and approve. Claude Desktop is now connected.
+6. Open a new chat and wait a few seconds for the Leadbay tools to load before your first message.
+
+{% hint style="info" %}
+If your first message gets _"I don't see any Leadbay tools"_, the tools are still loading. Send any second message (even just _"try again"_) and Claude will pick them up.
 {% endhint %}
 
 ---
@@ -135,9 +139,9 @@ A successful reply is a **ranked shortlist** — each lead with a fit score, a o
 | "Not authenticated" / 401 errors | Your sign-in expired or was revoked. Trigger any Leadbay tool again and approve the **Sign in with Leadbay** prompt. |
 | Connected, but "show me leads" returns an empty list | You're signed in fine — there's just nothing to show right now. Ask _"show me my lenses"_ to check which audience is active, or confirm you're on the right instance (US vs EU). |
 | Wrong instance (no leads / 404s) | Sign out and sign back in on the correct instance, or use the `/fr/mcp` URL for EU accounts. |
-| Tools don't appear after install (Claude Desktop) | Fully quit and relaunch, wait ~30 seconds, then send a second message — the tools finish loading mid-session. Make sure the extension is **Enabled** in Settings → Extensions. |
-| Tools appear but the assistant won't call them | Open the tool/connector settings and set the Leadbay tool groups to **Always allow** (Claude) or enable the connector in the composer (ChatGPT). |
-| Custom connector option missing (Claude.ai / ChatGPT) | Custom connectors need a paid plan, and your workspace admin may need to enable them. |
+| Tools don't appear after connecting | Open a new chat and wait a few seconds; send a second message and the tools finish loading. |
+| Tools appear but the assistant won't call them | Open the connector settings and set the Leadbay tool groups to **Always allow** (Claude) or enable the connector in the composer (ChatGPT). |
+| Custom connector option missing (Claude.ai / Claude Desktop / ChatGPT) | Custom connectors need a paid plan, and your workspace admin may need to enable them. |
 | Other issue | File a bug at [github.com/leadbay/mcp/issues](https://github.com/leadbay/mcp/issues). |
 
 ---

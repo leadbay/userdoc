@@ -1,37 +1,35 @@
 # Quickstart
 
-Connect Leadbay to Claude and get your first qualified leads in about five minutes. This guide uses **Claude Desktop** — the simplest, one-click path. Using a different assistant? See [Installation](installation.md) for step-by-step setup of Claude.ai, Claude Code, ChatGPT, and Codex.
+Connect Leadbay to Claude and get your first qualified leads in about five minutes. This guide uses **Claude** (Claude.ai or Claude Desktop) — the simplest path. Using a different assistant? See [Installation](installation.md) for step-by-step setup of Claude Code, ChatGPT, and Codex.
 
 {% hint style="info" %}
-You'll need a [Leadbay account](https://leadbay.ai/) and Claude Desktop. That's it — no API tokens to copy or paste; you sign in with your browser.
+You'll need a [Leadbay account](https://leadbay.ai/) and Claude (Pro, Max, Team, or Enterprise). That's it — no API tokens to copy or paste; you add one URL and sign in with your browser.
 {% endhint %}
 
 ---
 
-## Step 1 — Install the extension
+## Step 1 — Add the Leadbay connector
 
-1. **[⬇ Download the Leadbay extension (.dxt)](https://github.com/leadbay/mcp/releases/latest)** — on the Releases page, click the file ending in **`.dxt`**.
-2. **Double-click the downloaded `.dxt`.** Claude Desktop opens with the extension details — click **Install**, then toggle the extension to **Enabled**.
+1. In Claude, open **Settings → Connectors**.
+2. Click **Add custom connector** (in Claude.ai this is the **+** next to the search bar on the Connectors page).
+3. Enter:
+   - **Name:** `Leadbay`
+   - **URL:** `https://mcp.leadbay.app/mcp`
+4. Click **Add**.
 
 {% hint style="info" %}
-Doesn't open Claude? Install it from inside the app: **Settings → Extensions → Advanced → Install extension**, then pick the `.dxt` file.
+On the **EU** instance, use `https://mcp.leadbay.app/fr/mcp` instead. Custom connectors require a paid Claude plan; on Team/Enterprise an admin may need to enable them first.
 {% endhint %}
 
 ---
 
-## Step 2 — Relaunch and sign in
+## Step 2 — Sign in
 
-Claude Desktop takes a moment to load MCP tools, so:
+1. Open the new **Leadbay** connector and click **Connect**.
+2. A **Sign in with Leadbay** page opens in your browser — log in (or confirm your existing session) and click **Approve**.
+3. The tab closes itself and Claude is connected.
 
-1. **Fully quit and relaunch Claude Desktop** (Cmd-Q on Mac, then reopen — not just closing the window).
-2. Open a new chat and wait about **30 seconds** before your first message.
-3. The first time Claude uses a Leadbay tool, a **Sign in with Leadbay** page opens in your browser. Log in, click **Approve**, and the tab closes itself.
-
-That's the whole connection — no tokens, no config files. Claude is now linked to **your** Leadbay account. You can revoke access anytime from **Settings → Connected apps**.
-
-{% hint style="info" %}
-If your first message gets _"I don't see any Leadbay tools"_, the tools are still loading. Send any second message (even just _"try again"_) and Claude will pick them up. From there the session works normally.
-{% endhint %}
+That's the whole connection — no tokens, no config files. Claude is now linked to **your** Leadbay account, with all the leads you already have. You can revoke access anytime from **Settings → Connected apps**.
 
 ---
 
@@ -42,6 +40,10 @@ Open a new conversation and type:
 > _Show me today's leads and tell me which two are worth opening first._
 
 Claude calls your Leadbay tools and replies with a short, ranked shortlist — company, why it fits, and the best contact to reach.
+
+{% hint style="info" %}
+First message gets _"I don't see any Leadbay tools"_? The tools are still loading. Send any second message (even just _"try again"_) and Claude will pick them up.
+{% endhint %}
 
 ---
 
@@ -73,19 +75,13 @@ Claude remembers the leads it surfaced, so you can keep referring to "the top on
 
 ---
 
-## Updating
-
-When a new release ships, repeat **Step 1** (download the new `.dxt`, double-click, Install). Claude replaces the old version in place; your sign-in stays valid, so you don't need to re-authenticate.
-
----
-
 ## Using another assistant?
 
 {% content-ref url="installation.md" %}
 [Installation](installation.md)
 {% endcontent-ref %}
 
-Step-by-step setup for **Claude.ai**, **Claude Code**, **ChatGPT**, and **Codex** — plus the Claude Desktop steps above.
+Step-by-step setup for **Claude.ai**, **Claude Desktop**, **Claude Code**, **ChatGPT**, and **Codex** — they all use the same `https://mcp.leadbay.app/mcp` endpoint.
 
 ---
 
