@@ -57,13 +57,30 @@ members' connector directory.
 {% hint style="info" %}
 **Members can't add it themselves.** In a Team or Enterprise workspace, members
 don't have the **Add custom connector** option — that's exactly why this admin
-step exists. Once you've added it, they just search "Leadbay", open it, click
-**Connect**, and sign in.
+step exists.
 {% endhint %}
 
-**What your members do next:** point them at the [Quickstart](quickstart.md). They
-open the **Leadbay** connector, click **Connect**, and sign in with their own
-Leadbay account — no further admin involvement needed.
+### What your members do next
+
+Once you've added the connector, send your team these three steps (no admin
+rights needed — each person signs in with their own Leadbay account):
+
+**1. Find the Leadbay connector.** In Claude, open **Settings → Connectors** and
+search "Leadbay" — it appears under **Custom connectors**. Open it.
+
+<figure><img src="../.gitbook/assets/claude-03-directory-search.png" alt="Directory search showing the Leadbay custom connector"><figcaption><p>Search "Leadbay" and open the connector the admin added</p></figcaption></figure>
+
+**2. Click Connect and sign in.** A **Sign in with Leadbay** page opens in the
+browser — log in and click **Approve**. The tab closes and the connector shows as
+connected.
+
+<figure><img src="../.gitbook/assets/claude-04-connect.png" alt="Leadbay connector with the Connect button"><figcaption><p>Click Connect, then sign in with Leadbay</p></figcaption></figure>
+
+**3. Ask for leads.** Open a new chat and try _"Show me today's leads."_ Claude
+replies with a ranked shortlist — that means it's fully connected. 🎉
+
+The full member walkthrough (with the first-message tips) lives in the
+[Quickstart](quickstart.md).
 
 ---
 
@@ -79,10 +96,18 @@ On Business and Enterprise workspaces, custom MCP connectors are off until a
    apps for members).
 3. Let your members know they can now add Leadbay.
 
-**What your members do next:** each member follows the **ChatGPT** section of the
-[Installation](installation.md) guide — turn on Developer mode, **Create app**
-with **Name** `Leadbay MCP`, **Server URL** `https://mcp.leadbay.app/mcp`, and
-**OAuth**, then sign in with their own Leadbay account.
+### What your members do next
+
+Unlike Claude, ChatGPT members add the app themselves once you've allowed custom
+connectors. Send them the **ChatGPT** section of the
+[Installation](installation.md) guide — each member:
+
+1. Turns on **Developer mode** (Settings → Apps → Advanced settings).
+2. Clicks **Create app** and fills in **Name** `Leadbay MCP`, **Server URL**
+   `https://mcp.leadbay.app/mcp`, and **Authentication: OAuth**.
+3. Clicks **Sign in with Leadbay MCP** and logs in with their own Leadbay account.
+4. Enables the **Leadbay MCP** app from the composer **+** / tools menu, then asks
+   for leads.
 
 {% hint style="info" %}
 The exact wording and location of the "allow custom connectors" control changes
