@@ -18,7 +18,7 @@ You'll need a [Leadbay account](https://leadbay.ai/) and Claude (Pro, Max, Team,
 3. Click **Add**.
 
 {% hint style="info" %}
-On the **EU** instance, use `https://mcp.leadbay.app/fr/mcp` instead. Custom connectors require a paid Claude plan. **If you're not an admin of your organization**, your workspace admin needs to add the connector first — then you can connect to it. See [Installation](installation.md) for the full walkthrough with screenshots.
+On the **EU** instance, use `https://mcp.leadbay.app/fr/mcp` instead. Custom connectors require a paid Claude plan. **If you're not an admin of your organization**, your workspace admin needs to add the connector first — send them the [Admin setup](admin-setup.md) guide, then you can connect to it. See [Installation](installation.md) for the full walkthrough with screenshots.
 {% endhint %}
 
 ---

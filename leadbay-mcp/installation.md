@@ -53,7 +53,7 @@ Leave the Advanced settings as they are (Individual sign-in is fine).
 <figure><img src="../.gitbook/assets/claude-04-connect.png" alt="Leadbay connector with the Connect button"><figcaption><p>Click Connect, then sign in with Leadbay</p></figcaption></figure>
 
 {% hint style="warning" %}
-**Not an admin of your organization?** Members can't add a custom connector themselves — your **workspace admin** needs to add the Leadbay connector first (steps 1–2 above). Once the admin has added it, you'll find it in the directory and can **Connect** (steps 3–4).
+**Not an admin of your organization?** Members can't add a custom connector themselves — your **workspace admin** needs to add the Leadbay connector first (steps 1–2 above). Send them the [Admin setup](admin-setup.md) guide. Once the admin has added it, you'll find it in the directory and can **Connect** (steps 3–4).
 {% endhint %}
 
 {% hint style="info" %}
@@ -72,7 +72,7 @@ Claude Desktop connects to Leadbay exactly like Claude.ai — same **custom conn
 4. Open a new chat and wait a few seconds for the Leadbay tools to load before your first message.
 
 {% hint style="info" %}
-If your first message gets _"I don't see any Leadbay tools"_, the tools are still loading. Send any second message (even just _"try again"_) and Claude will pick them up. As with Claude.ai, if you're not an org admin, the admin must add the connector first.
+If your first message gets _"I don't see any Leadbay tools"_, the tools are still loading. Send any second message (even just _"try again"_) and Claude will pick them up. As with Claude.ai, if you're not an org admin, the admin must add the connector first — see [Admin setup](admin-setup.md).
 {% endhint %}
 
 ---
@@ -201,7 +201,7 @@ A successful reply is a **ranked shortlist** — each lead with a fit score, a o
 | Wrong instance (no leads / 404s) | Sign out and sign back in on the correct instance, or use the `/fr/mcp` URL for EU accounts. |
 | Tools don't appear after connecting | Open a new chat and wait a few seconds; send a second message and the tools finish loading. |
 | Tools appear but the assistant won't call them | Open the connector settings and set the Leadbay tool groups to **Always allow** (Claude) or enable the connector in the composer (ChatGPT). |
-| Custom connector option missing (Claude.ai / Claude Desktop / ChatGPT) | Custom connectors need a paid plan, and your workspace admin may need to enable them. |
+| Custom connector option missing (Claude.ai / Claude Desktop / ChatGPT) | Custom connectors need a paid plan, and your workspace admin may need to enable them — see [Admin setup](admin-setup.md). |
 | Other issue | File a bug at [github.com/leadbay/mcp/issues](https://github.com/leadbay/mcp/issues). |
 
 ---
