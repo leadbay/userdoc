@@ -71,6 +71,18 @@ Claude Desktop connects to Leadbay exactly like Claude.ai — same **custom conn
 If your first message gets _"I don't see any Leadbay tools"_, the tools are still loading. Send any second message (even just _"try again"_) and Claude will pick them up. As with Claude.ai, if you're not an org admin, the admin must add the connector first — see [Admin setup](admin-setup.md).
 {% endhint %}
 
+### Fallback: install the `.dxt` extension
+
+Can't get the custom connector to work — the **Add custom connector** option is missing, or you're not an org admin? On Claude Desktop you can skip the connector entirely and install Leadbay as a **`.dxt` extension**. It's a per-user double-click install with no admin gate.
+
+1. **[⬇ Download the Leadbay extension (.dxt)](https://github.com/leadbay/mcp/releases/latest/download/leadbay-latest.dxt)** — this pulls the latest version directly.
+2. **Double-click the downloaded `.dxt`.** Claude opens with the extension details — click **Install**, then toggle the extension to **Enabled**.
+3. Open a new chat, click **Connect** on the extension, and sign in with Leadbay in your browser.
+
+{% hint style="info" %}
+Claude didn't open on double-click? Install it from inside the app: **Settings → Extensions → Advanced → Install extension**, then pick the `.dxt` file you downloaded. When a new release ships, download the new `.dxt` and install it again — Claude replaces the old version in place and your sign-in carries over.
+{% endhint %}
+
 ---
 
 ## Claude Code
@@ -196,7 +208,7 @@ A successful reply is a **ranked shortlist** — each lead with a fit score, a o
 | Connected, but "show me leads" returns an empty list | You're signed in fine — there's just nothing to show right now. Ask _"show me my lenses"_ to check which audience is active. |
 | Tools don't appear after connecting | Open a new chat and wait a few seconds; send a second message and the tools finish loading. |
 | Tools appear but the assistant won't call them | Open the connector settings and set the Leadbay tool groups to **Always allow** (Claude) or enable the connector in the composer (ChatGPT). |
-| Custom connector option missing (Claude.ai / Claude Desktop / ChatGPT) | Custom connectors need a paid plan, and your workspace admin may need to enable them — see [Admin setup](admin-setup.md). On **Claude Desktop** you can skip the connector entirely with the [`.dxt` extension fallback](admin-setup.md). |
+| Custom connector option missing (Claude.ai / Claude Desktop / ChatGPT) | Custom connectors need a paid plan, and your workspace admin may need to enable them — see [Admin setup](admin-setup.md). On **Claude Desktop** you can skip the connector entirely with the [`.dxt` extension fallback](#claude-desktop). |
 | Other issue | File a bug at [github.com/leadbay/mcp/issues](https://github.com/leadbay/mcp/issues). |
 
 ---

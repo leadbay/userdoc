@@ -91,55 +91,11 @@ settings for **connectors** or **apps**, or check OpenAI's current admin
 documentation.
 {% endhint %}
 
----
-
-## Claude Code & Codex — no admin step
-
-The command-line clients (**Claude Code**, **Codex**) connect per user — there's
-no organization gate to open. Each member just runs the one-line add command from
-the [Installation](installation.md) guide on their own machine:
-
-```bash
-# Claude Code
-claude mcp add --scope user --transport http leadbay https://mcp.leadbay.app/mcp
-
-# Codex
-codex mcp add leadbay --url https://mcp.leadbay.app/mcp
-```
-
-Nothing for you to do as an admin — you can simply forward them the Installation
-guide.
-
----
-
-## Fallback: install the `.dxt` extension (no admin needed)
-
-Can't get the connector URL to work — the **Add custom connector** option is
-missing, your admin can't add it, or the URL route just won't cooperate? On
-**Claude Desktop** there's a second path that doesn't touch the organization
-connector at all: install Leadbay as a **`.dxt` extension**. It's a per-user
-double-click install, so any member can do it themselves.
-
-1. **[⬇ Download the Leadbay extension (.dxt)](https://github.com/leadbay/mcp/releases/latest/download/leadbay-latest.dxt)** — this pulls the latest version directly.
-2. **Double-click the downloaded `.dxt`.** Claude opens with the extension
-   details — click **Install**, then toggle the extension to **Enabled**.
-3. Open a new chat, click **Connect** on the extension, and sign in with your
-   Leadbay account (same one-tap **Sign in with Leadbay** flow — no tokens).
-
 {% hint style="info" %}
-Claude didn't open on double-click? Install it from inside the app:
-**Settings → Extensions → Advanced → Install extension**, then pick the `.dxt`
-file you downloaded.
+**Claude Code and Codex need no admin step** — they're per-user CLI clients with
+no organization gate. Each member just runs the one-line add command from the
+[Installation](installation.md) guide on their own machine.
 {% endhint %}
-
-{% hint style="info" %}
-The `.dxt` route is **Claude Desktop only**. For Claude.ai (web) and ChatGPT,
-the custom connector is the only path — if it's missing, that's an admin gate,
-so use the sections above. Claude Code and Codex use their one-line commands.
-{% endhint %}
-
-When a new release ships, repeat step 1 (download the new `.dxt`, double-click,
-Install). Claude replaces the old version in place and your sign-in carries over.
 
 ---
 
