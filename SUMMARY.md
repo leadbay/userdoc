@@ -22,6 +22,7 @@
 * [What is Leadbay MCP?](leadbay-mcp/what-is-leadbay-mcp.md)
 * [Quickstart](leadbay-mcp/quickstart.md)
 * [Installation](leadbay-mcp/installation.md)
+* [Admin setup](leadbay-mcp/admin-setup.md)
 * [Tools reference](leadbay-mcp/tools-reference.md)
 * [Example prompts](leadbay-mcp/example-prompts.md)
 
