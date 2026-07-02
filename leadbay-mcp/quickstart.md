@@ -18,7 +18,7 @@ You'll need a [Leadbay account](https://leadbay.ai/) and Claude (Pro, Max, Team,
 3. Click **Add**.
 
 {% hint style="info" %}
-Custom connectors require a paid Claude plan. **If you're not an admin of your organization**, you can't add the connector yourself — either send your workspace admin the [Admin setup](admin-setup.md) guide so they add it, or, on **Claude Desktop**, skip the connector entirely and install the [`.dxt` extension](installation.md#claude-desktop) yourself (a per-user, no-admin install). See [Installation](installation.md) for the full walkthrough with screenshots.
+Custom connectors require a paid Claude plan. **If you're not an admin of your organization**, you can't add the connector yourself — either send your workspace admin the [Admin setup](admin-setup.md) guide so they add it, or, on **Claude Desktop**, skip the connector entirely and install the [`.dxt` extension](installation.md#fallback-install-the-.dxt-extension) yourself (a per-user, no-admin install). See [Installation](installation.md) for the full walkthrough with screenshots.
 {% endhint %}
 
 ---
