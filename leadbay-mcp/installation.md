@@ -201,7 +201,7 @@ A successful reply is a **ranked shortlist** — each lead with a fit score, a o
 | Wrong instance (no leads / 404s) | Sign out and sign back in on the correct instance, or use the `/fr/mcp` URL for EU accounts. |
 | Tools don't appear after connecting | Open a new chat and wait a few seconds; send a second message and the tools finish loading. |
 | Tools appear but the assistant won't call them | Open the connector settings and set the Leadbay tool groups to **Always allow** (Claude) or enable the connector in the composer (ChatGPT). |
-| Custom connector option missing (Claude.ai / Claude Desktop / ChatGPT) | Custom connectors need a paid plan, and your workspace admin may need to enable them — see [Admin setup](admin-setup.md). |
+| Custom connector option missing (Claude.ai / Claude Desktop / ChatGPT) | Custom connectors need a paid plan, and your workspace admin may need to enable them — see [Admin setup](admin-setup.md). On **Claude Desktop** you can skip the connector entirely with the [`.dxt` extension fallback](admin-setup.md). |
 | Other issue | File a bug at [github.com/leadbay/mcp/issues](https://github.com/leadbay/mcp/issues). |
 
 ---
