@@ -20,14 +20,6 @@ step — you can add the connector yourself. Just follow the
 [Quickstart](quickstart.md) or [Installation](installation.md) guide.
 {% endhint %}
 
-{% hint style="warning" %}
-**US vs EU accounts.** Everywhere the server URL is asked for, it's
-`https://mcp.leadbay.app/mcp`. If your organization's Leadbay account is on the
-**EU** instance, use `https://mcp.leadbay.app/fr/mcp` instead. When in doubt, the
-US URL works for most accounts — a valid login is routed to whichever backend owns
-it.
-{% endhint %}
-
 ---
 
 ## Claude (Team & Enterprise)

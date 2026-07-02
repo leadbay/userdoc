@@ -17,10 +17,6 @@ https://mcp.leadbay.app/mcp
 Sign-in is handled by your browser (OAuth) — there are no tokens to copy or paste.
 {% endhint %}
 
-{% hint style="warning" %}
-**US vs EU accounts.** If your Leadbay account is on the **EU** instance, use `https://mcp.leadbay.app/fr/mcp` instead of `https://mcp.leadbay.app/mcp`. When in doubt, the US URL works for most accounts — a valid login is routed to whichever backend owns it.
-{% endhint %}
-
 ---
 
 ## Claude.ai (web)
@@ -197,8 +193,7 @@ A successful reply is a **ranked shortlist** — each lead with a fit score, a o
 | Symptom | Fix |
 |---------|-----|
 | "Not authenticated" / 401 errors | Your sign-in expired or was revoked. Trigger any Leadbay tool again and approve the **Sign in with Leadbay** prompt. |
-| Connected, but "show me leads" returns an empty list | You're signed in fine — there's just nothing to show right now. Ask _"show me my lenses"_ to check which audience is active, or confirm you're on the right instance (US vs EU). |
-| Wrong instance (no leads / 404s) | Sign out and sign back in on the correct instance, or use the `/fr/mcp` URL for EU accounts. |
+| Connected, but "show me leads" returns an empty list | You're signed in fine — there's just nothing to show right now. Ask _"show me my lenses"_ to check which audience is active. |
 | Tools don't appear after connecting | Open a new chat and wait a few seconds; send a second message and the tools finish loading. |
 | Tools appear but the assistant won't call them | Open the connector settings and set the Leadbay tool groups to **Always allow** (Claude) or enable the connector in the composer (ChatGPT). |
 | Custom connector option missing (Claude.ai / Claude Desktop / ChatGPT) | Custom connectors need a paid plan, and your workspace admin may need to enable them — see [Admin setup](admin-setup.md). On **Claude Desktop** you can skip the connector entirely with the [`.dxt` extension fallback](admin-setup.md). |
