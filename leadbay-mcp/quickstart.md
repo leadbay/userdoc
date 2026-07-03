@@ -8,6 +8,19 @@ You'll need a [Leadbay account](https://leadbay.ai/) and Claude (Pro, Max, Team,
 
 ---
 
+## First — which one are you?
+
+Adding a custom connector needs a **paid Claude plan**, and in a **company workspace only an admin can add it**. Find your situation, then follow the steps below:
+
+| Your situation | What to do |
+|---|---|
+| **Solo / personal paid plan** (not in a company workspace) | Add it yourself — follow Step 1 below. |
+| **In a company workspace, and you're the admin** | Add it yourself (Step 1) — your teammates then just **Connect**. |
+| **In a company workspace, not the admin** | You can't add it yourself. Send your admin the [Admin setup](admin-setup.md) guide; once they've added it, skip to **Step 2 — Sign in**. |
+| **Can't add connectors / no admin to ask** | On **Claude Desktop**, install the [`.dxt` extension](installation.md#fallback-install-the-extension) instead — a per-user install with no admin gate. |
+
+---
+
 ## Step 1 — Add the Leadbay connector
 
 1. Open the **Add custom connector** form — use this link, or in Claude go to **Settings → Connectors** → the **+** → **Add custom connector**:
@@ -18,7 +31,7 @@ You'll need a [Leadbay account](https://leadbay.ai/) and Claude (Pro, Max, Team,
 3. Click **Add**.
 
 {% hint style="info" %}
-Custom connectors require a paid Claude plan. **If you're not an admin of your organization**, you can't add the connector yourself — either send your workspace admin the [Admin setup](admin-setup.md) guide so they add it, or, on **Claude Desktop**, skip the connector entirely and install the [`.dxt` extension](installation.md#fallback-install-the-extension) yourself (a per-user, no-admin install). See [Installation](installation.md) for the full walkthrough with screenshots.
+Prefer step-by-step screenshots, or on a different assistant (Claude Desktop, Claude Code, ChatGPT, Codex)? See the full [Installation](installation.md) walkthrough.
 {% endhint %}
 
 ---
