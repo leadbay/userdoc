@@ -21,7 +21,7 @@ Les étapes ci-dessous utilisent l'URL France — sur l'instance US, remplacez s
 
 **Sur Claude (web / Desktop) — connecteur personnalisé** (recommandé) :
 
-1. **[Ajouter le connecteur Leadbay →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Ffr%2Fmcp)**, puis cliquez sur **Add**.
+1. **[Ajouter le connecteur Leadbay →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Ffr%2Fmcp)**, puis cliquez sur **Add**. Si vous êtes en France, utilisez bien cette URL : `https://mcp.leadbay.app/fr/mcp`
 2. Ouvrez le connecteur **Leadbay**, cliquez sur **Connect** et connectez-vous.
 
 **Sur Claude Code ou Codex — une commande :**
