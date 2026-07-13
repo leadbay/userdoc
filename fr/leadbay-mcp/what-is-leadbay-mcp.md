@@ -5,7 +5,7 @@
 Récupérez des leads, qualifiez-les, rédigez votre prospection, journalisez vos actions — en langage naturel. Claude agit sur vos vraies données, avec vos permissions, exactement comme vous le feriez dans l'application.
 
 {% hint style="info" %}
-**MCP** signifie *Model Context Protocol* — un standard ouvert qui permet aux assistants IA comme Claude de se connecter de façon sécurisée à des outils et des données externes. Le serveur Leadbay MCP est open source et se trouve sur [github.com/leadbay/leadclaw](https://github.com/leadbay/leadclaw).
+**MCP** signifie *Model Context Protocol* — un standard ouvert qui permet aux assistants IA comme Claude de se connecter de façon sécurisée à des outils et des données externes. Le serveur Leadbay MCP est open source et se trouve sur [github.com/leadbay/mcp](https://github.com/leadbay/mcp).
 {% endhint %}
 
 ---
@@ -40,16 +40,11 @@ Leadbay MCP fonctionne avec tout assistant IA qui supporte le Model Context Prot
 
 Demandez en langage naturel — Claude répond avec une liste classée de leads qualifiés :
 
-<figure><img src="../.gitbook/assets/mcp-teaser-leads.png" alt="Claude renvoie un tableau de leads qualifiés classés dans le chat"><figcaption>« Montre-moi les leads du jour » — une liste classée avec score de fit et le meilleur contact.</figcaption></figure>
+<figure><img src="../../.gitbook/assets/mcp-teaser-leads.png" alt="Claude renvoie un tableau de leads qualifiés classés dans le chat"><figcaption>« Montre-moi les leads du jour » — une liste classée avec score de fit et le meilleur contact.</figcaption></figure>
 
 …puis rédige la prospection pour vous :
 
-<figure><img src="../.gitbook/assets/mcp-teaser-outreach.png" alt="Claude rédige un email de prospection personnalisé"><figcaption>« Rédige un email d'intro » — des variantes prêtes à envoyer en quelques secondes.</figcaption></figure>
-
-<!-- CAPTURE 3 (optionnelle) — une carte de recherche / analyse d'entreprise. Déposez l'image dans .gitbook/assets/mcp-teaser-research.png et décommentez :
-<figure><img src="../.gitbook/assets/mcp-teaser-research.png" alt="Une carte de recherche d'entreprise avec résumé de fit et meilleur contact"><figcaption>« Recherche Acme » — un résumé de fit et le meilleur contact à joindre.</figcaption></figure>
--->
-
+<figure><img src="../../.gitbook/assets/mcp-teaser-outreach.png" alt="Claude rédige un email de prospection personnalisé"><figcaption>« Rédige un email d'intro » — des variantes prêtes à envoyer en quelques secondes.</figcaption></figure>
 
 ---
 

@@ -1,48 +1,30 @@
 # Démarrage rapide
 
-Connectez Leadbay à Claude et obtenez vos premiers leads qualifiés en environ cinq minutes. Choisissez votre client, installez, connectez-vous, et demandez — sans coder, sans jeton à copier.
+Reliez Leadbay à Claude et obtenez vos premiers leads qualifiés en environ cinq minutes. Ce guide utilise **Claude** (Claude.ai ou Claude Desktop) — le chemin le plus simple. Vous utilisez un autre assistant ? Voir [Installation](installation.md) pour la configuration pas à pas de Claude Code, ChatGPT et Codex.
 
 {% hint style="info" %}
-Il vous faut un [compte Leadbay](https://leadbay.ai/) et un assistant IA qui supporte MCP (Claude Desktop, Claude Cowork, Claude Code ou Cursor — Codex aussi). C'est tout — aucun jeton d'API à copier ou coller. _Le support de ChatGPT arrive bientôt._
+Il vous faut un [compte Leadbay](https://leadbay.ai/) et Claude (Pro, Max, Team ou Enterprise). C'est tout — aucun jeton d'API à copier ou coller ; vous ajoutez une URL et vous vous connectez avec votre navigateur.
 {% endhint %}
 
 ---
 
-## Étape 1 — Installer
+## Étape 1 — Ajouter le connecteur Leadbay
 
-**Sur Claude (Desktop / Cowork) — extension `.dxt`** (recommandé) :
-
-1. **[⬇ Télécharger l'extension Leadbay (.dxt)](https://github.com/leadbay/leadclaw/releases/latest/download/leadbay-latest.dxt)** — ceci télécharge directement la dernière version.
-2. **Double-cliquez sur le `.dxt` téléchargé.** Claude s'ouvre avec les détails de l'extension — cliquez sur **Install**, puis basculez l'extension sur **Enabled**.
+**[Ajouter le connecteur Leadbay →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Ffr%2Fmcp)**, puis cliquez sur **Add**. Cette URL est celle de la France : `https://mcp.leadbay.app/fr/mcp`. Sur l'instance US, utilisez plutôt `https://mcp.leadbay.app/mcp`.
 
 {% hint style="info" %}
-Claude ne s'ouvre pas ? Installez-la depuis l'application : **Settings → Extensions → Advanced → Install extension**, puis sélectionnez le fichier `.dxt`.
+Les connecteurs personnalisés nécessitent un plan Claude payant. **Si vous n'êtes pas admin de votre organisation**, vous ne pouvez pas ajouter le connecteur vous-même — soit vous envoyez à votre admin le guide [Configuration admin](admin-setup.md) pour qu'il l'ajoute, soit, sur **Claude Desktop**, vous contournez le connecteur en installant l'[extension `.dxt`](installation.md#solution-de-repli-installer-lextension) vous-même (installation par utilisateur, sans droits admin). Voir [Installation](installation.md) pour chaque client.
 {% endhint %}
-
-**Sur Claude Code, Cursor ou Codex — installateur en une commande** (nécessite [Node.js](https://nodejs.org) 22+). Il fonctionne aussi pour Claude Desktop si vous préférez automatiser la configuration :
-
-```bash
-npx -y -p @leadbay/mcp@latest installer
-```
-
-Cela ouvre un assistant guidé qui détecte vos clients installés, ajoute Leadbay à ceux que vous choisissez, et lance le flux de connexion.
 
 ---
 
-## Étape 2 — Se connecter (cela se fait automatiquement)
+## Étape 2 — Se connecter
 
-Vous ne configurez rien à la main. Dès que vous installez — ou la première fois que Claude utilise un outil Leadbay — une page **Se connecter avec Leadbay** **s'ouvre automatiquement dans votre navigateur** :
+1. Ouvrez le nouveau connecteur **Leadbay** et cliquez sur **Connect**.
+2. Une page **Se connecter avec Leadbay** s'ouvre dans votre navigateur — connectez-vous (ou confirmez votre session existante) et cliquez sur **Approuver**.
+3. L'onglet se ferme tout seul et Claude est connecté.
 
-1. La page de connexion Leadbay apparaît d'elle-même.
-2. Connectez-vous (ou confirmez votre session existante).
-3. Cliquez sur **Approuver** pour relier Claude à votre compte.
-4. L'onglet se ferme tout seul et Claude est prêt.
-
-C'est toute la connexion. Aucun jeton, aucun fichier de config. Claude est désormais relié à **votre** compte, avec tous les leads que vous avez déjà dans Leadbay. Vous pouvez révoquer l'accès à tout moment depuis **Paramètres → Applications connectées**.
-
-{% hint style="info" %}
-Si vous avez à la fois un compte US et UE, connectez-vous sur l'instance que vous voulez que Claude utilise. Vous pouvez changer plus tard en vous déconnectant puis en vous reconnectant sur l'autre instance.
-{% endhint %}
+C'est toute la connexion — aucun jeton, aucun fichier de config. Claude est désormais relié à **votre** compte Leadbay, avec tous les leads que vous avez déjà. Vous pouvez révoquer l'accès à tout moment depuis **Paramètres → Applications connectées**.
 
 ---
 
@@ -50,9 +32,13 @@ Si vous avez à la fois un compte US et UE, connectez-vous sur l'instance que vo
 
 Ouvrez une nouvelle conversation et tapez :
 
-> *Montre-moi les leads du jour et dis-moi lesquels valent la peine d'être ouverts en premier.*
+> _Montre-moi les leads du jour et dis-moi lesquels valent la peine d'être ouverts en premier._
 
 Claude appelle vos outils Leadbay et répond avec une courte liste classée — entreprise, pourquoi elle correspond, et le meilleur contact à joindre.
+
+{% hint style="info" %}
+Votre premier message reçoit _« Je ne vois aucun outil Leadbay »_ ? Les outils sont encore en train de se charger. Envoyez n'importe quel deuxième message (même juste _« réessaie »_) et Claude les détectera.
+{% endhint %}
 
 ---
 
@@ -74,44 +60,23 @@ Si Claude répond avec des leads comme ça, vous êtes complètement connecté. 
 
 Une fois vos premiers leads affichés, essayez ceci :
 
-> *Recherche le meilleur pour moi — est-ce un bon fit ?*
+> _Recherche le meilleur pour moi — est-ce un bon fit ?_
 
-> *Rédige-moi un email de prospection pour lui.*
+> _Rédige-moi un email de prospection pour lui._
 
-> *Je viens de lui envoyer un email. Journalise-le comme prospection.*
+> _Je viens de lui envoyer un email. Journalise-le comme prospection._
 
 Claude se souvient des leads qu'il a fait remonter, vous pouvez donc continuer à parler du « meilleur » sans vous répéter.
 
 ---
 
-## Utiliser Leadbay avec Claude Desktop
+## Vous utilisez un autre assistant ?
 
-Claude Desktop charge les outils MCP plus lentement que Cowork, donc quelques précautions supplémentaires aident.
+{% content-ref url="installation.md" %}
+[Installation](installation.md)
+{% endcontent-ref %}
 
-Après avoir installé l'extension Leadbay, **quittez complètement et relancez Claude Desktop** (Cmd-Q sur Mac, puis rouvrez — pas seulement fermer la fenêtre). Ouvrez un nouveau chat et attendez environ **30 secondes** avant d'envoyer votre premier message. Cela laisse à Claude le temps de charger les outils Leadbay.
-
-Si votre premier message reçoit une réponse du type *« Je ne vois aucun outil Leadbay »* ou *« Je ne trouve pas Leadbay dans votre configuration »*, pas d'inquiétude — les outils sont encore en train de se charger. Envoyez n'importe quel deuxième message (même juste *« réessaie »*) et Claude les détectera. À partir de là, le reste de votre session fonctionne normalement.
-
----
-
-## Mise à jour
-
-Pour l'**extension `.dxt`**, quand une nouvelle release sort, répétez l'**Étape 1** (téléchargez le nouveau `.dxt`, double-cliquez, Install). Claude remplace l'ancienne version sur place ; votre connexion reste valide, vous n'avez donc pas à vous ré-authentifier.
-
-L'**installateur en une commande** exécute toujours la dernière version — il n'y a rien à mettre à jour.
-
----
-
-## Dépannage
-
-| Symptôme | Solution |
-|---------|-----|
-| Claude dit « non authentifié » ou erreurs 401 | Votre connexion a peut-être expiré ou été révoquée. Déclenchez n'importe quel outil Leadbay à nouveau et Claude relancera le flux **Se connecter avec Leadbay** |
-| Les outils n'apparaissent pas après l'installation | Vérifiez que l'extension est bien sur **Enabled** dans Settings → Extensions |
-| Les outils apparaissent mais Claude ne les appelle pas | Ouvrez **Configure** et basculez les groupes d'outils sur **Always allow** |
-| Connecté, mais « montre-moi les leads » renvoie une liste vide | Vous êtes bien connecté — il n'y a simplement rien à afficher pour l'instant. Demandez *« montre-moi mes lenses »* pour confirmer quelle audience est active et basculer si besoin, ou vérifiez que vous êtes sur la bonne instance (US vs UE) |
-| Mauvaise instance (aucun lead / erreurs 404) | Déconnectez-vous de l'extension Leadbay et reconnectez-vous sur la bonne instance (US ou UE) |
-| Autre problème | Signalez un bug sur [github.com/leadbay/leadclaw/issues](https://github.com/leadbay/leadclaw/issues) |
+Configuration pas à pas pour **Claude.ai**, **Claude Desktop**, **Claude Code**, **ChatGPT** et **Codex**. Les comptes France / UE utilisent `https://mcp.leadbay.app/fr/mcp` ; les comptes US utilisent `https://mcp.leadbay.app/mcp`.
 
 ---
 

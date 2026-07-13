@@ -10,15 +10,10 @@ You'll need a [Leadbay account](https://leadbay.ai/) and Claude (Pro, Max, Team,
 
 ## Step 1 — Add the Leadbay connector
 
-1. Open the **Add custom connector** form — use this link, or in Claude go to **Settings → Connectors** → the **+** → **Add custom connector**:
-   - [https://claude.ai/customize/connectors?modal=add-custom-connector](https://claude.ai/customize/connectors?modal=add-custom-connector)
-2. Enter:
-   - **Name:** `Leadbay`
-   - **URL:** `https://mcp.leadbay.app/mcp`
-3. Click **Add**.
+**[Add the Leadbay connector →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Fmcp)**, then click **Add**. If you're in France, use this URL instead: `https://mcp.leadbay.app/fr/mcp`
 
 {% hint style="info" %}
-Custom connectors require a paid Claude plan. **If you're not an admin of your organization**, you can't add the connector yourself — either send your workspace admin the [Admin setup](admin-setup.md) guide so they add it, or, on **Claude Desktop**, skip the connector entirely and install the [`.dxt` extension](installation.md#fallback-install-the-extension) yourself (a per-user, no-admin install). See [Installation](installation.md) for the full walkthrough with screenshots.
+Custom connectors require a paid Claude plan. **If you're not an admin of your organization**, you can't add the connector yourself — either send your workspace admin the [Admin setup](admin-setup.md) guide so they add it, or, on **Claude Desktop**, skip the connector entirely and install the [`.dxt` extension](installation.md#fallback-install-the-extension) yourself (a per-user, no-admin install). See [Installation](installation.md) for every client.
 {% endhint %}
 
 ---
@@ -81,7 +76,7 @@ Claude remembers the leads it surfaced, so you can keep referring to "the top on
 [Installation](installation.md)
 {% endcontent-ref %}
 
-Step-by-step setup for **Claude.ai**, **Claude Desktop**, **Claude Code**, **ChatGPT**, and **Codex** — they all use the same `https://mcp.leadbay.app/mcp` endpoint.
+Step-by-step setup for **Claude.ai**, **Claude Desktop**, **Claude Code**, **ChatGPT**, and **Codex**. US accounts use `https://mcp.leadbay.app/mcp`; France / EU use `https://mcp.leadbay.app/fr/mcp`.
 
 ---
 
