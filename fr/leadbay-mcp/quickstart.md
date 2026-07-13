@@ -10,7 +10,7 @@ Il vous faut un [compte Leadbay](https://leadbay.ai/) et Claude (Pro, Max, Team 
 
 ## Étape 1 — Ajouter le connecteur Leadbay
 
-**[Ajouter le connecteur Leadbay →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Ffr%2Fmcp)**, puis cliquez sur **Add**. Cette URL est celle de la France : `https://mcp.leadbay.app/fr/mcp`. Sur l'instance US, utilisez plutôt `https://mcp.leadbay.app/mcp`.
+**[Ajouter le connecteur Leadbay →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Ffr%2Fmcp)**, puis cliquez sur **Add**. Il existe deux URLs de serveur — ce lien utilise celle de la France, `https://mcp.leadbay.app/fr/mcp`. Sur l'instance US, utilisez plutôt `https://mcp.leadbay.app/mcp`.
 
 {% hint style="info" %}
 Les connecteurs personnalisés nécessitent un plan Claude payant. **Si vous n'êtes pas admin de votre organisation**, vous ne pouvez pas ajouter le connecteur vous-même — soit vous envoyez à votre admin le guide [Configuration admin](admin-setup.md) pour qu'il l'ajoute, soit, sur **Claude Desktop**, vous contournez le connecteur en installant l'[extension `.dxt`](installation.md#solution-de-repli-installer-lextension) vous-même (installation par utilisateur, sans droits admin). Voir [Installation](installation.md) pour chaque client.

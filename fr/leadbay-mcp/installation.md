@@ -2,14 +2,14 @@
 
 Choisissez votre client ci-dessous. Chacun prend deux minutes et **aucun ne nécessite de jeton d'API** — vous ajoutez une URL de serveur, vous vous connectez une fois avec votre compte Leadbay dans le navigateur, et c'est relié.
 
-Partout où une URL de serveur est demandée, utilisez celle de votre région :
+Il existe **deux URLs de serveur** — choisissez celle correspondant à l'instance Leadbay sur laquelle se trouve votre compte :
 
 | Région | URL du serveur |
 |---|---|
 | 🇫🇷 France / UE | `https://mcp.leadbay.app/fr/mcp` |
 | 🇺🇸 US | `https://mcp.leadbay.app/mcp` |
 
-Utilisez l'URL correspondant à l'instance Leadbay sur laquelle se trouve votre compte. Les étapes ci-dessous montrent l'URL France — sur l'instance US, remplacez simplement par `/mcp`.
+Les étapes ci-dessous montrent l'URL France — sur l'instance US, remplacez simplement par `/mcp`.
 
 Il vous faut un [compte Leadbay](https://leadbay.ai/) (le même identifiant que l'application web) et l'un des assistants ci-dessous.
 
