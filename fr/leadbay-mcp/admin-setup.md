@@ -12,7 +12,7 @@ Si vous êtes arrivé ici parce qu'un collègue vous a demandé d'« ajouter le 
 
 En tant que **propriétaire principal ou admin**, ajoutez Leadbay comme connecteur personnalisé d'**organisation**. Une fois ajouté, il apparaît dans le répertoire de chaque membre et ils se connectent individuellement.
 
-1. **[Ajouter le connecteur Leadbay →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Ffr%2Fmcp)** — le formulaire s'ouvre avec le nom et l'URL pré-remplis. (URL France : `https://mcp.leadbay.app/fr/mcp` ; sur l'instance US, utilisez `https://mcp.leadbay.app/mcp`.)
+1. **[Ajouter le connecteur Leadbay →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Ffr%2Fmcp)** — le formulaire s'ouvre avec le nom et l'URL pré-remplis. (Il existe deux URLs de serveur : ce lien utilise celle de la France, `https://mcp.leadbay.app/fr/mcp` ; pour un espace de travail US, utilisez plutôt `https://mcp.leadbay.app/mcp`.)
 2. Si Claude propose un choix de portée, choisissez **organisation** pour que chaque membre en bénéficie. Laissez les paramètres avancés tels quels (**Individual sign-in** — chaque membre utilise son propre identifiant Leadbay ; vous ne partagez pas un seul compte), puis cliquez sur **Add**.
 
 C'est fait côté admin — Leadbay apparaît maintenant dans le répertoire de connecteurs de vos membres. (Dans un espace Team/Enterprise, les membres n'ont pas l'option **Add custom connector** eux-mêmes, c'est pourquoi cette étape existe.)
