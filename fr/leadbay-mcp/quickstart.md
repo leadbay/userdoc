@@ -8,12 +8,25 @@ Il vous faut un [compte Leadbay](https://leadbay.ai/) et Claude (Pro, Max, Team 
 
 ---
 
+## D'abord — vous êtes dans quel cas ?
+
+Ajouter un connecteur personnalisé nécessite un **plan Claude payant**, et dans un **espace de travail d'entreprise, seul un admin peut l'ajouter**. Trouvez votre situation, puis suivez les étapes ci-dessous :
+
+| Votre situation | Que faire |
+|---|---|
+| **Solo / plan payant personnel** (pas dans un espace d'entreprise) | Ajoutez-le vous-même — suivez l'Étape 1 ci-dessous. |
+| **Dans un espace d'entreprise, et vous êtes l'admin** | Ajoutez-le vous-même (Étape 1) — vos collègues n'ont plus qu'à faire **Connect**. |
+| **Dans un espace d'entreprise, pas admin** | Vous ne pouvez pas l'ajouter vous-même. Envoyez à votre admin le guide [Configuration admin](admin-setup.md) ; une fois qu'il l'a ajouté, passez directement à l'**Étape 2 — Se connecter**. |
+| **Impossible d'ajouter un connecteur / pas d'admin à qui demander** | Sur **Claude Desktop**, installez plutôt l'[extension `.dxt`](installation.md#solution-de-repli-installer-lextension) — une installation par utilisateur, sans verrou admin. |
+
+---
+
 ## Étape 1 — Ajouter le connecteur Leadbay
 
 **[Ajouter le connecteur Leadbay →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Ffr%2Fmcp)**, puis cliquez sur **Add**. Il existe deux URLs de serveur — ce lien utilise celle de la France, `https://mcp.leadbay.app/fr/mcp`. Sur l'instance US, utilisez plutôt `https://mcp.leadbay.app/mcp`.
 
 {% hint style="info" %}
-Les connecteurs personnalisés nécessitent un plan Claude payant. **Si vous n'êtes pas admin de votre organisation**, vous ne pouvez pas ajouter le connecteur vous-même — soit vous envoyez à votre admin le guide [Configuration admin](admin-setup.md) pour qu'il l'ajoute, soit, sur **Claude Desktop**, vous contournez le connecteur en installant l'[extension `.dxt`](installation.md#solution-de-repli-installer-lextension) vous-même (installation par utilisateur, sans droits admin). Voir [Installation](installation.md) pour chaque client.
+Vous préférez des captures d'écran pas à pas, ou vous êtes sur un autre assistant (Claude Desktop, Claude Code, ChatGPT, Codex) ? Voir le guide complet d'[Installation](installation.md).
 {% endhint %}
 
 ---
