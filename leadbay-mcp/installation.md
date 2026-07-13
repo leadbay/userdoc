@@ -1,12 +1,6 @@
 # Installation
 
-Step-by-step setup for every assistant that works with Leadbay. Pick your client below — each takes a couple of minutes, and **none of them need an API token**. You add one server URL, sign in once with your Leadbay account, and you're connected.
-
-{% hint style="info" %}
-**Before you start, you need:**
-
-- A [Leadbay account](https://leadbay.ai/) (the same login you use for the web app).
-- One of the assistants below: **Claude.ai**, **Claude Desktop**, **Claude Code**, **ChatGPT**, or **Codex**.
+Pick your client below. Each takes a couple of minutes and **none of them need an API token** — you add one server URL, sign in once with your Leadbay account in the browser, and you're connected.
 
 Everywhere a server URL is asked for, it's:
 
@@ -14,8 +8,7 @@ Everywhere a server URL is asked for, it's:
 https://mcp.leadbay.app/mcp
 ```
 
-Sign-in is handled by your browser (OAuth) — there are no tokens to copy or paste.
-{% endhint %}
+You need a [Leadbay account](https://leadbay.ai/) (the same login as the web app) and one of the assistants below.
 
 ---
 
@@ -23,155 +16,77 @@ Sign-in is handled by your browser (OAuth) — there are no tokens to copy or pa
 
 Add Leadbay as a **custom connector**.
 
-**1. Click the link below, then click Add.** It opens the **Add custom connector** form in Claude with the name and URL already filled in — you just confirm:
+1. **[Add the Leadbay connector →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Fmcp)** — the form opens with the name and URL prefilled. Leave the Advanced settings as they are, then click **Add**.
+2. Open the **Leadbay** connector in the directory (search "Leadbay" under **Custom connectors**), click **Connect**, and sign in.
 
-{% hint style="info" %}
-[**Add the Leadbay connector →**](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Fmcp)
-{% endhint %}
+The Leadbay tools become available in your chats. You can scope them per-project in Claude Projects.
 
-Leave the Advanced settings as they are (Individual sign-in is fine).
-
-<figure><img src="../.gitbook/assets/claude-01-add-custom-connector-form.png" alt="Add custom connector form with Leadbay name and URL prefilled"><figcaption><p>Name and URL are prefilled — just click Add</p></figcaption></figure>
-
-**2. Open the Leadbay connector and click Connect.** Find it in the directory (search "Leadbay" under **Custom connectors**), then a **Sign in with Leadbay** page opens — log in and approve. The connector shows as connected, and the Leadbay tools are available in your chats.
-
-<figure><img src="../.gitbook/assets/claude-04-connect.png" alt="Leadbay connector with the Connect button"><figcaption><p>Click Connect, then sign in with Leadbay</p></figcaption></figure>
-
-{% hint style="warning" %}
-**Not an admin of your organization?** Members can't add a custom connector themselves — your **workspace admin** needs to add the Leadbay connector first (step 1 above). Send them the [Admin setup](admin-setup.md) guide. Once the admin has added it, you'll find it in the directory and can **Connect** (step 2).
-{% endhint %}
-
-{% hint style="info" %}
-Custom connectors require a paid Claude plan (Pro, Max, Team, or Enterprise).
-{% endhint %}
+> **Not an org admin?** Members can't add a custom connector — your workspace admin adds it once (step 1), then you **Connect** (step 2). See [Admin setup](admin-setup.md). Custom connectors require a paid Claude plan (Pro, Max, Team, or Enterprise).
 
 ---
 
 ## Claude Desktop
 
-Claude Desktop connects to Leadbay exactly like Claude.ai — same **custom connector**, same URL.
+Same **custom connector** as Claude.ai, same URL.
 
-1. Open **Settings → Connectors**, click the **+** → **Add custom connector**.
-2. Enter **Name** `Leadbay` and **URL** `https://mcp.leadbay.app/mcp`, then click **Add**.
-3. Open the **Leadbay** connector and click **Connect** — sign in with Leadbay in your browser.
-4. Open a new chat and wait a few seconds for the Leadbay tools to load before your first message.
+1. **Settings → Connectors → + → Add custom connector**
+2. **Name:** `Leadbay` · **URL:** `https://mcp.leadbay.app/mcp` → click **Add**
+3. Open the **Leadbay** connector, click **Connect**, sign in.
 
-{% hint style="info" %}
-If your first message gets _"I don't see any Leadbay tools"_, the tools are still loading. Send any second message (even just _"try again"_) and Claude will pick them up. As with Claude.ai, if you're not an org admin, the admin must add the connector first — see [Admin setup](admin-setup.md).
-{% endhint %}
+If your first message gets _"I don't see any Leadbay tools"_, the tools are still loading — send any second message and Claude picks them up. Not an org admin? The admin adds the connector first (see [Admin setup](admin-setup.md)), or use the extension fallback below.
 
 ### Fallback: install the extension
 
-Can't get the custom connector to work — the **Add custom connector** option is missing, or you're not an org admin? On Claude Desktop you can skip the connector entirely and install Leadbay as a **`.dxt` extension**. It's a per-user double-click install with no admin gate.
+No **Add custom connector** option, or not an org admin? Skip the connector and install Leadbay as a **`.dxt` extension** — a per-user double-click install with no admin gate.
 
-1. **[⬇ Download the Leadbay extension (.dxt)](https://github.com/leadbay/mcp/releases/latest/download/leadbay-latest.dxt)** — this pulls the latest version directly.
-2. **Double-click the downloaded `.dxt`.** Claude opens with the extension details — click **Install**, then toggle the extension to **Enabled**.
-3. Open a new chat, click **Connect** on the extension, and sign in with Leadbay in your browser.
+1. **[⬇ Download the Leadbay extension (.dxt)](https://github.com/leadbay/mcp/releases/latest/download/leadbay-latest.dxt)**
+2. Double-click it → **Install** → toggle to **Enabled**.
+3. Open a new chat, click **Connect** on the extension, sign in.
 
-{% hint style="info" %}
-Claude didn't open on double-click? Install it from inside the app: **Settings → Extensions → Advanced → Install extension**, then pick the `.dxt` file you downloaded. When a new release ships, download the new `.dxt` and install it again — Claude replaces the old version in place and your sign-in carries over.
-{% endhint %}
+Double-click didn't open Claude? Install from inside the app: **Settings → Extensions → Advanced → Install extension**, then pick the downloaded `.dxt`. On a new release, download and install again — Claude replaces it in place and your sign-in carries over.
 
 ---
 
 ## Claude Code
 
-One command registers Leadbay for every project.
+One command registers Leadbay for every project:
 
 ```bash
 claude mcp add --scope user --transport http leadbay https://mcp.leadbay.app/mcp
 ```
 
-Then:
-
 1. Run `/mcp` inside Claude Code.
-2. Select **leadbay** → **Authenticate**. Your browser opens for the Leadbay sign-in.
-3. Log in and approve — the status flips to **connected** and the Leadbay tools load.
+2. Select **leadbay → Authenticate** — your browser opens for sign-in.
+3. Log in and approve. The status flips to **connected** and the tools load.
 
-{% hint style="info" %}
-If you just ran the `add` command in an open Claude Code session, restart it once so the new server shows up in `/mcp`.
-{% endhint %}
-
-Remove it anytime with `claude mcp remove leadbay -s user`.
+Ran `add` in an open session? Restart it once so the server shows up in `/mcp`. Remove it anytime with `claude mcp remove leadbay -s user`.
 
 ---
 
 ## Codex
 
-Codex has a built-in command for remote MCP servers.
+Codex has a built-in command for remote MCP servers:
 
 ```bash
 codex mcp add leadbay --url https://mcp.leadbay.app/mcp
 ```
 
-Codex detects OAuth automatically and opens your browser for the **Sign in with Leadbay** flow — log in and approve. Confirm it's connected with:
-
-```bash
-codex mcp list
-```
-
-You should see `leadbay` with **Status: enabled** and **Auth: OAuth**. Remove it with `codex mcp remove leadbay`.
+Codex detects OAuth automatically and opens your browser for the **Sign in with Leadbay** flow — log in and approve. Confirm with `codex mcp list` (you should see `leadbay` with **Status: enabled**, **Auth: OAuth**). Remove it with `codex mcp remove leadbay`.
 
 ---
 
 ## ChatGPT
 
-Add Leadbay as a custom app (MCP connector) in ChatGPT.
+Add Leadbay as a custom app (MCP connector).
 
-{% hint style="info" %}
-Custom MCP connectors require a paid ChatGPT plan (Plus, Pro, Business, or Enterprise) and Developer mode, which you enable in step 5 below. On Business/Enterprise an admin may need to allow custom connectors first.
-{% endhint %}
-
-**1. Open the workspace menu** (bottom-left) and click your workspace name.
-
-<figure><img src="../.gitbook/assets/chatgpt-01-workspace-menu.png" alt="ChatGPT bottom-left workspace menu"><figcaption><p>Open the workspace menu</p></figcaption></figure>
-
-**2. Click Settings.**
-
-<figure><img src="../.gitbook/assets/chatgpt-02-settings.png" alt="Workspace menu with Settings highlighted"><figcaption><p>Click Settings</p></figcaption></figure>
-
-**3. Open the Apps tab** in the Settings sidebar.
-
-<figure><img src="../.gitbook/assets/chatgpt-03-apps.png" alt="Settings sidebar with Apps highlighted"><figcaption><p>Open the Apps tab</p></figcaption></figure>
-
-**4. Click Advanced settings.**
-
-<figure><img src="../.gitbook/assets/chatgpt-04-advanced-settings.png" alt="Apps page with Advanced settings highlighted"><figcaption><p>Click Advanced settings</p></figcaption></figure>
-
-**5. Turn on Developer mode.** This is required to add a custom MCP connector.
-
-<figure><img src="../.gitbook/assets/chatgpt-05-developer-mode.png" alt="Developer mode toggle switched on"><figcaption><p>Turn on Developer mode</p></figcaption></figure>
-
-**6. Go back to Apps and click Create app.**
-
-<figure><img src="../.gitbook/assets/chatgpt-06-create-app.png" alt="Apps page with Create app highlighted"><figcaption><p>Click Create app</p></figcaption></figure>
-
-**7. Fill in the New App form:**
-
-- **Name:** `Leadbay MCP`
-- **Connection:** select **Server URL**, then enter `https://mcp.leadbay.app/mcp`
-- **Authentication:** **OAuth**
-- Check **I understand and want to continue**, then click **Create**.
-
-<figure><img src="../.gitbook/assets/chatgpt-07-new-app-form.png" alt="New App form with name, server URL, and OAuth"><figcaption><p>Name it, set the Server URL and OAuth, then Create</p></figcaption></figure>
-
-**8. Click Sign in with Leadbay MCP.** Log in and approve — ChatGPT is now connected.
-
-<figure><img src="../.gitbook/assets/chatgpt-08-sign-in.png" alt="Sign in with Leadbay MCP prompt"><figcaption><p>Sign in with Leadbay MCP</p></figcaption></figure>
+1. **Settings → Apps → Advanced settings → turn on Developer mode** (from the bottom-left workspace menu).
+2. Back on **Apps**, click **Create app**.
+3. **Name:** `Leadbay MCP` · **Connection:** Server URL `https://mcp.leadbay.app/mcp` · **Authentication:** OAuth. Check **I understand and want to continue** → **Create**.
+4. Click **Sign in with Leadbay MCP**, log in, and approve.
 
 In a chat, enable the **Leadbay MCP** app from the composer **+** / tools menu so ChatGPT can call its tools.
 
-### If the connection has a problem
-
-If the app shows as disconnected or its tools stop responding, reconnect it:
-
-**1. Open the Leadbay MCP app** (Settings → Apps → Leadbay MCP) and click the **⋯** menu (top-right).
-
-<figure><img src="../.gitbook/assets/chatgpt-09-app-menu.png" alt="Leadbay MCP app page with the three-dot menu highlighted"><figcaption><p>Open the ⋯ menu on the Leadbay MCP app</p></figcaption></figure>
-
-**2. Click Reconnect** and sign in again.
-
-<figure><img src="../.gitbook/assets/chatgpt-10-reconnect.png" alt="App menu with Reconnect highlighted"><figcaption><p>Click Reconnect and sign in again</p></figcaption></figure>
+> Custom MCP connectors require a paid ChatGPT plan (Plus, Pro, Business, or Enterprise). On Business/Enterprise an admin may need to allow custom connectors first. If the app disconnects, reconnect it: **Settings → Apps → Leadbay MCP → ⋯ → Reconnect**, then sign in again.
 
 ---
 
