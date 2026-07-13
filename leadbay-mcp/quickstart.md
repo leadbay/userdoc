@@ -76,7 +76,7 @@ Claude remembers the leads it surfaced, so you can keep referring to "the top on
 [Installation](installation.md)
 {% endcontent-ref %}
 
-Step-by-step setup for **Claude.ai**, **Claude Desktop**, **Claude Code**, **ChatGPT**, and **Codex** — they all use the same `https://mcp.leadbay.app/mcp` endpoint.
+Step-by-step setup for **Claude.ai**, **Claude Desktop**, **Claude Code**, **ChatGPT**, and **Codex**. US accounts use `https://mcp.leadbay.app/mcp`; France / EU use `https://mcp.leadbay.app/fr/mcp`.
 
 ---
 

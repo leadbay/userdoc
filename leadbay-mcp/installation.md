@@ -2,11 +2,14 @@
 
 Pick your client below. Each takes a couple of minutes and **none of them need an API token** — you add one server URL, sign in once with your Leadbay account in the browser, and you're connected.
 
-Everywhere a server URL is asked for, it's:
+Everywhere a server URL is asked for, use the one for your region:
 
-```
-https://mcp.leadbay.app/mcp
-```
+| Region | Server URL |
+|---|---|
+| 🇺🇸 US (default) | `https://mcp.leadbay.app/mcp` |
+| 🇫🇷 France / EU | `https://mcp.leadbay.app/fr/mcp` |
+
+Use the URL that matches the Leadbay instance your account is on. The steps below show the US URL — French users just swap in `/fr/mcp`.
 
 You need a [Leadbay account](https://leadbay.ai/) (the same login as the web app) and one of the assistants below.
 

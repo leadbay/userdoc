@@ -10,11 +10,14 @@ Il vous faut un [compte Leadbay](https://leadbay.ai/) et un assistant IA qui sup
 
 ## Étape 1 — Installer
 
-L'URL du serveur Leadbay pour la France est :
+Utilisez l'URL du serveur qui correspond à votre région :
 
-```
-https://mcp.leadbay.app/fr/mcp
-```
+| Région | URL du serveur |
+|---|---|
+| 🇫🇷 France / UE | `https://mcp.leadbay.app/fr/mcp` |
+| 🇺🇸 US | `https://mcp.leadbay.app/mcp` |
+
+Les étapes ci-dessous utilisent l'URL France — sur l'instance US, remplacez simplement par `/mcp`.
 
 **Sur Claude (web / Desktop) — connecteur personnalisé** (recommandé) :
 
