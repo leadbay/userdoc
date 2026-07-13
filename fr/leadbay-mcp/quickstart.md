@@ -10,22 +10,29 @@ Il vous faut un [compte Leadbay](https://leadbay.ai/) et un assistant IA qui sup
 
 ## Étape 1 — Installer
 
-**Sur Claude (Desktop / Cowork) — extension `.dxt`** (recommandé) :
+L'URL du serveur Leadbay pour la France est :
 
-1. **[⬇ Télécharger l'extension Leadbay (.dxt)](https://github.com/leadbay/leadclaw/releases/latest/download/leadbay-latest.dxt)** — ceci télécharge directement la dernière version.
-2. **Double-cliquez sur le `.dxt` téléchargé.** Claude s'ouvre avec les détails de l'extension — cliquez sur **Install**, puis basculez l'extension sur **Enabled**.
-
-{% hint style="info" %}
-Claude ne s'ouvre pas ? Installez-la depuis l'application : **Settings → Extensions → Advanced → Install extension**, puis sélectionnez le fichier `.dxt`.
-{% endhint %}
-
-**Sur Claude Code, Cursor ou Codex — installateur en une commande** (nécessite [Node.js](https://nodejs.org) 22+). Il fonctionne aussi pour Claude Desktop si vous préférez automatiser la configuration :
-
-```bash
-npx -y -p @leadbay/mcp@latest installer
+```
+https://mcp.leadbay.app/fr/mcp
 ```
 
-Cela ouvre un assistant guidé qui détecte vos clients installés, ajoute Leadbay à ceux que vous choisissez, et lance le flux de connexion.
+**Sur Claude (web / Desktop) — connecteur personnalisé** (recommandé) :
+
+1. **[Ajouter le connecteur Leadbay →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Ffr%2Fmcp)**, puis cliquez sur **Add**.
+2. Ouvrez le connecteur **Leadbay**, cliquez sur **Connect** et connectez-vous.
+
+**Sur Claude Code ou Codex — une commande :**
+
+```bash
+claude mcp add --scope user --transport http leadbay https://mcp.leadbay.app/fr/mcp
+```
+
+(Pour Codex : `codex mcp add leadbay --url https://mcp.leadbay.app/fr/mcp`.)
+
+**Sur Claude Desktop sans connecteur — extension `.dxt`** (aucun droit admin requis) :
+
+1. **[⬇ Télécharger l'extension Leadbay (.dxt)](https://github.com/leadbay/mcp/releases/latest/download/leadbay-latest.dxt)**
+2. Double-cliquez dessus → **Install** → basculez sur **Enabled**. Claude ne s'ouvre pas ? **Settings → Extensions → Advanced → Install extension**, puis sélectionnez le fichier.
 
 ---
 
