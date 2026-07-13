@@ -28,31 +28,23 @@ As a **primary owner or admin**, you add Leadbay as an **organization** custom
 connector. Once it's added, it appears in every member's connector directory and
 they connect to it individually.
 
-**1. Open the Add custom connector form.** Use this link (or in Claude, go to
-**Settings → Connectors**, then the **+** next to the search bar → **Add custom
-connector**):
+**1. Click the link below to open the Add custom connector form.** The name and
+URL are already filled in:
 
 {% hint style="info" %}
-[https://claude.ai/customize/connectors?modal=add-custom-connector](https://claude.ai/customize/connectors?modal=add-custom-connector)
+[**Add the Leadbay connector →**](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Fmcp)
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/claude-02-connectors-plus-menu.png" alt="Connectors + menu with Add custom connector"><figcaption><p>The + menu → Add custom connector</p></figcaption></figure>
+**2. Add it for the organization, then click Add.** If Claude offers a choice of
+scope (organization vs. just you), choose the **organization** scope so every
+member gets it. Leave the Advanced settings as they are — **Individual sign-in**
+is what you want. Each member authenticates with their own Leadbay login; you are
+**not** sharing one account across the team.
 
-**2. Add it for the organization.** Fill in the fields, and if Claude offers a
-choice of scope (organization vs. just you), choose the **organization** scope so
-every member gets it:
+<figure><img src="../.gitbook/assets/claude-01-add-custom-connector-form.png" alt="Add custom connector form with Leadbay name and URL prefilled"><figcaption><p>Name and URL are prefilled — set organization scope, then click Add</p></figcaption></figure>
 
-- **Name:** `Leadbay`
-- **URL:** `https://mcp.leadbay.app/mcp`
-
-Leave the Advanced settings as they are — **Individual sign-in** is what you want.
-Each member authenticates with their own Leadbay login; you are **not** sharing
-one account across the team.
-
-<figure><img src="../.gitbook/assets/claude-01-add-custom-connector-form.png" alt="Add custom connector form with Leadbay name and URL"><figcaption><p>Name it Leadbay, paste the URL, click Add</p></figcaption></figure>
-
-**3. Click Add.** That's the admin part done — Leadbay now shows up in your
-members' connector directory.
+That's the admin part done — Leadbay now shows up in your members' connector
+directory.
 
 {% hint style="info" %}
 **Members can't add it themselves.** In a Team or Enterprise workspace, members
@@ -67,8 +59,6 @@ rights needed — each person signs in with their own Leadbay account):
 
 **1. Find the Leadbay connector.** In Claude, open **Settings → Connectors** and
 search "Leadbay" — it appears under **Custom connectors**. Open it.
-
-<figure><img src="../.gitbook/assets/claude-03-directory-search.png" alt="Directory search showing the Leadbay custom connector"><figcaption><p>Search "Leadbay" and open the connector the admin added</p></figcaption></figure>
 
 **2. Click Connect and sign in.** A **Sign in with Leadbay** page opens in the
 browser — log in and click **Approve**. The tab closes and the connector shows as

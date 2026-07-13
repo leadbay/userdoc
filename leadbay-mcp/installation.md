@@ -23,33 +23,22 @@ Sign-in is handled by your browser (OAuth) — there are no tokens to copy or pa
 
 Add Leadbay as a **custom connector**.
 
-**1. Open the Add custom connector form.** Click this link (or in Claude, go to **Settings → Connectors**, then the **+** next to the search bar → **Add custom connector**):
+**1. Click the link below, then click Add.** It opens the **Add custom connector** form in Claude with the name and URL already filled in — you just confirm:
 
 {% hint style="info" %}
-[https://claude.ai/customize/connectors?modal=add-custom-connector](https://claude.ai/customize/connectors?modal=add-custom-connector)
+[**Add the Leadbay connector →**](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Fmcp)
 {% endhint %}
-
-<figure><img src="../.gitbook/assets/claude-02-connectors-plus-menu.png" alt="Connectors + menu with Add custom connector"><figcaption><p>The + menu → Add custom connector</p></figcaption></figure>
-
-**2. Fill in the fields and click Add:**
-
-- **Name:** `Leadbay`
-- **URL:** `https://mcp.leadbay.app/mcp`
 
 Leave the Advanced settings as they are (Individual sign-in is fine).
 
-<figure><img src="../.gitbook/assets/claude-01-add-custom-connector-form.png" alt="Add custom connector form with Leadbay name and URL"><figcaption><p>Name it Leadbay, paste the URL, click Add</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/claude-01-add-custom-connector-form.png" alt="Add custom connector form with Leadbay name and URL prefilled"><figcaption><p>Name and URL are prefilled — just click Add</p></figcaption></figure>
 
-**3. Find the Leadbay connector** in the directory (search "Leadbay" — it appears under **Custom connectors**) and open it.
-
-<figure><img src="../.gitbook/assets/claude-03-directory-search.png" alt="Directory search showing the Leadbay custom connector"><figcaption><p>Your new Leadbay custom connector</p></figcaption></figure>
-
-**4. Click Connect** and sign in. A **Sign in with Leadbay** page opens — log in and approve. The connector shows as connected, and the Leadbay tools are available in your chats.
+**2. Open the Leadbay connector and click Connect.** Find it in the directory (search "Leadbay" under **Custom connectors**), then a **Sign in with Leadbay** page opens — log in and approve. The connector shows as connected, and the Leadbay tools are available in your chats.
 
 <figure><img src="../.gitbook/assets/claude-04-connect.png" alt="Leadbay connector with the Connect button"><figcaption><p>Click Connect, then sign in with Leadbay</p></figcaption></figure>
 
 {% hint style="warning" %}
-**Not an admin of your organization?** Members can't add a custom connector themselves — your **workspace admin** needs to add the Leadbay connector first (steps 1–2 above). Send them the [Admin setup](admin-setup.md) guide. Once the admin has added it, you'll find it in the directory and can **Connect** (steps 3–4).
+**Not an admin of your organization?** Members can't add a custom connector themselves — your **workspace admin** needs to add the Leadbay connector first (step 1 above). Send them the [Admin setup](admin-setup.md) guide. Once the admin has added it, you'll find it in the directory and can **Connect** (step 2).
 {% endhint %}
 
 {% hint style="info" %}
