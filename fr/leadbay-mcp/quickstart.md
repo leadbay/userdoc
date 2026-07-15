@@ -1,6 +1,6 @@
 # Démarrage rapide
 
-Reliez Leadbay à Claude et obtenez vos premiers leads qualifiés en environ cinq minutes. Ce guide utilise **Claude** (Claude.ai ou Claude Desktop) — le chemin le plus simple. Vous utilisez un autre assistant ? Voir [Installation](installation.md) pour la configuration pas à pas de Claude Code, ChatGPT et Codex.
+Reliez Leadbay à Claude et obtenez vos premiers leads qualifiés en environ cinq minutes. Ce guide utilise **Claude** (Claude.ai ou Claude Desktop) — le chemin le plus simple. Vous utilisez un autre assistant ? Voir [Installation](installation.md) pour la configuration pas à pas de Claude Code, Codex, GitHub Copilot et ChatGPT.
 
 {% hint style="info" %}
 Il vous faut un [compte Leadbay](https://leadbay.ai/) et Claude (Pro, Max, Team ou Enterprise). C'est tout — aucun jeton d'API à copier ou coller ; vous ajoutez une URL et vous vous connectez avec votre navigateur.
@@ -26,7 +26,7 @@ Ajouter un connecteur personnalisé nécessite un **plan Claude payant**, et dan
 **[Ajouter le connecteur Leadbay →](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Leadbay&connectorUrl=https%3A%2F%2Fmcp.leadbay.app%2Ffr%2Fmcp)**, puis cliquez sur **Add**. Il existe deux URLs de serveur — ce lien utilise celle de la France, `https://mcp.leadbay.app/fr/mcp`. Sur l'instance US, utilisez plutôt `https://mcp.leadbay.app/mcp`.
 
 {% hint style="info" %}
-Vous préférez des captures d'écran pas à pas, ou vous êtes sur un autre assistant (Claude Desktop, Claude Code, ChatGPT, Codex) ? Voir le guide complet d'[Installation](installation.md).
+Vous préférez des captures d'écran pas à pas, ou vous êtes sur un autre assistant (Claude Desktop, Claude Code, Codex, GitHub Copilot, ChatGPT) ? Voir le guide complet d'[Installation](installation.md).
 {% endhint %}
 
 ---
@@ -89,7 +89,7 @@ Claude se souvient des leads qu'il a fait remonter, vous pouvez donc continuer �
 [Installation](installation.md)
 {% endcontent-ref %}
 
-Configuration pas à pas pour **Claude.ai**, **Claude Desktop**, **Claude Code**, **ChatGPT** et **Codex**. Les comptes France / UE utilisent `https://mcp.leadbay.app/fr/mcp` ; les comptes US utilisent `https://mcp.leadbay.app/mcp`.
+Configuration pas à pas pour **Claude.ai**, **Claude Desktop**, **Claude Code**, **Codex**, **GitHub Copilot** et **ChatGPT**. Les comptes France / UE utilisent `https://mcp.leadbay.app/fr/mcp` ; les comptes US utilisent `https://mcp.leadbay.app/mcp`.
 
 ---
 

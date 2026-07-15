@@ -78,6 +78,31 @@ Codex détecte OAuth automatiquement et ouvre votre navigateur pour le flux **Se
 
 ---
 
+## GitHub Copilot (VS Code)
+
+GitHub Copilot prend en charge les serveurs MCP distants avec OAuth en un clic — aucun jeton, aucune installation locale. Nécessite **VS Code 1.99+**.
+
+1. Ouvrez la palette de commandes (`Ctrl/Cmd+Shift+P`) → lancez **MCP: Add Server** → choisissez **HTTP** → collez `https://mcp.leadbay.app/fr/mcp` → nommez-le `leadbay` → choisissez **Workspace** (écrit `.vscode/mcp.json`) ou **Global**.
+2. Un lien **Start** apparaît au-dessus de la nouvelle entrée — cliquez dessus. Votre navigateur s'ouvre pour le flux **Se connecter avec Leadbay** ; connectez-vous et approuvez.
+3. Dans Copilot Chat, passez le mode sur **Agent**, puis ouvrez l'icône **Tools** et vérifiez que **leadbay** est activé.
+
+Vous préférez l'ajouter à la main ? Collez ceci dans `.vscode/mcp.json` (ou votre `mcp.json` utilisateur), puis cliquez sur **Start** :
+
+```json
+{
+  "servers": {
+    "leadbay": {
+      "type": "http",
+      "url": "https://mcp.leadbay.app/fr/mcp"
+    }
+  }
+}
+```
+
+Les outils MCP ne fonctionnent que dans le mode **Agent** de Copilot Chat — en mode **Ask** ou **Edit**, vous ne verrez pas les outils Leadbay.
+
+---
+
 ## ChatGPT
 
 Ajoutez Leadbay comme application personnalisée (connecteur MCP).
