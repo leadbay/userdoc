@@ -20,11 +20,11 @@ Tested across various industries and company types.
 
 1. Open a lead profile and go to the **Contacts** tab,
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.56.03.png" alt="" width="366"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.56.03.png" alt="" width="366"><figcaption></figcaption></figure>
 
 2. Click **Enrich** on any suggested contact,
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.57.03.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.57.03.png" alt="" width="375"><figcaption></figcaption></figure>
 
 3. Wait a few seconds (max 2 minutes),
 4. You're only charged if the data is found.

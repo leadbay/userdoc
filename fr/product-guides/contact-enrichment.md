@@ -20,11 +20,11 @@ Testé sur différents secteurs et types d'entreprises.
 
 1. Ouvrez la fiche d'un lead, onglet **Contacts**
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-20 à 10.56.03.png" alt="" width="366"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-20 à 10.56.03.png" alt="" width="366"><figcaption></figcaption></figure>
 
 2. Cliquez sur **Enrich** sur un contact suggéré
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-20 à 10.57.03.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-20 à 10.57.03.png" alt="" width="375"><figcaption></figcaption></figure>
 
 3. Attendez quelques secondes (2 minutes max)
 4. Vous n'êtes facturé que si les données sont trouvées

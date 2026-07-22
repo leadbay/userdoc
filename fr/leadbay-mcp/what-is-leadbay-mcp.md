@@ -46,6 +46,10 @@ Demandez en langage naturel — Claude répond avec une liste classée de leads 
 
 <figure><img src="../../.gitbook/assets/mcp-teaser-outreach.png" alt="Claude rédige un email de prospection personnalisé"><figcaption>« Rédige un email d'intro » — des variantes prêtes à envoyer en quelques secondes.</figcaption></figure>
 
+<!-- CAPTURE 3 (optionnelle) — une fiche de recherche / analyse détaillée d'entreprise. Ajoutez l'image dans .gitbook/assets/mcp-teaser-research.png et décommentez :
+<figure><img src="../../.gitbook/assets/mcp-teaser-research.png" alt="Une fiche de recherche d'entreprise avec résumé de fit et meilleur contact"><figcaption>« Recherche Acme » — un résumé de fit et le meilleur contact à joindre.</figcaption></figure>
+-->
+
 ---
 
 ## Pour commencer

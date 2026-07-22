@@ -14,6 +14,8 @@ Ouvrez le menu latéral (icône hamburger, en haut à gauche) et cliquez sur **D
 
 ## Filtres
 
+En haut du Dashboard, deux contrôles :
+
 - **Sélecteur de membres** : un, plusieurs ou tous les membres de l'équipe
 - **Période** : 3 derniers mois, dernier mois, dernière semaine, ou personnalisée
 
@@ -34,7 +36,7 @@ Chaque ligne correspond à un membre de l'équipe. Utilisez ce tableau pour rep�
 
 ## Graphique d'évolution
 
-Le graphique montre les tendances dans le temps. Activez/désactivez les métriques avec les cases à cocher.
+Sous le tableau, un graphique montre l'évolution dans le temps pour chaque métrique. Activez/désactivez les métriques avec les cases à cocher pour vous concentrer sur ce qui compte.
 
 Ce graphique capture **chaque interaction** — les chiffres peuvent être plus élevés que la liste de leads (un utilisateur peut interagir plusieurs fois avec le même lead).
 

@@ -12,7 +12,7 @@ When you first sign up, Leadbay walks you through an **8-step guided onboarding*
 
 We'll ask for your name, email, and a password. You'll then verify your email by clicking a link we send you.
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.44.33.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.44.33.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Step 2 — Tell us about your past wins
 
@@ -22,7 +22,7 @@ To personalize recommendations, our AI needs a glimpse into your past leads.
 
 Provide a CSV file with past CRM data. It doesn't have to be perfect or complete — the more the better, but we'll work with what you give us.
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.50.22.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.50.22.png" alt="" width="375"><figcaption></figcaption></figure>
 
 How to export from your CRM:
 
@@ -33,13 +33,13 @@ How to export from your CRM:
 
 Every CRM calls things by different names. Leadbay auto-detects your columns — verify or correct the mapping.
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.51.00.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.51.00.png" alt="" width="375"><figcaption></figcaption></figure>
 
 The most important field is **Status** — it tells our AI which leads were won or lost. This is how the model learns what kind of leads work for you.
 
 We'll also ask you to confirm how you name your statuses.
 
-<figure><img src="../.gitbook/assets/Capture d'écran 2025-08-20 à 10.51.36.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2025-08-20 à 10.51.36.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Once done, you'll see your first selection of AI-recommended leads.
 

@@ -12,7 +12,7 @@ Lors de votre première inscription, Leadbay vous guide à travers un **onboardi
 
 Nous vous demanderons votre nom, email et un mot de passe. Vous vérifierez ensuite votre email en cliquant sur un lien que nous vous envoyons.
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-20 à 10.44.33.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-20 à 10.44.33.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Étape 2 — Parlez-nous de vos affaires passées
 
@@ -22,7 +22,7 @@ Pour personnaliser les recommandations, notre IA a besoin d'un aperçu de vos le
 
 Fournissez un fichier CSV avec vos données CRM passées. Il n'a pas besoin d'être parfait ni complet — plus il est riche, mieux c'est, mais nous travaillons avec ce que vous nous donnez.
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-20 à 10.50.22.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-20 à 10.50.22.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Comment exporter depuis votre CRM :
 
@@ -33,13 +33,13 @@ Comment exporter depuis votre CRM :
 
 Chaque CRM nomme les choses différemment. Leadbay détecte automatiquement vos colonnes — vérifiez ou corrigez le mapping.
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-20 à 10.51.00.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-20 à 10.51.00.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Le champ le plus important est **Status** — il indique à notre IA quels leads ont été gagnés ou perdus. C'est ainsi que le modèle apprend quel type de leads fonctionne pour vous.
 
 Nous vous demanderons aussi de confirmer comment vous nommez vos statuts.
 
-<figure><img src="../../.gitbook/assets/Capture d'écran 2025-08-20 à 10.51.36.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2025-08-20 à 10.51.36.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Une fois terminé, vous verrez votre première sélection de leads recommandés par l'IA.
 
