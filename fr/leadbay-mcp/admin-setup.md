@@ -26,20 +26,23 @@ C'est fait côté admin — Leadbay apparaît maintenant dans le répertoire de 
 Sur les espaces Business et Enterprise, les connecteurs MCP personnalisés sont désactivés jusqu'à ce qu'un **propriétaire ou admin d'espace de travail** les autorise. Vous n'ajoutez pas Leadbay pour tout le monde ici — vous débloquez la possibilité, et chaque membre l'ajoute ensuite lui-même.
 
 1. Ouvrez les **paramètres de votre espace de travail** (menu d'espace, en bas à gauche → **Settings**).
-2. Sous les contrôles de connecteurs / apps, **autorisez les connecteurs personnalisés** pour l'espace de travail (c'est l'interrupteur au niveau de l'espace qui débloque les apps personnalisées en Developer mode pour les membres).
+2. Sous les contrôles de plugins / connecteurs, **autorisez les plugins/connecteurs personnalisés** pour l'espace de travail.
 3. Prévenez vos membres qu'ils peuvent désormais ajouter Leadbay.
 
 ### Ce que font vos membres ensuite
 
-Contrairement à Claude, les membres ChatGPT ajoutent l'application eux-mêmes une fois que vous avez autorisé les connecteurs personnalisés. Envoyez-leur la section **ChatGPT** du guide [Installation](installation.md) — chaque membre :
+Contrairement à Claude, les membres ChatGPT ajoutent la connexion eux-mêmes une fois que vous avez autorisé les plugins/connecteurs personnalisés. Envoyez-leur la section **ChatGPT** du guide [Installation](installation.md) — chaque membre :
 
-1. Active le **Developer mode** (Settings → Apps → Advanced settings).
-2. Clique sur **Create app** et remplit **Name** `Leadbay MCP`, **Server URL** `https://mcp.leadbay.app/fr/mcp`, et **Authentication : OAuth**.
-3. Clique sur **Sign in with Leadbay MCP** et se connecte avec son propre compte Leadbay.
-4. Active l'application **Leadbay MCP** depuis le menu **+** / outils du composeur, puis demande des leads.
+1. Ouvre **Plugins** dans ChatGPT.
+2. Clique sur **+** pour ajouter une nouvelle connexion.
+3. Renseigne **Name** `Leadbay` et la bonne **Connection URL** :
+   `https://mcp.leadbay.app/fr/mcp` pour les espaces France / UE, ou
+   `https://mcp.leadbay.app/mcp` pour les espaces US.
+4. Clique sur **Connect**, se connecte avec son propre compte Leadbay et approuve.
+5. Active **Leadbay** depuis le menu **+** / plugins du composeur, puis demande des leads.
 
 {% hint style="info" %}
-La formulation et l'emplacement exacts du contrôle « autoriser les connecteurs personnalisés » évoluent avec la console admin de ChatGPT. Si vous ne le trouvez pas, cherchez **connectors** ou **apps** dans les paramètres de l'espace, ou consultez la documentation admin actuelle d'OpenAI.
+La formulation et l'emplacement exacts du contrôle « autoriser les plugins/connecteurs personnalisés » évoluent avec la console admin de ChatGPT. Si vous ne le trouvez pas, cherchez **plugins** ou **connectors** dans les paramètres de l'espace, ou consultez la documentation admin actuelle d'OpenAI.
 {% endhint %}
 
 {% hint style="info" %}

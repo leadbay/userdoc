@@ -80,16 +80,19 @@ Codex détecte OAuth automatiquement et ouvre votre navigateur pour le flux **Se
 
 ## ChatGPT
 
-Ajoutez Leadbay comme application personnalisée (connecteur MCP).
+Ajoutez Leadbay comme connexion de plugin personnalisée (connecteur MCP).
 
-1. **Settings → Apps → Advanced settings → activez Developer mode** (depuis le menu d'espace de travail en bas à gauche).
-2. De retour sur **Apps**, cliquez sur **Create app**.
-3. **Name :** `Leadbay MCP` · **Connection :** Server URL `https://mcp.leadbay.app/fr/mcp` · **Authentication :** OAuth. Cochez **I understand and want to continue** → **Create**.
-4. Cliquez sur **Sign in with Leadbay MCP**, connectez-vous et approuvez.
+1. Ouvrez **Plugins** dans ChatGPT.
+2. Cliquez sur **+** pour ajouter une nouvelle connexion.
+3. **Name :** `Leadbay`
+4. **Connection URL :** utilisez l'URL correspondant à votre espace Leadbay :
+   - France / UE : `https://mcp.leadbay.app/fr/mcp`
+   - US : `https://mcp.leadbay.app/mcp`
+5. Cliquez sur **Connect**, puis connectez-vous avec votre compte Leadbay et approuvez.
 
-Dans un chat, activez l'application **Leadbay MCP** depuis le menu **+** / outils du composeur pour que ChatGPT puisse appeler ses outils.
+Dans un chat, activez **Leadbay** depuis le menu **+** / plugins du composeur pour que ChatGPT puisse appeler ses outils.
 
-> Les connecteurs MCP personnalisés nécessitent un plan ChatGPT payant (Plus, Pro, Business ou Enterprise). Sur Business/Enterprise, un admin peut devoir autoriser les connecteurs personnalisés d'abord. Si l'application se déconnecte, reconnectez-la : **Settings → Apps → Leadbay MCP → ⋯ → Reconnect**, puis reconnectez-vous.
+> Les connecteurs MCP personnalisés nécessitent un plan ChatGPT payant (Plus, Pro, Business ou Enterprise). Sur Business/Enterprise, un admin peut devoir autoriser les plugins/connecteurs personnalisés d'abord. Si Leadbay se déconnecte, ouvrez **Plugins**, sélectionnez **Leadbay**, puis reconnectez-vous.
 
 ---
 
@@ -114,8 +117,8 @@ Une réponse réussie est une **liste classée** — chaque lead avec un score d
 | Erreurs « Non authentifié » / 401 | Votre connexion a expiré ou a été révoquée. Déclenchez n'importe quel outil Leadbay à nouveau et approuvez l'invite **Se connecter avec Leadbay**. |
 | Connecté, mais « montre-moi les leads » renvoie une liste vide | Vous êtes bien connecté — il n'y a simplement rien à afficher pour l'instant. Demandez _« montre-moi mes lenses »_ pour vérifier quelle audience est active. |
 | Les outils n'apparaissent pas après la connexion | Ouvrez un nouveau chat et attendez quelques secondes ; envoyez un deuxième message et les outils finissent de se charger. |
-| Les outils apparaissent mais l'assistant ne les appelle pas | Ouvrez les paramètres du connecteur et réglez les groupes d'outils Leadbay sur **Always allow** (Claude) ou activez le connecteur dans le composeur (ChatGPT). |
-| Option de connecteur personnalisé absente (Claude.ai / Claude Desktop / ChatGPT) | Les connecteurs personnalisés nécessitent un plan payant, et votre admin d'organisation peut devoir les activer — voir [Configuration admin](admin-setup.md). Sur **Claude Desktop**, vous pouvez contourner le connecteur avec la [solution de repli par extension `.dxt`](#solution-de-repli-installer-lextension). |
+| Les outils apparaissent mais l'assistant ne les appelle pas | Ouvrez les paramètres du connecteur et réglez les groupes d'outils Leadbay sur **Always allow** (Claude) ou activez le plugin Leadbay dans le composeur (ChatGPT). |
+| Option de connecteur/plugin personnalisé absente (Claude.ai / Claude Desktop / ChatGPT) | Les connecteurs/plugins personnalisés nécessitent un plan payant, et votre admin d'organisation peut devoir les activer — voir [Configuration admin](admin-setup.md). Sur **Claude Desktop**, vous pouvez contourner le connecteur avec la [solution de repli par extension `.dxt`](#solution-de-repli-installer-lextension). |
 | Autre problème | Signalez un bug sur [github.com/leadbay/mcp/issues](https://github.com/leadbay/mcp/issues). |
 
 ---

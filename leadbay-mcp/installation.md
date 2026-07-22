@@ -80,16 +80,19 @@ Codex detects OAuth automatically and opens your browser for the **Sign in with 
 
 ## ChatGPT
 
-Add Leadbay as a custom app (MCP connector).
+Add Leadbay as a custom plugin connection (MCP connector).
 
-1. **Settings → Apps → Advanced settings → turn on Developer mode** (from the bottom-left workspace menu).
-2. Back on **Apps**, click **Create app**.
-3. **Name:** `Leadbay MCP` · **Connection:** Server URL `https://mcp.leadbay.app/mcp` · **Authentication:** OAuth. Check **I understand and want to continue** → **Create**.
-4. Click **Sign in with Leadbay MCP**, log in, and approve.
+1. Open **Plugins** in ChatGPT.
+2. Click **+** to add a new connection.
+3. **Name:** `Leadbay`
+4. **Connection URL:** use the URL for your Leadbay workspace:
+   - US: `https://mcp.leadbay.app/mcp`
+   - France / EU: `https://mcp.leadbay.app/fr/mcp`
+5. Click **Connect**, then sign in with your Leadbay account and approve.
 
-In a chat, enable the **Leadbay MCP** app from the composer **+** / tools menu so ChatGPT can call its tools.
+In a chat, enable **Leadbay** from the composer **+** / plugin menu so ChatGPT can call its tools.
 
-> Custom MCP connectors require a paid ChatGPT plan (Plus, Pro, Business, or Enterprise). On Business/Enterprise an admin may need to allow custom connectors first. If the app disconnects, reconnect it: **Settings → Apps → Leadbay MCP → ⋯ → Reconnect**, then sign in again.
+> Custom MCP connectors require a paid ChatGPT plan (Plus, Pro, Business, or Enterprise). On Business/Enterprise an admin may need to allow custom plugins/connectors first. If Leadbay disconnects, open **Plugins**, select **Leadbay**, and reconnect.
 
 ---
 
@@ -114,8 +117,8 @@ A successful reply is a **ranked shortlist** — each lead with a fit score, a o
 | "Not authenticated" / 401 errors | Your sign-in expired or was revoked. Trigger any Leadbay tool again and approve the **Sign in with Leadbay** prompt. |
 | Connected, but "show me leads" returns an empty list | You're signed in fine — there's just nothing to show right now. Ask _"show me my lenses"_ to check which audience is active. |
 | Tools don't appear after connecting | Open a new chat and wait a few seconds; send a second message and the tools finish loading. |
-| Tools appear but the assistant won't call them | Open the connector settings and set the Leadbay tool groups to **Always allow** (Claude) or enable the connector in the composer (ChatGPT). |
-| Custom connector option missing (Claude.ai / Claude Desktop / ChatGPT) | Custom connectors need a paid plan, and your workspace admin may need to enable them — see [Admin setup](admin-setup.md). On **Claude Desktop** you can skip the connector entirely with the [`.dxt` extension fallback](#fallback-install-the-extension). |
+| Tools appear but the assistant won't call them | Open the connector settings and set the Leadbay tool groups to **Always allow** (Claude) or enable the Leadbay plugin in the composer (ChatGPT). |
+| Custom connector/plugin option missing (Claude.ai / Claude Desktop / ChatGPT) | Custom connectors/plugins need a paid plan, and your workspace admin may need to enable them — see [Admin setup](admin-setup.md). On **Claude Desktop** you can skip the connector entirely with the [`.dxt` extension fallback](#fallback-install-the-extension). |
 | Other issue | File a bug at [github.com/leadbay/mcp/issues](https://github.com/leadbay/mcp/issues). |
 
 ---
