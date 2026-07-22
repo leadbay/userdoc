@@ -32,29 +32,30 @@ On Business and Enterprise workspaces, custom MCP connectors are off until a
 — you unlock the ability, and each member then adds it themselves.
 
 1. Open your **workspace settings** (workspace menu, bottom-left → **Settings**).
-2. Under the connector / apps controls, **allow custom connectors** for the
-   workspace (this is the workspace-level switch that gates Developer-mode custom
-   apps for members).
+2. Under the plugin / connector controls, **allow custom plugins/connectors** for
+   the workspace.
 3. Let your members know they can now add Leadbay.
 
 ### What your members do next
 
-Unlike Claude, ChatGPT members add the app themselves once you've allowed custom
-connectors. Send them the **ChatGPT** section of the
+Unlike Claude, ChatGPT members add the plugin connection themselves once you've allowed custom
+plugins/connectors. Send them the **ChatGPT** section of the
 [Installation](installation.md) guide — each member:
 
-1. Turns on **Developer mode** (Settings → Apps → Advanced settings).
-2. Clicks **Create app** and fills in **Name** `Leadbay MCP`, **Server URL**
-   `https://mcp.leadbay.app/mcp`, and **Authentication: OAuth**.
-3. Clicks **Sign in with Leadbay MCP** and logs in with their own Leadbay account.
-4. Enables the **Leadbay MCP** app from the composer **+** / tools menu, then asks
-   for leads.
+1. Enables developer mode in **Settings → Security and Login** by scrolling to the bottom and turning on **Developer mode**.
+2. Opens **Plugins** in ChatGPT.
+3. Clicks **+** to add a new connection.
+4. Enters **Name** `Leadbay` and the correct **Connection URL**:
+   `https://mcp.leadbay.app/mcp` for US workspaces, or
+   `https://mcp.leadbay.app/fr/mcp` for France / EU workspaces.
+5. Clicks **Connect**, signs in with their own Leadbay account, and approves.
+6. Enables **Leadbay** from the composer **+** / plugin menu, then asks for leads.
 
 {% hint style="info" %}
-The exact wording and location of the "allow custom connectors" control changes
-as ChatGPT's admin console evolves. If you can't find it, search the workspace
-settings for **connectors** or **apps**, or check OpenAI's current admin
-documentation.
+The exact wording and location of the "allow custom plugins/connectors" control
+changes as ChatGPT's admin console evolves. If you can't find it, search the
+workspace settings for **plugins** or **connectors**, or check OpenAI's current
+admin documentation.
 {% endhint %}
 
 {% hint style="info" %}
