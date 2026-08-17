@@ -14,6 +14,7 @@ Ils ne modifient jamais votre compte, on peut donc les autoriser sans risque.
 
 | Outil | Ce qu'il fait |
 |------|--------------|
+| `leadbay_getting_started` | Déroule la visite guidée de première utilisation — quatre étapes sur votre propre compte, un bouton chacune |
 | `leadbay_pull_leads` | Récupère le lot de leads frais du jour, scoré et classé |
 | `leadbay_pull_followups` | Récupère les leads qui nécessitent une action de relance |
 | `leadbay_account_status` | Vérifie votre quota, vos crédits et l'état de votre compte |
@@ -137,6 +138,7 @@ Vous ne choisissez pas les outils — vous décrivez le résultat. Quelques exem
 
 | Vous dites… | Claude appelle… |
 |----------|---------------|
+| « Fais-moi découvrir Leadbay » | `leadbay_getting_started` |
 | « Montre-moi les leads du jour » | `leadbay_pull_leads` |
 | « Quels leads dois-je relancer ? » | `leadbay_pull_followups` |
 | « Parle-moi de acme.com » | `leadbay_research_lead_by_name_fuzzy` |

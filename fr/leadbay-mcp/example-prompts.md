@@ -8,6 +8,20 @@ Leadbay MCP fonctionne mieux quand vous parlez à Claude comme à un collègue �
 
 ---
 
+## C'est votre première fois
+
+> *Fais-moi découvrir Leadbay.*
+
+> *Je débute — comment ça marche ?*
+
+> *Fais-moi visiter.*
+
+Claude déroule une visite guidée sur votre propre compte plutôt que de vous l'expliquer : vérifier votre compte, voir les leads du jour, rédiger un premier email au meilleur d'entre eux, puis trouver à qui l'envoyer. Un bouton par étape. Rien n'est envoyé, rien n'est dépensé sans votre accord, et taper autre chose à n'importe quel moment met fin à la visite et vous donne ce que vous avez demandé.
+
+Vous voulez l'explication sans les clics ? Demandez plutôt *« donne-moi un aperçu de ma prospection »*.
+
+---
+
 ## Commencer votre journée
 
 > *Montre-moi les leads du jour.*
