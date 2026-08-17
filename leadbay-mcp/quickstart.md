@@ -41,6 +41,37 @@ That's the whole connection — no tokens, no config files. Claude is now linked
 
 ---
 
+## New here? Take the guided tour
+
+Not sure what to ask for first? Type:
+
+> _Walk me through Leadbay._
+
+Claude runs a short walkthrough on your own account — four steps, one button each, and you click to move forward:
+
+| Step | What it does |
+|---|---|
+| **Check my account** | Which account you're on, and how much of your AI quota is left this week. |
+| **Pull today's leads** | Today's batch from your lens — ranked, with a one-line reason each fits. |
+| **Draft the first email** | Writes a first email to the top company. Nothing is sent. |
+| **Find who to email** | Shows which roles exist there, then reveals the actual person — only if you confirm. |
+
+Every step is a real action on your real account, not a demo. You can stop at any point with **I'm done for now**, or just type what you actually wanted — the walkthrough steps aside and Claude follows you there.
+
+{% hint style="info" %}
+**Nothing is spent without your say-so.** The first three steps are free, and so is the preview of _which_ roles you could contact. Revealing a real email or phone number costs one credit per contact, and the walkthrough tells you the cost before you decide.
+{% endhint %}
+
+<!-- SCREENSHOT (optional) — the walkthrough's first step: the account card plus
+     the two-option choice widget. Drop the image into
+     .gitbook/assets/mcp-walkthrough-gate1.png and uncomment:
+<figure><img src="../.gitbook/assets/mcp-walkthrough-gate1.png" alt="Claude showing the Leadbay account card with a Check my account button and an I'm done for now exit"><figcaption><p>Step 1 of the guided tour: your account and quota, then one button to go on.</p></figcaption></figure>
+-->
+
+Prefer to jump straight in? Skip the tour and go to Step 3.
+
+---
+
 ## Step 3 — Ask for your first leads
 
 Open a new conversation and type:

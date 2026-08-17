@@ -14,6 +14,7 @@ These never modify your account, so they're always safe to allow.
 
 | Tool | What it does |
 |------|--------------|
+| `leadbay_getting_started` | Runs the guided first-run walkthrough — four steps on your own account, one button each |
 | `leadbay_pull_leads` | Retrieves today's fresh lead batch, scored and ranked |
 | `leadbay_pull_followups` | Pulls the leads that need a follow-up action |
 | `leadbay_account_status` | Checks your quota, credits, and account state |
@@ -137,6 +138,7 @@ You don't pick tools — you describe the outcome. A few examples of the mapping
 
 | You say… | Claude calls… |
 |----------|---------------|
+| "Walk me through Leadbay" | `leadbay_getting_started` |
 | "Show me today's leads" | `leadbay_pull_leads` |
 | "Which leads should I follow up with?" | `leadbay_pull_followups` |
 | "Tell me about acme.com" | `leadbay_research_lead_by_name_fuzzy` |
