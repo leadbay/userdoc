@@ -41,6 +41,37 @@ C'est toute la connexion — aucun jeton, aucun fichier de config. Claude est d�
 
 ---
 
+## Vous débutez ? Faites le tour guidé
+
+Vous ne savez pas quoi demander en premier ? Tapez :
+
+> _Fais-moi découvrir Leadbay._
+
+Claude déroule une courte visite guidée sur votre propre compte — quatre étapes, un bouton chacune, et c'est vous qui cliquez pour avancer :
+
+| Étape | Ce que ça fait |
+|---|---|
+| **Vérifier mon compte** | Sur quel compte vous êtes, et ce qu'il vous reste de quota IA cette semaine. |
+| **Voir les leads du jour** | Le batch du jour issu de votre lens — classé, avec une ligne expliquant pourquoi chacun colle. |
+| **Rédiger le premier email** | Écrit un premier email à la meilleure entreprise. Rien n'est envoyé. |
+| **Trouver à qui l'envoyer** | Montre les rôles qui existent chez elle, puis révèle la vraie personne — uniquement si vous confirmez. |
+
+Chaque étape est une vraie action sur votre vrai compte, pas une démo. Vous pouvez vous arrêter à tout moment avec **J'ai terminé pour l'instant**, ou simplement taper ce que vous vouliez vraiment — la visite s'efface et Claude vous suit.
+
+{% hint style="info" %}
+**Rien n'est dépensé sans votre accord.** Les trois premières étapes sont gratuites, tout comme l'aperçu des rôles que vous _pourriez_ contacter. Révéler un vrai email ou un vrai téléphone coûte un crédit par contact, et la visite vous annonce le coût avant que vous décidiez.
+{% endhint %}
+
+<!-- CAPTURE (optionnelle) — la première étape de la visite : la carte du compte
+     et le widget de choix à deux options. Déposez l'image dans
+     .gitbook/assets/mcp-walkthrough-gate1.png et décommentez :
+<figure><img src="../../.gitbook/assets/mcp-walkthrough-gate1.png" alt="Claude affichant la carte du compte Leadbay avec un bouton Vérifier mon compte et une sortie J'ai terminé pour l'instant"><figcaption><p>Étape 1 du tour guidé : votre compte et votre quota, puis un bouton pour continuer.</p></figcaption></figure>
+-->
+
+Vous préférez aller droit au but ? Sautez la visite et passez à l'Étape 3.
+
+---
+
 ## Étape 3 — Demandez vos premiers leads
 
 Ouvrez une nouvelle conversation et tapez :

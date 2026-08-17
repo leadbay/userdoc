@@ -8,6 +8,20 @@ Leadbay MCP works best when you talk to Claude the way you'd talk to a colleague
 
 ---
 
+## First time here
+
+> *Walk me through Leadbay.*
+
+> *I'm new — how do I use this?*
+
+> *Give me a tour.*
+
+Claude runs a guided walkthrough on your own account rather than explaining it at you: check your account, pull today's leads, draft a first email to the best one, then find out who to send it to. One button per step. Nothing is sent, nothing is spent without your say-so, and typing something else at any point ends the tour and gets you what you asked for instead.
+
+Want the explanation without the clicking? Ask *"give me an overview of my prospecting"* instead.
+
+---
+
 ## Start your day
 
 > *Show me today's leads.*
